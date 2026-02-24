@@ -1,0 +1,121 @@
+# Example configuration for the ABCD Cluster-Based PheWAS Pipeline.
+#
+# Copy this file, edit the paths and parameters, then run:
+#
+#   python -m python_pipeline.cli \
+#       --config python_pipeline/configs/example_run.yaml \
+#       --timepoint baseline \
+#       --sex-stratum female \
+#       --output-dir results/baseline_female/
+#
+# All fields here can be overridden via CLI flags.
+
+# ------------------------------------------------------------------ #
+# Input files
+# ------------------------------------------------------------------ #
+
+# Path to the ABCD phenotype data (baseline or follow-up).
+# Accepts .xlsx or .csv.
+phenotype_file: "data/FINAL_PHEWAS_baseline_n5556.xlsx"
+
+# CSV with two columns: <subject_id_col> and <cluster_col>.
+# Example row:  NDAR_INV001ABC12,1
+cluster_file: "data/cluster_labels.csv"
+
+# Where to save results CSVs and plots.
+output_dir: "results/baseline/"
+
+
+# ------------------------------------------------------------------ #
+# Column identity
+# ------------------------------------------------------------------ #
+
+subject_id_col: "subjectkey"
+sex_col: "sex"
+site_id_col: "site_id"
+family_id_col: "rel_family_id"
+cluster_col: "cluster"
+
+
+# ------------------------------------------------------------------ #
+# Column-range layout (0-indexed, inclusive).
+# These defaults match FINAL_PHEWAS_baseline_n5556_5.11.23.xlsx.
+#
+# continuous_col_range: [first_col, last_col] for numeric phenotypes
+# binary_col_range:     [first_col, last_col] for binary/categorical phenotypes
+#
+# Adjust if your file has a different structure.
+# ------------------------------------------------------------------ #
+
+continuous_col_range: [20, 656]
+binary_col_range: [670, 1291]
+
+
+# ------------------------------------------------------------------ #
+# Preprocessing
+# ------------------------------------------------------------------ #
+
+# Flag columns with |skewness| > skew_threshold for winsorizing / INT.
+skew_threshold: 1.96
+
+# Winsorize at mean ± winsorize_sd × SD.
+winsorize_sd: 3.0
+
+
+# ------------------------------------------------------------------ #
+# GLMM settings (mirrors R lmerControl / glmerControl)
+# ------------------------------------------------------------------ #
+
+optimizer: "bobyqa"
+max_iterations: 100000
+
+
+# ------------------------------------------------------------------ #
+# Cluster / analysis settings
+# ------------------------------------------------------------------ #
+
+# Cluster label to use as the reference (intercept).
+# Set to null to use the first label alphabetically.
+reference_cluster: null
+
+# Sex stratum: "all", "male", or "female".
+# Can be overridden via --sex-stratum.
+sex_stratum: "all"
+
+# Values in sex_col that indicate male / female subjects.
+sex_col_male_value: "1"
+sex_col_female_value: "2"
+
+# Fixed-effect covariates.  Edit to match your data.
+# Omit "sex" if running a sex-stratified analysis where sex is constant.
+covariates:
+  - "C1"
+  - "C2"
+  - "C3"
+  - "C4"
+  - "C5"
+  - "C6"
+  - "C7"
+  - "C8"
+  - "C9"
+  - "C10"
+  - "sex"
+  - "interview_age"
+
+
+# ------------------------------------------------------------------ #
+# Parallelism
+# ------------------------------------------------------------------ #
+
+# Number of parallel worker processes.
+# Rule of thumb: set to available CPU cores - 1.
+n_workers: 4
+
+
+# ------------------------------------------------------------------ #
+# Domain configuration
+# ------------------------------------------------------------------ #
+
+# Path to domain regex YAML (relative to CWD or absolute).
+# Defaults to the bundled configs/domains.yaml.
+domain_config_file: "python_pipeline/configs/domains.yaml"

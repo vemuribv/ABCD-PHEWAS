@@ -1,0 +1,178 @@
+# Domain definitions for ABCD PheWAS variable categorisation.
+#
+# Ported from PheWAS Analyses Resub5.Rmd (lines ~2908-3050).
+# Each domain specifies:
+#   name             - display name
+#   color            - hex color for plotting (matches R's named colors)
+#   include_patterns - regex patterns; variable matched if ANY pattern hits
+#   exclude_patterns - regex patterns; variable excluded if ANY pattern hits
+#
+# Domains are evaluated in ORDER — a variable is assigned to the FIRST domain
+# whose include patterns match and exclude patterns do not match.
+
+domain_order:
+
+  - name: "Cognition"
+    color: "#FF8C00"   # darkorange1
+    include_patterns:
+      - "nihtbx"
+      - "RAVLT"
+      - "ravlt"
+      - "cash"
+      - "lmt_"
+      - "wisc"
+      - "crpbi_score"
+      - "cognitive"
+    exclude_patterns: []
+
+  - name: "Screen Time"
+    color: "#20B2AA"   # lightseagreen
+    include_patterns:
+      - "screen"
+      - "stq"
+    exclude_patterns: []
+
+  - name: "Demographics"
+    color: "#DA70D6"   # orchid3
+    include_patterns:
+      - "demo_"
+      - "prtnr_wor"
+      - "prnt_wor"
+      - "^sex$"
+      - "interview_age"
+      - "household"
+      - "income"
+      - "employ"
+      - "marital"
+      - "education"
+    exclude_patterns:
+      - "cbcl"
+      - "ksads"
+
+  - name: "Substance"
+    color: "#87CEEB"   # lightskyblue
+    include_patterns:
+      - "tlfb"
+      - "path_"
+      - "isip"
+      - "^su_"
+      - "caff"
+      - "^rules_"
+      - "peer_dev"
+      - "substance"
+      - "alcohol"
+      - "tobacco"
+      - "marijuana"
+      - "drug"
+    exclude_patterns:
+      - "devhx"
+
+  - name: "Culture/Environment"
+    color: "#DAA520"   # goldenrod1
+    include_patterns:
+      - "crpbi"
+      - "^fes_"
+      - "prosocial"
+      - "^school"
+      - "reshist"
+      - "monitor"
+      - "neighborhood"
+      - "enviro"
+      - "^pmq"
+      - "^psb_"
+      - "^nsc_"
+      - "srpf"
+      - "culture"
+      - "community"
+      - "parent_monitor"
+      - "parent_rule"
+    exclude_patterns:
+      - "profess"
+      - "kbi"
+      - "cbcl"
+
+  - name: "Physical Health"
+    color: "#2E8B57"   # seagreen
+    include_patterns:
+      - "medhx"
+      - "devhx"
+      - "^tbi"
+      - "^pds"
+      - "puber"
+      - "sports"
+      - "^sai_"
+      - "anthro"
+      - "^child_"
+      - "antidep"
+      - "^sds_"
+      - "sleep"
+      - "weight"
+      - "bmi"
+      - "height"
+      - "SSRI"
+      - "hormon"
+      - "medicat"
+      - "physical"
+      - "caff_24"
+      - "caff_ago"
+      - "medical"
+      - "birth"
+      - "pregnancy"
+      - "fitness"
+    exclude_patterns:
+      - "demo_"
+      - "gen_child"
+
+  - name: "Family Mental Health"
+    color: "#FFB6C1"   # pink2
+    include_patterns:
+      - "asr_"
+      - "famhx"
+      - "fam_hist"
+      - "^q1_"
+      - "^q2_"
+      - "^q4_"
+      - "^q5_"
+      - "^q6_"
+      - "^q9_"
+      - "parent_mh"
+      - "family_mental"
+    exclude_patterns:
+      - "cbcl"
+      - "ksads"
+      - "bpm"
+      - "parent_mon"
+      - "parent_rul"
+      - "^fes_"
+      - "prosocial"
+
+  - name: "Child Mental Health"
+    color: "#00008B"   # deepskyblue4
+    include_patterns:
+      - "ksad"
+      - "cbcl"
+      - "prodrom"
+      - "^pps_"
+      - "upps"
+      - "bisbas"
+      - "^bis_"
+      - "resiliency"
+      - "kbi"
+      - "gen_child"
+      - "pgbi"
+      - "^bpm"
+      - "ADHD"
+      - "adhd"
+      - "anxiety"
+      - "depression"
+      - "mood"
+      - "psychosis"
+      - "mental_health"
+    exclude_patterns:
+      - "monitor"
+      - "parent_rule"
+      - "prosocial"
+      - "fes_youth"
+      - "asr_"
+      - "famhx"
+      - "fam_hist"
