@@ -82,6 +82,11 @@ class PheWASConfig:
         os.path.dirname(__file__), "configs", "domains.yaml"
     )
 
+    # Path to phenotype_metadata.csv for authoritative variable → domain lookup.
+    # None = use the bundled default at python_pipeline/configs/phenotype_metadata.csv.
+    # Set to "" or a non-existent path to disable metadata lookup (regex-only).
+    phenotype_metadata_file: Optional[str] = None
+
     # ------------------------------------------------------------------ #
     # Class methods
     # ------------------------------------------------------------------ #

@@ -1,0 +1,2296 @@
+study_variable,published_domain,regex_domain,match
+cash_choice_task,Cognition,Cognition,True
+lmt_scr_perc_correct,Cognition,Cognition,True
+nihtbx_cardsort_uncorrected,Cognition,Cognition,True
+nihtbx_cryst_uncorrected,Cognition,Cognition,True
+nihtbx_flanker_uncorrected,Cognition,Cognition,True
+nihtbx_fluidcomp_uncorrected,Cognition,Cognition,True
+nihtbx_list_uncorrected,Cognition,Cognition,True
+nihtbx_pattern_uncorrected,Cognition,Cognition,True
+nihtbx_picture_uncorrected,Cognition,Cognition,True
+nihtbx_picvocab_uncorrected,Cognition,Cognition,True
+nihtbx_reading_uncorrected,Cognition,Cognition,True
+nihtbx_totalcomp_uncorrected,Cognition,Cognition,True
+pea_wiscv_tss,Cognition,Cognition,True
+RAVLT,Cognition,Cognition,True
+screen_wkdy_y,Screen Time,Screen Time,True
+screen1_wkdy_y,Screen Time,Screen Time,True
+screen10_wknd_y,Screen Time,Screen Time,True
+screen11_wknd_y,Screen Time,Screen Time,True
+screen12_wknd_y,Screen Time,Screen Time,True
+screen13_y,Screen Time,Screen Time,True
+screen14_y,Screen Time,Screen Time,True
+screen2_wkdy_y,Screen Time,Screen Time,True
+screen3_wkdy_y,Screen Time,Screen Time,True
+screen4_wkdy_y,Screen Time,Screen Time,True
+screen5_wkdy_y,Screen Time,Screen Time,True
+screen7_wknd_y,Screen Time,Screen Time,True
+screen8_wknd_y,Screen Time,Screen Time,True
+screen9_wknd_y,Screen Time,Screen Time,True
+screentime1_p_composite,Screen Time,Screen Time,True
+screentime2_p_composite,Screen Time,Screen Time,True
+stq_y_ss_weekday,Screen Time,Screen Time,True
+stq_y_ss_weekend,Screen Time,Screen Time,True
+demo_child_time_v2,Demographics,Demographics,True
+demo_comb_income_v2,Demographics,Demographics,True
+demo_ed_v2,Demographics,Demographics,True
+demo_fam_exp1_v2,Demographics,Demographics,True
+demo_fam_exp2_v2,Demographics,Demographics,True
+demo_fam_exp3_v2,Demographics,Demographics,True
+demo_fam_exp5_v2,Demographics,Demographics,True
+demo_fam_exp6_v2,Demographics,Demographics,True
+demo_fam_exp7_v2,Demographics,Demographics,True
+demo_prnt_16,Demographics,Demographics,True
+demo_prnt_age_v2,Demographics,Demographics,True
+demo_prnt_ed_v2,Demographics,Demographics,True
+demo_prnt_income_v2,Demographics,Demographics,True
+demo_prnt_prtnr_adopt,Demographics,Demographics,True
+demo_prnt_prtnr_bio,Demographics,Demographics,True
+demo_prnt_prtnr_v2,Demographics,Demographics,True
+demo_prnt_working,Demographics,Demographics,True
+demo_prnt_years_us_v2,Demographics,Demographics,True
+demo_prtnr_ed_v2,Demographics,Demographics,True
+demo_prtnr_income_v2,Demographics,Demographics,True
+demo_prtnr_working,Demographics,Demographics,True
+demo_roster_v2,Demographics,Demographics,True
+demo_years_us_v2,Demographics,Demographics,True
+demo_yrs_1,Demographics,Demographics,True
+demo_yrs_2,Demographics,Demographics,True
+demo_yrs_2a_2,Demographics,Demographics,True
+demo_yrs_2b_2,Demographics,Demographics,True
+isip_1b_yn,Substance,Substance,True
+isip_1d_2,Substance,Substance,True
+parent_rules_q1,Substance,Culture/Environment,False
+parent_rules_q1a,Substance,Culture/Environment,False
+parent_rules_q2,Substance,Culture/Environment,False
+parent_rules_q4,Substance,Culture/Environment,False
+parent_rules_q5,Substance,Culture/Environment,False
+parent_rules_q6,Substance,Culture/Environment,False
+parent_rules_q7,Substance,Culture/Environment,False
+parent_rules_q8,Substance,Culture/Environment,False
+parent_rules_q9,Substance,Culture/Environment,False
+path_alc_youth1,Substance,Substance,True
+path_alc_youth2,Substance,Substance,True
+path_alc_youth4,Substance,Substance,True
+path_alc_youth5,Substance,Substance,True
+path_alc_youth7,Substance,Substance,True
+path_alc_youth8,Substance,Substance,True
+peer_deviance_2_dd1457,Substance,Substance,True
+su_caff_intake_1_calc,Substance,Substance,True
+su_caff_intake_3_calc,Substance,Substance,True
+su_caff_intake_4_calc,Substance,Substance,True
+su_caff_intake_6_calc,Substance,Substance,True
+su_caff_intake_9_calc,Substance,Substance,True
+su_caff_max_calc,Substance,Substance,True
+su_caff_ss_sum_calc,Substance,Substance,True
+su_isip_1_calc,Substance,Substance,True
+su_isip_1b_2_calc,Substance,Substance,True
+su_risk_p_1,Substance,Substance,True
+su_risk_p_2,Substance,Substance,True
+su_risk_p_3,Substance,Substance,True
+su_risk_p_4,Substance,Substance,True
+su_risk_p_5,Substance,Substance,True
+su_risk_p_6,Substance,Substance,True
+su_risk_p_7,Substance,Substance,True
+su_risk_p_8,Substance,Substance,True
+su_risk_p_9,Substance,Substance,True
+tlfb_alc_sip,Substance,Substance,True
+tlfb_inhalant,Substance,Substance,True
+tlfb_list___1,Substance,Substance,True
+tlfb_list___18,Substance,Substance,True
+tlfb_list___7,Substance,Substance,True
+tlfb_list_yes_no,Substance,Substance,True
+tlfb_mj,Substance,Substance,True
+tlfb_mj_synth,Substance,Substance,True
+tlfb_rx_misuse,Substance,Substance,True
+tlfb_tob,Substance,Substance,True
+crpbi_caregiver12_y,Culture/Environment,Culture/Environment,True
+crpbi_caregiver13_y,Culture/Environment,Culture/Environment,True
+crpbi_caregiver14_y,Culture/Environment,Culture/Environment,True
+crpbi_caregiver15_y,Culture/Environment,Culture/Environment,True
+crpbi_caregiver16_y,Culture/Environment,Culture/Environment,True
+crpbi_parent1_y,Culture/Environment,Culture/Environment,True
+crpbi_parent2_y,Culture/Environment,Culture/Environment,True
+crpbi_parent3_y,Culture/Environment,Culture/Environment,True
+crpbi_parent4_y,Culture/Environment,Culture/Environment,True
+crpbi_parent5_y,Culture/Environment,Culture/Environment,True
+crpbi_y_ss_caregiver,Culture/Environment,Culture/Environment,True
+crpbi_y_ss_parent,Culture/Environment,Culture/Environment,True
+fam_enviro1_p,Culture/Environment,Culture/Environment,True
+fam_enviro2r_p,Culture/Environment,Culture/Environment,True
+fam_enviro3_p,Culture/Environment,Culture/Environment,True
+fam_enviro4r_p,Culture/Environment,Culture/Environment,True
+fam_enviro5_p,Culture/Environment,Culture/Environment,True
+fam_enviro6_p,Culture/Environment,Culture/Environment,True
+fam_enviro7r_p,Culture/Environment,Culture/Environment,True
+fam_enviro8_p,Culture/Environment,Culture/Environment,True
+fam_enviro9r_p,Culture/Environment,Culture/Environment,True
+fes_p_ss_fc_pr,Culture/Environment,Culture/Environment,True
+fes_y_ss_fc_pr,Culture/Environment,Culture/Environment,True
+fes_youth_q1,Culture/Environment,Culture/Environment,True
+fes_youth_q2,Culture/Environment,Culture/Environment,True
+fes_youth_q3,Culture/Environment,Culture/Environment,True
+fes_youth_q4,Culture/Environment,Culture/Environment,True
+fes_youth_q5,Culture/Environment,Culture/Environment,True
+fes_youth_q6,Culture/Environment,Culture/Environment,True
+fes_youth_q7,Culture/Environment,Culture/Environment,True
+fes_youth_q8,Culture/Environment,Culture/Environment,True
+fes_youth_q9,Culture/Environment,Culture/Environment,True
+neighborhood_crime_y,Culture/Environment,Culture/Environment,True
+neighborhood1r_p,Culture/Environment,Culture/Environment,True
+neighborhood2r_p,Culture/Environment,Culture/Environment,True
+neighborhood3r_p,Culture/Environment,Culture/Environment,True
+nsc_p_ss_mean_3_items,Culture/Environment,Culture/Environment,True
+parent_monitor_q1_y,Culture/Environment,Culture/Environment,True
+parent_monitor_q2_y,Culture/Environment,Culture/Environment,True
+parent_monitor_q3_y,Culture/Environment,Culture/Environment,True
+parent_monitor_q4_y,Culture/Environment,Culture/Environment,True
+parent_monitor_q5_y,Culture/Environment,Culture/Environment,True
+pmq_y_ss_mean,Culture/Environment,Culture/Environment,True
+prosocial_q1_p,Culture/Environment,Culture/Environment,True
+prosocial_q1_y,Culture/Environment,Culture/Environment,True
+prosocial_q2_p,Culture/Environment,Culture/Environment,True
+prosocial_q2_y,Culture/Environment,Culture/Environment,True
+prosocial_q3_p,Culture/Environment,Culture/Environment,True
+prosocial_q3_y,Culture/Environment,Culture/Environment,True
+psb_p_ss_mean,Culture/Environment,Culture/Environment,True
+psb_y_ss_mean,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_b138,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_crowd,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_edu_h,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_edu_l,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_home_o,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_home_v,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_in_dis,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_income,Culture/Environment,Demographics,False
+reshist_addr1_adi_mortg,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_ncar,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_nplumb,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_ntel,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_perc,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_pov,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_rent,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_sp,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_unemp,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_work_c,Culture/Environment,Culture/Environment,True
+reshist_addr1_adi_wsum,Culture/Environment,Culture/Environment,True
+reshist_addr1_d1a,Culture/Environment,Culture/Environment,True
+reshist_addr1_drgposs,Culture/Environment,Culture/Environment,True
+reshist_addr1_drgsale,Culture/Environment,Culture/Environment,True
+reshist_addr1_drugtot,Culture/Environment,Substance,False
+reshist_addr1_dui,Culture/Environment,Culture/Environment,True
+reshist_addr1_elevation,Culture/Environment,Culture/Environment,True
+reshist_addr1_grndtot,Culture/Environment,Culture/Environment,True
+reshist_addr1_leadrisk,Culture/Environment,Culture/Environment,True
+reshist_addr1_leadrisk_housing,Culture/Environment,Culture/Environment,True
+reshist_addr1_leadrisk_poverty,Culture/Environment,Culture/Environment,True
+reshist_addr1_mjsale,Culture/Environment,Culture/Environment,True
+reshist_addr1_no2,Culture/Environment,Culture/Environment,True
+reshist_addr1_p1tot,Culture/Environment,Culture/Environment,True
+reshist_addr1_p1vlnt,Culture/Environment,Culture/Environment,True
+reshist_addr1_percentile,Culture/Environment,Culture/Environment,True
+reshist_addr1_pm25,Culture/Environment,Culture/Environment,True
+reshist_addr1_pm252016aa,Culture/Environment,Culture/Environment,True
+reshist_addr1_popdensity,Culture/Environment,Culture/Environment,True
+reshist_addr1_proxrd,Culture/Environment,Culture/Environment,True
+reshist_addr1_walkindex,Culture/Environment,Culture/Environment,True
+reshist_addr1_years,Culture/Environment,Culture/Environment,True
+reshist_state_immigrant_factor,Culture/Environment,Culture/Environment,True
+reshist_state_mj_laws1,Culture/Environment,Culture/Environment,True
+reshist_state_mj_laws2,Culture/Environment,Culture/Environment,True
+reshist_state_mj_laws3,Culture/Environment,Culture/Environment,True
+reshist_state_racism_factor,Culture/Environment,Culture/Environment,True
+reshist_state_sexism_factor,Culture/Environment,Culture/Environment,True
+reshist_state_so_factor,Culture/Environment,Culture/Environment,True
+school_10_y,Culture/Environment,Culture/Environment,True
+school_12_y,Culture/Environment,Culture/Environment,True
+school_15_y,Culture/Environment,Culture/Environment,True
+school_17_y,Culture/Environment,Culture/Environment,True
+school_2_y,Culture/Environment,Culture/Environment,True
+school_3_y,Culture/Environment,Culture/Environment,True
+school_4_y,Culture/Environment,Culture/Environment,True
+school_5_y,Culture/Environment,Culture/Environment,True
+school_6_y,Culture/Environment,Culture/Environment,True
+school_7_y,Culture/Environment,Culture/Environment,True
+school_8_y,Culture/Environment,Culture/Environment,True
+school_9_y,Culture/Environment,Culture/Environment,True
+srpf_y_ss_dfs,Culture/Environment,Culture/Environment,True
+srpf_y_ss_iiss,Culture/Environment,Culture/Environment,True
+srpf_y_ss_ses,Culture/Environment,Culture/Environment,True
+anthro_waist_cm,Physical Health,Physical Health,True
+anthroheightcalc,Physical Health,Physical Health,True
+anthroweightcalc,Physical Health,Physical Health,True
+Any_antidepressantAfter,Physical Health,Physical Health,True
+Any_antidepressantB4,Physical Health,Physical Health,True
+birth_weight_oz_comb,Physical Health,Physical Health,True
+caff_24,Physical Health,Substance,False
+caff_ago,Physical Health,Substance,False
+brought_medications,Physical Health,Physical Health,True
+child_antidep_use,Physical Health,Physical Health,True
+child_SSRI_use,Physical Health,Physical Health,True
+devhx_10,Physical Health,Physical Health,True
+devhx_10a3_p,Physical Health,Physical Health,True
+devhx_10b3_p,Physical Health,Physical Health,True
+devhx_10c3_p,Physical Health,Physical Health,True
+devhx_10g3_p,Physical Health,Physical Health,True
+devhx_10h3_p,Physical Health,Physical Health,True
+devhx_10i3_p,Physical Health,Physical Health,True
+devhx_10j3_p,Physical Health,Physical Health,True
+devhx_10k3_p,Physical Health,Physical Health,True
+devhx_10m3_p,Physical Health,Physical Health,True
+devhx_11_p,Physical Health,Physical Health,True
+devhx_12_p,Physical Health,Physical Health,True
+devhx_12a_p,Physical Health,Physical Health,True
+devhx_13_3_p,Physical Health,Physical Health,True
+devhx_14a3_p,Physical Health,Physical Health,True
+devhx_14c3_p,Physical Health,Physical Health,True
+devhx_14e3_p,Physical Health,Physical Health,True
+devhx_14f3_p,Physical Health,Physical Health,True
+devhx_14h3_p,Physical Health,Physical Health,True
+devhx_15,Physical Health,Physical Health,True
+devhx_16_p,Physical Health,Physical Health,True
+devhx_17_p,Physical Health,Physical Health,True
+devhx_18_p,Physical Health,Physical Health,True
+devhx_19a_p,Physical Health,Physical Health,True
+devhx_19b_p,Physical Health,Physical Health,True
+devhx_19c_p,Physical Health,Physical Health,True
+devhx_19d_p,Physical Health,Physical Health,True
+devhx_20_p,Physical Health,Physical Health,True
+devhx_21_p,Physical Health,Physical Health,True
+devhx_22_3_p,Physical Health,Physical Health,True
+devhx_23b_p,Physical Health,Physical Health,True
+devhx_3_p,Physical Health,Physical Health,True
+devhx_4_p,Physical Health,Physical Health,True
+devhx_5_p,Physical Health,Physical Health,True
+devhx_6_p,Physical Health,Physical Health,True
+devhx_7_p,Physical Health,Physical Health,True
+devhx_8_alcohol,Physical Health,Physical Health,True
+devhx_8_marijuana,Physical Health,Physical Health,True
+devhx_8_prescript_med,Physical Health,Physical Health,True
+devhx_8_tobacco,Physical Health,Physical Health,True
+devhx_9_alcohol,Physical Health,Physical Health,True
+devhx_9_med1_fu,Physical Health,Physical Health,True
+devhx_9_prescript_med,Physical Health,Physical Health,True
+devhx_9_tobacco,Physical Health,Physical Health,True
+devhx_caffeine_11,Physical Health,Physical Health,True
+devhx_caffeine_amt_TOTALPERMONTH,Physical Health,Physical Health,True
+devhx_ss_12_p,Physical Health,Physical Health,True
+devhx_ss_8_alcohol_avg_p,Physical Health,Physical Health,True
+devhx_ss_8_alcohol_effects_p,Physical Health,Physical Health,True
+devhx_ss_8_alcohol_max_p,Physical Health,Physical Health,True
+devhx_ss_8_cigs_per_day_p,Physical Health,Physical Health,True
+devhx_ss_8_marijuana_amt_p,Physical Health,Physical Health,True
+devhx_ss_9_alcohol_effects_p,Physical Health,Physical Health,True
+devhx_ss_9_alcohol_max_p,Physical Health,Physical Health,True
+devhx_ss_9_cigs_per_day_p,Physical Health,Physical Health,True
+filtered_dhea,Physical Health,Physical Health,True
+filtered_estradiol,Physical Health,Physical Health,True
+filtered_testosterone,Physical Health,Physical Health,True
+medhx_1a,Physical Health,Physical Health,True
+medhx_1b,Physical Health,Physical Health,True
+medhx_2a,Physical Health,Physical Health,True
+medhx_2b,Physical Health,Physical Health,True
+medhx_2c,Physical Health,Physical Health,True
+medhx_2d,Physical Health,Physical Health,True
+medhx_2i,Physical Health,Physical Health,True
+medhx_2n,Physical Health,Physical Health,True
+medhx_2o,Physical Health,Physical Health,True
+medhx_2q,Physical Health,Physical Health,True
+medhx_2r,Physical Health,Physical Health,True
+medhx_2s,Physical Health,Physical Health,True
+medhx_4a,Physical Health,Physical Health,True
+medhx_4b,Physical Health,Physical Health,True
+medhx_5a,Physical Health,Physical Health,True
+medhx_5b,Physical Health,Physical Health,True
+medhx_6a,Physical Health,Physical Health,True
+medhx_6a_notes,Physical Health,Physical Health,True
+medhx_6b,Physical Health,Physical Health,True
+medhx_6b_notes,Physical Health,Physical Health,True
+medhx_6c,Physical Health,Physical Health,True
+medhx_6c_times,Physical Health,Physical Health,True
+medhx_6d,Physical Health,Physical Health,True
+medhx_6d_notes,Physical Health,Physical Health,True
+medhx_6e,Physical Health,Physical Health,True
+medhx_6e_times,Physical Health,Physical Health,True
+medhx_6f,Physical Health,Physical Health,True
+medhx_6f_notes,Physical Health,Physical Health,True
+medhx_6h,Physical Health,Physical Health,True
+medhx_6h_times,Physical Health,Physical Health,True
+medhx_6i,Physical Health,Physical Health,True
+medhx_6i_times,Physical Health,Physical Health,True
+medhx_6l,Physical Health,Physical Health,True
+medhx_6l_notes,Physical Health,Physical Health,True
+medhx_6m,Physical Health,Physical Health,True
+medhx_6m_times,Physical Health,Physical Health,True
+medhx_6n,Physical Health,Physical Health,True
+medhx_6n_notes,Physical Health,Physical Health,True
+medhx_6p,Physical Health,Physical Health,True
+medhx_6p_notes,Physical Health,Physical Health,True
+medhx_6t,Physical Health,Physical Health,True
+medhx_6t_times,Physical Health,Physical Health,True
+medhx_8a,Physical Health,Physical Health,True
+medhx_9a,Physical Health,Physical Health,True
+medhx_9b,Physical Health,Physical Health,True
+medhx_9c,Physical Health,Physical Health,True
+pds_1_p,Physical Health,Physical Health,True
+pds_2_p,Physical Health,Physical Health,True
+pds_3_p,Physical Health,Physical Health,True
+pds_bdyhair_y,Physical Health,Physical Health,True
+pds_f4_2_y,Physical Health,Physical Health,True
+pds_f4_p,Physical Health,Physical Health,True
+pds_ht2_y,Physical Health,Physical Health,True
+pds_m4_p,Physical Health,Physical Health,True
+pds_m4_y,Physical Health,Physical Health,True
+pds_m5_p,Physical Health,Physical Health,True
+pds_m5_y,Physical Health,Physical Health,True
+pds_p_ss_female_category_2,Physical Health,Physical Health,True
+pds_p_ss_male_category_2,Physical Health,Physical Health,True
+pds_skin2_y,Physical Health,Physical Health,True
+pds_y_ss_female_category_2,Physical Health,Physical Health,True
+pds_y_ss_male_cat_2,Physical Health,Physical Health,True
+physical_activity1_y,Physical Health,Physical Health,True
+physical_activity2_y,Physical Health,Physical Health,True
+physical_activity5_y,Physical Health,Physical Health,True
+sai_past_year_num_activities,Physical Health,Physical Health,True
+sai_ss_music_nyr_p,Physical Health,Physical Health,True
+sai_ss_read_years_p,Physical Health,Physical Health,True
+sds_p_ss_da,Physical Health,Physical Health,True
+sds_p_ss_dims,Physical Health,Physical Health,True
+sds_p_ss_does,Physical Health,Physical Health,True
+sds_p_ss_sbd,Physical Health,Physical Health,True
+sds_p_ss_shy,Physical Health,Physical Health,True
+sds_p_ss_swtd,Physical Health,Physical Health,True
+sds_p_ss_total,Physical Health,Physical Health,True
+sleepdisturb1_p,Physical Health,Physical Health,True
+sleepdisturb10_p,Physical Health,Physical Health,True
+sleepdisturb11_p,Physical Health,Physical Health,True
+sleepdisturb12_p,Physical Health,Physical Health,True
+sleepdisturb13_p,Physical Health,Physical Health,True
+sleepdisturb15_p,Physical Health,Physical Health,True
+sleepdisturb16_p,Physical Health,Physical Health,True
+sleepdisturb17_p,Physical Health,Physical Health,True
+sleepdisturb18_p,Physical Health,Physical Health,True
+sleepdisturb19_p,Physical Health,Physical Health,True
+sleepdisturb2_p,Physical Health,Physical Health,True
+sleepdisturb20_p,Physical Health,Physical Health,True
+sleepdisturb21_p,Physical Health,Physical Health,True
+sleepdisturb22_p,Physical Health,Physical Health,True
+sleepdisturb23_p,Physical Health,Physical Health,True
+sleepdisturb24_p,Physical Health,Physical Health,True
+sleepdisturb25_p,Physical Health,Physical Health,True
+sleepdisturb3_p,Physical Health,Physical Health,True
+sleepdisturb4_p,Physical Health,Physical Health,True
+sleepdisturb5_p,Physical Health,Physical Health,True
+sleepdisturb6_p,Physical Health,Physical Health,True
+sleepdisturb8_p,Physical Health,Physical Health,True
+sleepdisturb9_p,Physical Health,Physical Health,True
+SSRIAfter,Physical Health,Physical Health,True
+SSRIB4,Physical Health,Physical Health,True
+tbi_1,Physical Health,Physical Health,True
+tbi_1c,Physical Health,Physical Health,True
+tbi_3,Physical Health,Physical Health,True
+tbi_3c,Physical Health,Physical Health,True
+tbi_3d,Physical Health,Physical Health,True
+tbi_ss_worst_overall,Physical Health,Physical Health,True
+asr_q01_p,Family Mental Health,Family Mental Health,True
+asr_q02_p,Family Mental Health,Family Mental Health,True
+asr_q03_p,Family Mental Health,Family Mental Health,True
+asr_q04_p,Family Mental Health,Family Mental Health,True
+asr_q05_p,Family Mental Health,Family Mental Health,True
+asr_q06_p,Family Mental Health,Family Mental Health,True
+asr_q07_p,Family Mental Health,Family Mental Health,True
+asr_q08_p,Family Mental Health,Family Mental Health,True
+asr_q09_p,Family Mental Health,Family Mental Health,True
+asr_q10_p,Family Mental Health,Family Mental Health,True
+asr_q100_p,Family Mental Health,Family Mental Health,True
+asr_q101_p,Family Mental Health,Family Mental Health,True
+asr_q102_p,Family Mental Health,Family Mental Health,True
+asr_q103_p,Family Mental Health,Family Mental Health,True
+asr_q104_p,Family Mental Health,Family Mental Health,True
+asr_q105_p,Family Mental Health,Family Mental Health,True
+asr_q106_p,Family Mental Health,Family Mental Health,True
+asr_q107_p,Family Mental Health,Family Mental Health,True
+asr_q108_p,Family Mental Health,Family Mental Health,True
+asr_q109_p,Family Mental Health,Family Mental Health,True
+asr_q11_p,Family Mental Health,Family Mental Health,True
+asr_q111_p,Family Mental Health,Family Mental Health,True
+asr_q112_p,Family Mental Health,Family Mental Health,True
+asr_q113_p,Family Mental Health,Family Mental Health,True
+asr_q114_p,Family Mental Health,Family Mental Health,True
+asr_q115_p,Family Mental Health,Family Mental Health,True
+asr_q116_p,Family Mental Health,Family Mental Health,True
+asr_q117_p,Family Mental Health,Family Mental Health,True
+asr_q118_p,Family Mental Health,Family Mental Health,True
+asr_q119_p,Family Mental Health,Family Mental Health,True
+asr_q12_p,Family Mental Health,Family Mental Health,True
+asr_q120_p,Family Mental Health,Family Mental Health,True
+asr_q121_p,Family Mental Health,Family Mental Health,True
+asr_q122_p,Family Mental Health,Family Mental Health,True
+asr_q123_p,Family Mental Health,Family Mental Health,True
+asr_q124_p,Family Mental Health,Family Mental Health,True
+asr_q125_p,Family Mental Health,Family Mental Health,True
+asr_q126_p,Family Mental Health,Family Mental Health,True
+asr_q13_p,Family Mental Health,Family Mental Health,True
+asr_q14_p,Family Mental Health,Family Mental Health,True
+asr_q15_p,Family Mental Health,Family Mental Health,True
+asr_q16_p,Family Mental Health,Family Mental Health,True
+asr_q17_p,Family Mental Health,Family Mental Health,True
+asr_q19_p,Family Mental Health,Family Mental Health,True
+asr_q22_p,Family Mental Health,Family Mental Health,True
+asr_q23_p,Family Mental Health,Family Mental Health,True
+asr_q24_p,Family Mental Health,Family Mental Health,True
+asr_q25_p,Family Mental Health,Family Mental Health,True
+asr_q26_p,Family Mental Health,Family Mental Health,True
+asr_q27_p,Family Mental Health,Family Mental Health,True
+asr_q28_p,Family Mental Health,Family Mental Health,True
+asr_q29_p,Family Mental Health,Family Mental Health,True
+asr_q30_p,Family Mental Health,Family Mental Health,True
+asr_q31_p,Family Mental Health,Family Mental Health,True
+asr_q32_p,Family Mental Health,Family Mental Health,True
+asr_q33_p,Family Mental Health,Family Mental Health,True
+asr_q34_p,Family Mental Health,Family Mental Health,True
+asr_q35_p,Family Mental Health,Family Mental Health,True
+asr_q36_p,Family Mental Health,Family Mental Health,True
+asr_q38_p,Family Mental Health,Family Mental Health,True
+asr_q41_p,Family Mental Health,Family Mental Health,True
+asr_q42_p,Family Mental Health,Family Mental Health,True
+asr_q43_p,Family Mental Health,Family Mental Health,True
+asr_q44_p,Family Mental Health,Family Mental Health,True
+asr_q45_p,Family Mental Health,Family Mental Health,True
+asr_q46_p,Family Mental Health,Family Mental Health,True
+asr_q47_p,Family Mental Health,Family Mental Health,True
+asr_q48_p,Family Mental Health,Family Mental Health,True
+asr_q49_p,Family Mental Health,Family Mental Health,True
+asr_q50_p,Family Mental Health,Family Mental Health,True
+asr_q51_p,Family Mental Health,Family Mental Health,True
+asr_q52_p,Family Mental Health,Family Mental Health,True
+asr_q53_p,Family Mental Health,Family Mental Health,True
+asr_q54_p,Family Mental Health,Family Mental Health,True
+asr_q55_p,Family Mental Health,Family Mental Health,True
+asr_q56a_p,Family Mental Health,Family Mental Health,True
+asr_q56b_p,Family Mental Health,Family Mental Health,True
+asr_q56c_p,Family Mental Health,Family Mental Health,True
+asr_q56d_p,Family Mental Health,Family Mental Health,True
+asr_q56e_p,Family Mental Health,Family Mental Health,True
+asr_q56f_p,Family Mental Health,Family Mental Health,True
+asr_q56g_p,Family Mental Health,Family Mental Health,True
+asr_q56h_p,Family Mental Health,Family Mental Health,True
+asr_q56i_p,Family Mental Health,Family Mental Health,True
+asr_q58_p,Family Mental Health,Family Mental Health,True
+asr_q59_p,Family Mental Health,Family Mental Health,True
+asr_q60_p,Family Mental Health,Family Mental Health,True
+asr_q61_p,Family Mental Health,Family Mental Health,True
+asr_q62_p,Family Mental Health,Family Mental Health,True
+asr_q63_p,Family Mental Health,Family Mental Health,True
+asr_q64_p,Family Mental Health,Family Mental Health,True
+asr_q65_p,Family Mental Health,Family Mental Health,True
+asr_q66_p,Family Mental Health,Family Mental Health,True
+asr_q67_p,Family Mental Health,Family Mental Health,True
+asr_q68_p,Family Mental Health,Family Mental Health,True
+asr_q69_p,Family Mental Health,Family Mental Health,True
+asr_q71_p,Family Mental Health,Family Mental Health,True
+asr_q72_p,Family Mental Health,Family Mental Health,True
+asr_q73_p,Family Mental Health,Family Mental Health,True
+asr_q74_p,Family Mental Health,Family Mental Health,True
+asr_q75_p,Family Mental Health,Family Mental Health,True
+asr_q76_p,Family Mental Health,Family Mental Health,True
+asr_q77_p,Family Mental Health,Family Mental Health,True
+asr_q78_p,Family Mental Health,Family Mental Health,True
+asr_q80_p,Family Mental Health,Family Mental Health,True
+asr_q81_p,Family Mental Health,Family Mental Health,True
+asr_q83_p,Family Mental Health,Family Mental Health,True
+asr_q84_p,Family Mental Health,Family Mental Health,True
+asr_q85_p,Family Mental Health,Family Mental Health,True
+asr_q86_p,Family Mental Health,Family Mental Health,True
+asr_q87_p,Family Mental Health,Family Mental Health,True
+asr_q88_p,Family Mental Health,Family Mental Health,True
+asr_q89_p,Family Mental Health,Family Mental Health,True
+asr_q90_p,Family Mental Health,Family Mental Health,True
+asr_q91_p,Family Mental Health,Family Mental Health,True
+asr_q93_p,Family Mental Health,Family Mental Health,True
+asr_q94_p,Family Mental Health,Family Mental Health,True
+asr_q95_p,Family Mental Health,Family Mental Health,True
+asr_q96_p,Family Mental Health,Family Mental Health,True
+asr_q98_p,Family Mental Health,Family Mental Health,True
+asr_q99_p,Family Mental Health,Family Mental Health,True
+asr_scr_adhd_r,Family Mental Health,Family Mental Health,True
+asr_scr_aggressive_r,Family Mental Health,Family Mental Health,True
+asr_scr_antisocial_r,Family Mental Health,Family Mental Health,True
+asr_scr_anxdep_r,Family Mental Health,Family Mental Health,True
+asr_scr_anxdisord_r,Family Mental Health,Family Mental Health,True
+asr_scr_attention_r,Family Mental Health,Family Mental Health,True
+asr_scr_avoidant_r,Family Mental Health,Family Mental Health,True
+asr_scr_depress_r,Family Mental Health,Family Mental Health,True
+asr_scr_external_r,Family Mental Health,Family Mental Health,True
+asr_scr_hyperactive_r,Family Mental Health,Family Mental Health,True
+asr_scr_inattention_r,Family Mental Health,Family Mental Health,True
+asr_scr_internal_r,Family Mental Health,Family Mental Health,True
+asr_scr_intrusive_r,Family Mental Health,Family Mental Health,True
+asr_scr_perstr_r,Family Mental Health,Family Mental Health,True
+asr_scr_rulebreak_r,Family Mental Health,Family Mental Health,True
+asr_scr_somatic_r,Family Mental Health,Family Mental Health,True
+asr_scr_somaticpr_r,Family Mental Health,Family Mental Health,True
+asr_scr_thought_r,Family Mental Health,Family Mental Health,True
+asr_scr_totprob_r,Family Mental Health,Family Mental Health,True
+asr_scr_withdrawn_r,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_ma_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fath_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fulsibo1_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fulsibo1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fulsibo2_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_fulsiby1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_hlfsibo1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant1_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant2_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matant2_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgf_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_ma_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matgm_prob_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc1_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc2_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc2_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_matunc2_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_ma_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_momdad_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_ma_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_scd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_moth_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant2_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patant2_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgf_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patgm_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_dg_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_dprs_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_hspd_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_nrv_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_prf_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc1_prob_trb_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc2_prob_alc_p,Family Mental Health,Family Mental Health,True
+famhx_ss_patunc2_prob_prf_p,Family Mental Health,Family Mental Health,True
+ADHD_present,Child Mental Health,Child Mental Health,True
+ADHD_past,Child Mental Health,Child Mental Health,True
+bis_y_ss_bas_drive,Child Mental Health,Child Mental Health,True
+bis_y_ss_bas_fs,Child Mental Health,Child Mental Health,True
+bis_y_ss_bas_rr,Child Mental Health,Child Mental Health,True
+bis_y_ss_basm_drive,Child Mental Health,Child Mental Health,True
+bis_y_ss_basm_rr,Child Mental Health,Child Mental Health,True
+bis_y_ss_bis_sum,Child Mental Health,Child Mental Health,True
+bis_y_ss_bism_sum,Child Mental Health,Child Mental Health,True
+bisbas1_y,Child Mental Health,Child Mental Health,True
+bisbas10_y,Child Mental Health,Child Mental Health,True
+bisbas11_y,Child Mental Health,Child Mental Health,True
+bisbas12_y,Child Mental Health,Child Mental Health,True
+bisbas13_y,Child Mental Health,Child Mental Health,True
+bisbas14_y,Child Mental Health,Child Mental Health,True
+bisbas15_y,Child Mental Health,Child Mental Health,True
+bisbas16_y,Child Mental Health,Child Mental Health,True
+bisbas17_y,Child Mental Health,Child Mental Health,True
+bisbas18_y,Child Mental Health,Child Mental Health,True
+bisbas19_y,Child Mental Health,Child Mental Health,True
+bisbas2_y,Child Mental Health,Child Mental Health,True
+bisbas20_y,Child Mental Health,Child Mental Health,True
+bisbas3_y,Child Mental Health,Child Mental Health,True
+bisbas4_y,Child Mental Health,Child Mental Health,True
+bisbas5r_y,Child Mental Health,Child Mental Health,True
+bisbas6_y,Child Mental Health,Child Mental Health,True
+bisbas7_y,Child Mental Health,Child Mental Health,True
+bisbas8_y,Child Mental Health,Child Mental Health,True
+bisbas9_y,Child Mental Health,Child Mental Health,True
+bpm_t_scr_attention_r,Child Mental Health,Child Mental Health,True
+bpm_t_scr_external_r,Child Mental Health,Child Mental Health,True
+bpm_t_scr_internal_r,Child Mental Health,Child Mental Health,True
+bpm_t_scr_totalprob_r,Child Mental Health,Child Mental Health,True
+bpmt_q1,Child Mental Health,Child Mental Health,True
+bpmt_q10,Child Mental Health,Child Mental Health,True
+bpmt_q11,Child Mental Health,Child Mental Health,True
+bpmt_q12,Child Mental Health,Child Mental Health,True
+bpmt_q13,Child Mental Health,Child Mental Health,True
+bpmt_q14,Child Mental Health,Child Mental Health,True
+bpmt_q15,Child Mental Health,Child Mental Health,True
+bpmt_q16,Child Mental Health,Child Mental Health,True
+bpmt_q17,Child Mental Health,Child Mental Health,True
+bpmt_q18,Child Mental Health,Child Mental Health,True
+bpmt_q2,Child Mental Health,Child Mental Health,True
+bpmt_q3,Child Mental Health,Child Mental Health,True
+bpmt_q4,Child Mental Health,Child Mental Health,True
+bpmt_q5,Child Mental Health,Child Mental Health,True
+bpmt_q7,Child Mental Health,Child Mental Health,True
+bpmt_q8,Child Mental Health,Child Mental Health,True
+bpmt_q9,Child Mental Health,Child Mental Health,True
+cbcl_q01_p,Child Mental Health,Child Mental Health,True
+cbcl_q03_p,Child Mental Health,Child Mental Health,True
+cbcl_q04_p,Child Mental Health,Child Mental Health,True
+cbcl_q05_p,Child Mental Health,Child Mental Health,True
+cbcl_q07_p,Child Mental Health,Child Mental Health,True
+cbcl_q08_p,Child Mental Health,Child Mental Health,True
+cbcl_q09_p,Child Mental Health,Child Mental Health,True
+cbcl_q10_p,Child Mental Health,Child Mental Health,True
+cbcl_q100_p,Child Mental Health,Child Mental Health,True
+cbcl_q102_p,Child Mental Health,Child Mental Health,True
+cbcl_q103_p,Child Mental Health,Child Mental Health,True
+cbcl_q104_p,Child Mental Health,Child Mental Health,True
+cbcl_q108_p,Child Mental Health,Child Mental Health,True
+cbcl_q109_p,Child Mental Health,Child Mental Health,True
+cbcl_q11_p,Child Mental Health,Child Mental Health,True
+cbcl_q111_p,Child Mental Health,Child Mental Health,True
+cbcl_q112_p,Child Mental Health,Child Mental Health,True
+cbcl_q12_p,Child Mental Health,Child Mental Health,True
+cbcl_q13_p,Child Mental Health,Child Mental Health,True
+cbcl_q14_p,Child Mental Health,Child Mental Health,True
+cbcl_q16_p,Child Mental Health,Child Mental Health,True
+cbcl_q17_p,Child Mental Health,Child Mental Health,True
+cbcl_q19_p,Child Mental Health,Child Mental Health,True
+cbcl_q20_p,Child Mental Health,Child Mental Health,True
+cbcl_q21_p,Child Mental Health,Child Mental Health,True
+cbcl_q22_p,Child Mental Health,Child Mental Health,True
+cbcl_q23_p,Child Mental Health,Child Mental Health,True
+cbcl_q24_p,Child Mental Health,Child Mental Health,True
+cbcl_q25_p,Child Mental Health,Child Mental Health,True
+cbcl_q26_p,Child Mental Health,Child Mental Health,True
+cbcl_q27_p,Child Mental Health,Child Mental Health,True
+cbcl_q28_p,Child Mental Health,Child Mental Health,True
+cbcl_q29_p,Child Mental Health,Child Mental Health,True
+cbcl_q30_p,Child Mental Health,Child Mental Health,True
+cbcl_q31_p,Child Mental Health,Child Mental Health,True
+cbcl_q32_p,Child Mental Health,Child Mental Health,True
+cbcl_q33_p,Child Mental Health,Child Mental Health,True
+cbcl_q34_p,Child Mental Health,Child Mental Health,True
+cbcl_q35_p,Child Mental Health,Child Mental Health,True
+cbcl_q36_p,Child Mental Health,Child Mental Health,True
+cbcl_q37_p,Child Mental Health,Child Mental Health,True
+cbcl_q38_p,Child Mental Health,Child Mental Health,True
+cbcl_q39_p,Child Mental Health,Child Mental Health,True
+cbcl_q41_p,Child Mental Health,Child Mental Health,True
+cbcl_q42_p,Child Mental Health,Child Mental Health,True
+cbcl_q43_p,Child Mental Health,Child Mental Health,True
+cbcl_q44_p,Child Mental Health,Child Mental Health,True
+cbcl_q45_p,Child Mental Health,Child Mental Health,True
+cbcl_q46_p,Child Mental Health,Child Mental Health,True
+cbcl_q47_p,Child Mental Health,Child Mental Health,True
+cbcl_q48_p,Child Mental Health,Child Mental Health,True
+cbcl_q49_p,Child Mental Health,Child Mental Health,True
+cbcl_q50_p,Child Mental Health,Child Mental Health,True
+cbcl_q51_p,Child Mental Health,Child Mental Health,True
+cbcl_q52_p,Child Mental Health,Child Mental Health,True
+cbcl_q53_p,Child Mental Health,Child Mental Health,True
+cbcl_q54_p,Child Mental Health,Child Mental Health,True
+cbcl_q55_p,Child Mental Health,Child Mental Health,True
+cbcl_q56a_p,Child Mental Health,Child Mental Health,True
+cbcl_q56b_p,Child Mental Health,Child Mental Health,True
+cbcl_q56c_p,Child Mental Health,Child Mental Health,True
+cbcl_q56d_p,Child Mental Health,Child Mental Health,True
+cbcl_q56e_p,Child Mental Health,Child Mental Health,True
+cbcl_q56f_p,Child Mental Health,Child Mental Health,True
+cbcl_q56g_p,Child Mental Health,Child Mental Health,True
+cbcl_q56h_p,Child Mental Health,Child Mental Health,True
+cbcl_q57_p,Child Mental Health,Child Mental Health,True
+cbcl_q58_p,Child Mental Health,Child Mental Health,True
+cbcl_q61_p,Child Mental Health,Child Mental Health,True
+cbcl_q62_p,Child Mental Health,Child Mental Health,True
+cbcl_q63_p,Child Mental Health,Child Mental Health,True
+cbcl_q64_p,Child Mental Health,Child Mental Health,True
+cbcl_q65_p,Child Mental Health,Child Mental Health,True
+cbcl_q66_p,Child Mental Health,Child Mental Health,True
+cbcl_q68_p,Child Mental Health,Child Mental Health,True
+cbcl_q69_p,Child Mental Health,Child Mental Health,True
+cbcl_q71_p,Child Mental Health,Child Mental Health,True
+cbcl_q74_p,Child Mental Health,Child Mental Health,True
+cbcl_q75_p,Child Mental Health,Child Mental Health,True
+cbcl_q76_p,Child Mental Health,Child Mental Health,True
+cbcl_q77_p,Child Mental Health,Child Mental Health,True
+cbcl_q78_p,Child Mental Health,Child Mental Health,True
+cbcl_q79_p,Child Mental Health,Child Mental Health,True
+cbcl_q80_p,Child Mental Health,Child Mental Health,True
+cbcl_q81_p,Child Mental Health,Child Mental Health,True
+cbcl_q83_p,Child Mental Health,Child Mental Health,True
+cbcl_q84_p,Child Mental Health,Child Mental Health,True
+cbcl_q85_p,Child Mental Health,Child Mental Health,True
+cbcl_q86_p,Child Mental Health,Child Mental Health,True
+cbcl_q87_p,Child Mental Health,Child Mental Health,True
+cbcl_q88_p,Child Mental Health,Child Mental Health,True
+cbcl_q89_p,Child Mental Health,Child Mental Health,True
+cbcl_q90_p,Child Mental Health,Child Mental Health,True
+cbcl_q91_p,Child Mental Health,Child Mental Health,True
+cbcl_q92_p,Child Mental Health,Child Mental Health,True
+cbcl_q93_p,Child Mental Health,Child Mental Health,True
+cbcl_q94_p,Child Mental Health,Child Mental Health,True
+cbcl_q95_p,Child Mental Health,Child Mental Health,True
+cbcl_q97_p,Child Mental Health,Child Mental Health,True
+cbcl_q98_p,Child Mental Health,Child Mental Health,True
+cbcl_scr_07_ocd_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_07_sct_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_07_stress_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_adhd_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_anxdisord_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_conduct_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_depress_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_opposit_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_dsm5_somaticpr_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_aggressive_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_anxdep_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_attention_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_external_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_internal_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_rulebreak_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_social_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_somatic_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_thought_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_totprob_r,Child Mental Health,Child Mental Health,True
+cbcl_scr_syn_withdep_r,Child Mental Health,Child Mental Health,True
+gen_child_behav_1,Child Mental Health,Child Mental Health,True
+gen_child_behav_10,Child Mental Health,Child Mental Health,True
+gen_child_behav_3,Child Mental Health,Child Mental Health,True
+gen_child_behav_4,Child Mental Health,Child Mental Health,True
+gen_child_behav_5,Child Mental Health,Child Mental Health,True
+gen_child_behav_6,Child Mental Health,Child Mental Health,True
+gen_child_behav_7,Child Mental Health,Child Mental Health,True
+gen_child_behav_8,Child Mental Health,Child Mental Health,True
+gen_child_behav_9,Child Mental Health,Child Mental Health,True
+kbi_new_school_setting_l_home,Child Mental Health,Child Mental Health,True
+kbi_new_school_setting_l_private,Child Mental Health,Child Mental Health,True
+kbi_new_school_setting_l_public,Child Mental Health,Child Mental Health,True
+kbi_p_c_age_services,Child Mental Health,Child Mental Health,True
+kbi_p_c_best_friend,Child Mental Health,Child Mental Health,True
+kbi_p_c_best_friend_len,Child Mental Health,Child Mental Health,True
+kbi_p_c_bully,Child Mental Health,Child Mental Health,True
+kbi_p_c_det_susp,Child Mental Health,Child Mental Health,True
+kbi_p_c_drop_in_grades,Child Mental Health,Child Mental Health,True
+kbi_p_c_gay,Child Mental Health,Child Mental Health,True
+kbi_p_c_gay_problems,Child Mental Health,Child Mental Health,True
+kbi_p_c_guard___1,Child Mental Health,Child Mental Health,True
+kbi_p_c_guard___2,Child Mental Health,Child Mental Health,True
+kbi_p_c_live_full_time,Child Mental Health,Child Mental Health,True
+kbi_p_c_mh_sa,Child Mental Health,Child Mental Health,True
+kbi_p_c_reg_friend_group,Child Mental Health,Child Mental Health,True
+kbi_p_c_reg_friend_group_len,Child Mental Health,Child Mental Health,True
+kbi_p_c_reg_friend_group_opin,Child Mental Health,Child Mental Health,True
+kbi_p_c_scheck1,Child Mental Health,Child Mental Health,True
+kbi_p_c_scheck10,Child Mental Health,Child Mental Health,True
+kbi_p_c_scheck7,Child Mental Health,Child Mental Health,True
+kbi_p_c_scheck8,Child Mental Health,Child Mental Health,True
+kbi_p_c_scheck9,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___10,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___4,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___6,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___7,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___8,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv___9,Child Mental Health,Child Mental Health,True
+kbi_p_conflict,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___1,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___2,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___4,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___5,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___6,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___8,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes___9,Child Mental Health,Child Mental Health,True
+kbi_p_grades_in_school,Child Mental Health,Child Mental Health,True
+kbi_p_how_well_c_school,Child Mental Health,Child Mental Health,True
+kbi_y_det_reason___1,Child Mental Health,Child Mental Health,True
+kbi_y_det_reason___8,Child Mental Health,Child Mental Health,True
+kbi_y_det_susp,Child Mental Health,Child Mental Health,True
+kbi_y_drop_in_grades,Child Mental Health,Child Mental Health,True
+kbi_y_grade_repeat,Child Mental Health,Child Mental Health,True
+ksads_1_1_t,Child Mental Health,Child Mental Health,True
+ksads_1_156_p,Child Mental Health,Child Mental Health,True
+ksads_1_156_t,Child Mental Health,Child Mental Health,True
+ksads_1_158_t,Child Mental Health,Child Mental Health,True
+ksads_1_160_p,Child Mental Health,Child Mental Health,True
+ksads_1_160_t,Child Mental Health,Child Mental Health,True
+ksads_1_162_p,Child Mental Health,Child Mental Health,True
+ksads_1_162_t,Child Mental Health,Child Mental Health,True
+ksads_1_164_p,Child Mental Health,Child Mental Health,True
+ksads_1_164_t,Child Mental Health,Child Mental Health,True
+ksads_1_166_p,Child Mental Health,Child Mental Health,True
+ksads_1_166_t,Child Mental Health,Child Mental Health,True
+ksads_1_170_t,Child Mental Health,Child Mental Health,True
+ksads_1_174_p,Child Mental Health,Child Mental Health,True
+ksads_1_174_t,Child Mental Health,Child Mental Health,True
+ksads_1_176_t,Child Mental Health,Child Mental Health,True
+ksads_1_178_p,Child Mental Health,Child Mental Health,True
+ksads_1_178_t,Child Mental Health,Child Mental Health,True
+ksads_1_182_p,Child Mental Health,Child Mental Health,True
+ksads_1_182_t,Child Mental Health,Child Mental Health,True
+ksads_1_183_p,Child Mental Health,Child Mental Health,True
+ksads_1_183_t,Child Mental Health,Child Mental Health,True
+ksads_1_184_p,Child Mental Health,Child Mental Health,True
+ksads_1_184_t,Child Mental Health,Child Mental Health,True
+ksads_1_187_p,Child Mental Health,Child Mental Health,True
+ksads_1_187_t,Child Mental Health,Child Mental Health,True
+ksads_1_188_p,Child Mental Health,Child Mental Health,True
+ksads_1_188_t,Child Mental Health,Child Mental Health,True
+ksads_1_2_p,Child Mental Health,Child Mental Health,True
+ksads_1_2_t,Child Mental Health,Child Mental Health,True
+ksads_1_3_t,Child Mental Health,Child Mental Health,True
+ksads_1_4_p,Child Mental Health,Child Mental Health,True
+ksads_1_4_t,Child Mental Health,Child Mental Health,True
+ksads_1_5_t,Child Mental Health,Child Mental Health,True
+ksads_1_6_p,Child Mental Health,Child Mental Health,True
+ksads_1_6_t,Child Mental Health,Child Mental Health,True
+ksads_1_847_p,Child Mental Health,Child Mental Health,True
+ksads_1_847_t,Child Mental Health,Child Mental Health,True
+ksads_10_320_p,Child Mental Health,Child Mental Health,True
+ksads_10_321_p,Child Mental Health,Child Mental Health,True
+ksads_10_321_t,Child Mental Health,Child Mental Health,True
+ksads_10_322_p,Child Mental Health,Child Mental Health,True
+ksads_10_323_p,Child Mental Health,Child Mental Health,True
+ksads_10_323_t,Child Mental Health,Child Mental Health,True
+ksads_10_324_p,Child Mental Health,Child Mental Health,True
+ksads_10_325_p,Child Mental Health,Child Mental Health,True
+ksads_10_325_t,Child Mental Health,Child Mental Health,True
+ksads_10_326_p,Child Mental Health,Child Mental Health,True
+ksads_10_327_p,Child Mental Health,Child Mental Health,True
+ksads_10_327_t,Child Mental Health,Child Mental Health,True
+ksads_10_328_p,Child Mental Health,Child Mental Health,True
+ksads_10_329_p,Child Mental Health,Child Mental Health,True
+ksads_10_329_t,Child Mental Health,Child Mental Health,True
+ksads_10_330_p,Child Mental Health,Child Mental Health,True
+ksads_10_45_p,Child Mental Health,Child Mental Health,True
+ksads_10_46_p,Child Mental Health,Child Mental Health,True
+ksads_10_46_t,Child Mental Health,Child Mental Health,True
+ksads_10_47_p,Child Mental Health,Child Mental Health,True
+ksads_10_870_p,Child Mental Health,Child Mental Health,True
+ksads_10_914_p,Child Mental Health,Child Mental Health,True
+ksads_11_331_p,Child Mental Health,Child Mental Health,True
+ksads_11_332_p,Child Mental Health,Child Mental Health,True
+ksads_11_333_p,Child Mental Health,Child Mental Health,True
+ksads_11_334_p,Child Mental Health,Child Mental Health,True
+ksads_11_336_p,Child Mental Health,Child Mental Health,True
+ksads_11_337_p,Child Mental Health,Child Mental Health,True
+ksads_11_338_p,Child Mental Health,Child Mental Health,True
+ksads_11_339_p,Child Mental Health,Child Mental Health,True
+ksads_11_340_p,Child Mental Health,Child Mental Health,True
+ksads_11_341_p,Child Mental Health,Child Mental Health,True
+ksads_11_343_p,Child Mental Health,Child Mental Health,True
+ksads_11_344_p,Child Mental Health,Child Mental Health,True
+ksads_11_345_p,Child Mental Health,Child Mental Health,True
+ksads_11_346_p,Child Mental Health,Child Mental Health,True
+ksads_11_347_p,Child Mental Health,Child Mental Health,True
+ksads_11_348_p,Child Mental Health,Child Mental Health,True
+ksads_11_48_p,Child Mental Health,Child Mental Health,True
+ksads_11_49_p,Child Mental Health,Child Mental Health,True
+ksads_11_50_p,Child Mental Health,Child Mental Health,True
+ksads_11_51_p,Child Mental Health,Child Mental Health,True
+ksads_11_917_p,Child Mental Health,Child Mental Health,True
+ksads_11_918_p,Child Mental Health,Child Mental Health,True
+ksads_13_475_p,Child Mental Health,Child Mental Health,True
+ksads_13_476_p,Child Mental Health,Child Mental Health,True
+ksads_13_67_p,Child Mental Health,Child Mental Health,True
+ksads_13_68_p,Child Mental Health,Child Mental Health,True
+ksads_13_74_p,Child Mental Health,Child Mental Health,True
+ksads_13_941_p,Child Mental Health,Child Mental Health,True
+ksads_14_394_p,Child Mental Health,Child Mental Health,True
+ksads_14_395_p,Child Mental Health,Child Mental Health,True
+ksads_14_396_p,Child Mental Health,Child Mental Health,True
+ksads_14_397_p,Child Mental Health,Child Mental Health,True
+ksads_14_398_p,Child Mental Health,Child Mental Health,True
+ksads_14_399_p,Child Mental Health,Child Mental Health,True
+ksads_14_400_p,Child Mental Health,Child Mental Health,True
+ksads_14_401_p,Child Mental Health,Child Mental Health,True
+ksads_14_402_p,Child Mental Health,Child Mental Health,True
+ksads_14_403_p,Child Mental Health,Child Mental Health,True
+ksads_14_404_p,Child Mental Health,Child Mental Health,True
+ksads_14_405_p,Child Mental Health,Child Mental Health,True
+ksads_14_406_p,Child Mental Health,Child Mental Health,True
+ksads_14_407_p,Child Mental Health,Child Mental Health,True
+ksads_14_408_p,Child Mental Health,Child Mental Health,True
+ksads_14_409_p,Child Mental Health,Child Mental Health,True
+ksads_14_410_p,Child Mental Health,Child Mental Health,True
+ksads_14_411_p,Child Mental Health,Child Mental Health,True
+ksads_14_412_p,Child Mental Health,Child Mental Health,True
+ksads_14_413_p,Child Mental Health,Child Mental Health,True
+ksads_14_414_p,Child Mental Health,Child Mental Health,True
+ksads_14_415_p,Child Mental Health,Child Mental Health,True
+ksads_14_416_p,Child Mental Health,Child Mental Health,True
+ksads_14_417_p,Child Mental Health,Child Mental Health,True
+ksads_14_418_p,Child Mental Health,Child Mental Health,True
+ksads_14_419_p,Child Mental Health,Child Mental Health,True
+ksads_14_420_p,Child Mental Health,Child Mental Health,True
+ksads_14_421_p,Child Mental Health,Child Mental Health,True
+ksads_14_422_p,Child Mental Health,Child Mental Health,True
+ksads_14_423_p,Child Mental Health,Child Mental Health,True
+ksads_14_424_p,Child Mental Health,Child Mental Health,True
+ksads_14_425_p,Child Mental Health,Child Mental Health,True
+ksads_14_429_p,Child Mental Health,Child Mental Health,True
+ksads_14_430_p,Child Mental Health,Child Mental Health,True
+ksads_14_76_p,Child Mental Health,Child Mental Health,True
+ksads_14_77_p,Child Mental Health,Child Mental Health,True
+ksads_14_78_p,Child Mental Health,Child Mental Health,True
+ksads_14_79_p,Child Mental Health,Child Mental Health,True
+ksads_14_80_p,Child Mental Health,Child Mental Health,True
+ksads_14_81_p,Child Mental Health,Child Mental Health,True
+ksads_14_82_p,Child Mental Health,Child Mental Health,True
+ksads_14_83_p,Child Mental Health,Child Mental Health,True
+ksads_14_84_p,Child Mental Health,Child Mental Health,True
+ksads_14_85_p,Child Mental Health,Child Mental Health,True
+ksads_14_86_p,Child Mental Health,Child Mental Health,True
+ksads_14_87_p,Child Mental Health,Child Mental Health,True
+ksads_14_88_p,Child Mental Health,Child Mental Health,True
+ksads_14_89_p,Child Mental Health,Child Mental Health,True
+ksads_14_90_p,Child Mental Health,Child Mental Health,True
+ksads_15_432_p,Child Mental Health,Child Mental Health,True
+ksads_15_433_p,Child Mental Health,Child Mental Health,True
+ksads_15_434_p,Child Mental Health,Child Mental Health,True
+ksads_15_435_p,Child Mental Health,Child Mental Health,True
+ksads_15_436_p,Child Mental Health,Child Mental Health,True
+ksads_15_437_p,Child Mental Health,Child Mental Health,True
+ksads_15_438_p,Child Mental Health,Child Mental Health,True
+ksads_15_439_p,Child Mental Health,Child Mental Health,True
+ksads_15_440_p,Child Mental Health,Child Mental Health,True
+ksads_15_441_p,Child Mental Health,Child Mental Health,True
+ksads_15_442_p,Child Mental Health,Child Mental Health,True
+ksads_15_443_p,Child Mental Health,Child Mental Health,True
+ksads_15_444_p,Child Mental Health,Child Mental Health,True
+ksads_15_445_p,Child Mental Health,Child Mental Health,True
+ksads_15_901_p,Child Mental Health,Child Mental Health,True
+ksads_15_902_p,Child Mental Health,Child Mental Health,True
+ksads_15_91_p,Child Mental Health,Child Mental Health,True
+ksads_15_92_p,Child Mental Health,Child Mental Health,True
+ksads_15_93_p,Child Mental Health,Child Mental Health,True
+ksads_15_94_p,Child Mental Health,Child Mental Health,True
+ksads_15_95_p,Child Mental Health,Child Mental Health,True
+ksads_15_96_p,Child Mental Health,Child Mental Health,True
+ksads_15_97_p,Child Mental Health,Child Mental Health,True
+ksads_16_104_p,Child Mental Health,Child Mental Health,True
+ksads_16_105_p,Child Mental Health,Child Mental Health,True
+ksads_16_448_p,Child Mental Health,Child Mental Health,True
+ksads_16_461_p,Child Mental Health,Child Mental Health,True
+ksads_16_462_p,Child Mental Health,Child Mental Health,True
+ksads_16_897_p,Child Mental Health,Child Mental Health,True
+ksads_16_98_p,Child Mental Health,Child Mental Health,True
+ksads_16_99_p,Child Mental Health,Child Mental Health,True
+ksads_18_112_p,Child Mental Health,Child Mental Health,True
+ksads_18_113_p,Child Mental Health,Child Mental Health,True
+ksads_18_114_p,Child Mental Health,Child Mental Health,True
+ksads_18_115_p,Child Mental Health,Child Mental Health,True
+ksads_18_116_p,Child Mental Health,Child Mental Health,True
+ksads_18_117_p,Child Mental Health,Child Mental Health,True
+ksads_18_903_p,Child Mental Health,Child Mental Health,True
+ksads_2_10_p,Child Mental Health,Child Mental Health,True
+ksads_2_10_t,Child Mental Health,Child Mental Health,True
+ksads_2_11_p,Child Mental Health,Child Mental Health,True
+ksads_2_11_t,Child Mental Health,Child Mental Health,True
+ksads_2_12_t,Child Mental Health,Child Mental Health,True
+ksads_2_13_t,Child Mental Health,Child Mental Health,True
+ksads_2_196_p,Child Mental Health,Child Mental Health,True
+ksads_2_196_t,Child Mental Health,Child Mental Health,True
+ksads_2_198_p,Child Mental Health,Child Mental Health,True
+ksads_2_198_t,Child Mental Health,Child Mental Health,True
+ksads_2_200_p,Child Mental Health,Child Mental Health,True
+ksads_2_200_t,Child Mental Health,Child Mental Health,True
+ksads_2_202_p,Child Mental Health,Child Mental Health,True
+ksads_2_202_t,Child Mental Health,Child Mental Health,True
+ksads_2_204_p,Child Mental Health,Child Mental Health,True
+ksads_2_204_t,Child Mental Health,Child Mental Health,True
+ksads_2_206_p,Child Mental Health,Child Mental Health,True
+ksads_2_206_t,Child Mental Health,Child Mental Health,True
+ksads_2_207_p,Child Mental Health,Child Mental Health,True
+ksads_2_207_t,Child Mental Health,Child Mental Health,True
+ksads_2_208_p,Child Mental Health,Child Mental Health,True
+ksads_2_208_t,Child Mental Health,Child Mental Health,True
+ksads_2_211_p,Child Mental Health,Child Mental Health,True
+ksads_2_211_t,Child Mental Health,Child Mental Health,True
+ksads_2_212_p,Child Mental Health,Child Mental Health,True
+ksads_2_214_p,Child Mental Health,Child Mental Health,True
+ksads_2_214_t,Child Mental Health,Child Mental Health,True
+ksads_2_215_p,Child Mental Health,Child Mental Health,True
+ksads_2_215_t,Child Mental Health,Child Mental Health,True
+ksads_2_216_p,Child Mental Health,Child Mental Health,True
+ksads_2_216_t,Child Mental Health,Child Mental Health,True
+ksads_2_219_p,Child Mental Health,Child Mental Health,True
+ksads_2_219_t,Child Mental Health,Child Mental Health,True
+ksads_2_220_p,Child Mental Health,Child Mental Health,True
+ksads_2_220_t,Child Mental Health,Child Mental Health,True
+ksads_2_221_p,Child Mental Health,Child Mental Health,True
+ksads_2_221_t,Child Mental Health,Child Mental Health,True
+ksads_2_222_p,Child Mental Health,Child Mental Health,True
+ksads_2_222_t,Child Mental Health,Child Mental Health,True
+ksads_2_7_p,Child Mental Health,Child Mental Health,True
+ksads_2_7_t,Child Mental Health,Child Mental Health,True
+ksads_2_8_p,Child Mental Health,Child Mental Health,True
+ksads_2_8_t,Child Mental Health,Child Mental Health,True
+ksads_2_839_p,Child Mental Health,Child Mental Health,True
+ksads_2_839_t,Child Mental Health,Child Mental Health,True
+ksads_2_9_p,Child Mental Health,Child Mental Health,True
+ksads_2_9_t,Child Mental Health,Child Mental Health,True
+ksads_20_126_p,Child Mental Health,Child Mental Health,True
+ksads_21_134_p,Child Mental Health,Child Mental Health,True
+ksads_21_136_p,Child Mental Health,Child Mental Health,True
+ksads_21_138_p,Child Mental Health,Child Mental Health,True
+ksads_21_140_p,Child Mental Health,Child Mental Health,True
+ksads_21_350_p,Child Mental Health,Child Mental Health,True
+ksads_21_352_p,Child Mental Health,Child Mental Health,True
+ksads_21_354_p,Child Mental Health,Child Mental Health,True
+ksads_21_360_p,Child Mental Health,Child Mental Health,True
+ksads_21_362_p,Child Mental Health,Child Mental Health,True
+ksads_21_366_p,Child Mental Health,Child Mental Health,True
+ksads_21_372_p,Child Mental Health,Child Mental Health,True
+ksads_21_378_p,Child Mental Health,Child Mental Health,True
+ksads_21_380_p,Child Mental Health,Child Mental Health,True
+ksads_21_382_p,Child Mental Health,Child Mental Health,True
+ksads_21_385_p,Child Mental Health,Child Mental Health,True
+ksads_21_386_p,Child Mental Health,Child Mental Health,True
+ksads_21_387_p,Child Mental Health,Child Mental Health,True
+ksads_21_388_p,Child Mental Health,Child Mental Health,True
+ksads_21_390_p,Child Mental Health,Child Mental Health,True
+ksads_21_391_p,Child Mental Health,Child Mental Health,True
+ksads_21_392_p,Child Mental Health,Child Mental Health,True
+ksads_21_924_p,Child Mental Health,Child Mental Health,True
+ksads_22_141_p,Child Mental Health,Child Mental Health,True
+ksads_22_141_t,Child Mental Health,Child Mental Health,True
+ksads_22_142_p,Child Mental Health,Child Mental Health,True
+ksads_22_142_t,Child Mental Health,Child Mental Health,True
+ksads_22_969_p,Child Mental Health,Child Mental Health,True
+ksads_22_969_t,Child Mental Health,Child Mental Health,True
+ksads_22_970_p,Child Mental Health,Child Mental Health,True
+ksads_22_970_t,Child Mental Health,Child Mental Health,True
+ksads_23_143_t,Child Mental Health,Child Mental Health,True
+ksads_23_144_p,Child Mental Health,Child Mental Health,True
+ksads_23_144_t,Child Mental Health,Child Mental Health,True
+ksads_23_146_p,Child Mental Health,Child Mental Health,True
+ksads_23_146_t,Child Mental Health,Child Mental Health,True
+ksads_23_148_p,Child Mental Health,Child Mental Health,True
+ksads_23_148_t,Child Mental Health,Child Mental Health,True
+ksads_23_945_t,Child Mental Health,Child Mental Health,True
+ksads_23_956_p,Child Mental Health,Child Mental Health,True
+ksads_23_956_t,Child Mental Health,Child Mental Health,True
+ksads_23_957_p,Child Mental Health,Child Mental Health,True
+ksads_23_957_t,Child Mental Health,Child Mental Health,True
+ksads_23_958_p,Child Mental Health,Child Mental Health,True
+ksads_23_958_t,Child Mental Health,Child Mental Health,True
+ksads_3_226_p,Child Mental Health,Child Mental Health,True
+ksads_3_227_p,Child Mental Health,Child Mental Health,True
+ksads_3_229_p,Child Mental Health,Child Mental Health,True
+ksads_4_17_p,Child Mental Health,Child Mental Health,True
+ksads_4_233_p,Child Mental Health,Child Mental Health,True
+ksads_4_234_p,Child Mental Health,Child Mental Health,True
+ksads_4_242_p,Child Mental Health,Child Mental Health,True
+ksads_4_255_p,Child Mental Health,Child Mental Health,True
+ksads_5_20_p,Child Mental Health,Child Mental Health,True
+ksads_5_21_p,Child Mental Health,Child Mental Health,True
+ksads_5_262_p,Child Mental Health,Child Mental Health,True
+ksads_7_25_p,Child Mental Health,Child Mental Health,True
+ksads_7_27_p,Child Mental Health,Child Mental Health,True
+ksads_7_282_p,Child Mental Health,Child Mental Health,True
+ksads_7_284_p,Child Mental Health,Child Mental Health,True
+ksads_7_286_p,Child Mental Health,Child Mental Health,True
+ksads_7_288_p,Child Mental Health,Child Mental Health,True
+ksads_7_290_p,Child Mental Health,Child Mental Health,True
+ksads_7_292_p,Child Mental Health,Child Mental Health,True
+ksads_7_294_p,Child Mental Health,Child Mental Health,True
+ksads_7_296_p,Child Mental Health,Child Mental Health,True
+ksads_7_298_p,Child Mental Health,Child Mental Health,True
+ksads_7_300_p,Child Mental Health,Child Mental Health,True
+ksads_7_862_p,Child Mental Health,Child Mental Health,True
+ksads_7_910_p,Child Mental Health,Child Mental Health,True
+ksads_8_302_p,Child Mental Health,Child Mental Health,True
+ksads_8_302_t,Child Mental Health,Child Mental Health,True
+ksads_8_304_p,Child Mental Health,Child Mental Health,True
+ksads_8_304_t,Child Mental Health,Child Mental Health,True
+ksads_8_308_p,Child Mental Health,Child Mental Health,True
+ksads_8_308_t,Child Mental Health,Child Mental Health,True
+ksads_8_31_p,Child Mental Health,Child Mental Health,True
+ksads_8_31_t,Child Mental Health,Child Mental Health,True
+ksads_8_310_p,Child Mental Health,Child Mental Health,True
+ksads_8_310_t,Child Mental Health,Child Mental Health,True
+ksads_8_312_p,Child Mental Health,Child Mental Health,True
+ksads_8_312_t,Child Mental Health,Child Mental Health,True
+ksads_8_313_p,Child Mental Health,Child Mental Health,True
+ksads_8_864_p,Child Mental Health,Child Mental Health,True
+ksads_9_34_p,Child Mental Health,Child Mental Health,True
+ksads_9_35_p,Child Mental Health,Child Mental Health,True
+ksads_9_36_p,Child Mental Health,Child Mental Health,True
+ksads_9_37_p,Child Mental Health,Child Mental Health,True
+ksads_9_38_p,Child Mental Health,Child Mental Health,True
+ksads_9_39_p,Child Mental Health,Child Mental Health,True
+ksads_9_40_p,Child Mental Health,Child Mental Health,True
+ksads_9_41_p,Child Mental Health,Child Mental Health,True
+ksads_9_42_p,Child Mental Health,Child Mental Health,True
+ksads_9_43_p,Child Mental Health,Child Mental Health,True
+ksads_9_44_p,Child Mental Health,Child Mental Health,True
+ksads_9_867_p,Child Mental Health,Child Mental Health,True
+ksads_9_868_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_754_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_755_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_756_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_757_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_766_p,Child Mental Health,Child Mental Health,True
+ksads_ptsd_raw_770_p,Child Mental Health,Child Mental Health,True
+pgbi_p_ss_score,Child Mental Health,Child Mental Health,True
+pps_1_bother_yn,Child Mental Health,Child Mental Health,True
+pps_10_bother_yn,Child Mental Health,Child Mental Health,True
+pps_11_bother_yn,Child Mental Health,Child Mental Health,True
+pps_12_bother_yn,Child Mental Health,Child Mental Health,True
+pps_13_bother_yn,Child Mental Health,Child Mental Health,True
+pps_14_bother_yn,Child Mental Health,Child Mental Health,True
+pps_15_bother_yn,Child Mental Health,Child Mental Health,True
+pps_16_bother_yn,Child Mental Health,Child Mental Health,True
+pps_17_bother_yn,Child Mental Health,Child Mental Health,True
+pps_18_bother_yn,Child Mental Health,Child Mental Health,True
+pps_19_bother_yn,Child Mental Health,Child Mental Health,True
+pps_2_bother_yn,Child Mental Health,Child Mental Health,True
+pps_20_bother_yn,Child Mental Health,Child Mental Health,True
+pps_21_bother_yn,Child Mental Health,Child Mental Health,True
+pps_3_bother_yn,Child Mental Health,Child Mental Health,True
+pps_6_bother_yn,Child Mental Health,Child Mental Health,True
+pps_8_bother_yn,Child Mental Health,Child Mental Health,True
+pps_9_bother_yn,Child Mental Health,Child Mental Health,True
+pps_ss_mean_severity,Child Mental Health,Child Mental Health,True
+pps_y_ss_bother_sum,Child Mental Health,Child Mental Health,True
+pps_y_ss_number,Child Mental Health,Child Mental Health,True
+pps_y_ss_severity_score,Child Mental Health,Child Mental Health,True
+prodromal_1_y,Child Mental Health,Child Mental Health,True
+prodromal_10_y,Child Mental Health,Child Mental Health,True
+prodromal_10b_y,Child Mental Health,Child Mental Health,True
+prodromal_11_y,Child Mental Health,Child Mental Health,True
+prodromal_11b_y,Child Mental Health,Child Mental Health,True
+prodromal_12_y,Child Mental Health,Child Mental Health,True
+prodromal_12b_y,Child Mental Health,Child Mental Health,True
+prodromal_13_y,Child Mental Health,Child Mental Health,True
+prodromal_13b_y,Child Mental Health,Child Mental Health,True
+prodromal_14_y,Child Mental Health,Child Mental Health,True
+prodromal_14b_y,Child Mental Health,Child Mental Health,True
+prodromal_15_y,Child Mental Health,Child Mental Health,True
+prodromal_15b_y,Child Mental Health,Child Mental Health,True
+prodromal_16_y,Child Mental Health,Child Mental Health,True
+prodromal_17_y,Child Mental Health,Child Mental Health,True
+prodromal_17b_y,Child Mental Health,Child Mental Health,True
+prodromal_18_y,Child Mental Health,Child Mental Health,True
+prodromal_18b_y,Child Mental Health,Child Mental Health,True
+prodromal_19_y,Child Mental Health,Child Mental Health,True
+prodromal_19b_y,Child Mental Health,Child Mental Health,True
+prodromal_1b_y,Child Mental Health,Child Mental Health,True
+prodromal_2_y,Child Mental Health,Child Mental Health,True
+prodromal_20_y,Child Mental Health,Child Mental Health,True
+prodromal_20b_y,Child Mental Health,Child Mental Health,True
+prodromal_21_y,Child Mental Health,Child Mental Health,True
+prodromal_21b_y,Child Mental Health,Child Mental Health,True
+prodromal_2b_y,Child Mental Health,Child Mental Health,True
+prodromal_3_y,Child Mental Health,Child Mental Health,True
+prodromal_3b_y,Child Mental Health,Child Mental Health,True
+prodromal_4_y,Child Mental Health,Child Mental Health,True
+prodromal_5_y,Child Mental Health,Child Mental Health,True
+prodromal_5b_y,Child Mental Health,Child Mental Health,True
+prodromal_6_y,Child Mental Health,Child Mental Health,True
+prodromal_6b_y,Child Mental Health,Child Mental Health,True
+prodromal_7_y,Child Mental Health,Child Mental Health,True
+prodromal_8_y,Child Mental Health,Child Mental Health,True
+prodromal_8b_y,Child Mental Health,Child Mental Health,True
+prodromal_9_y,Child Mental Health,Child Mental Health,True
+prodromal_9b_y,Child Mental Health,Child Mental Health,True
+resiliency5a_y,Child Mental Health,Child Mental Health,True
+resiliency5b_y,Child Mental Health,Child Mental Health,True
+resiliency6a_y,Child Mental Health,Child Mental Health,True
+resiliency6b_y,Child Mental Health,Child Mental Health,True
+upps_y_ss_lack_of_perseverance,Child Mental Health,Child Mental Health,True
+upps_y_ss_lack_of_planning,Child Mental Health,Child Mental Health,True
+upps_y_ss_negative_urgency,Child Mental Health,Child Mental Health,True
+upps_y_ss_positive_urgency,Child Mental Health,Child Mental Health,True
+upps_y_ss_sensation_seeking,Child Mental Health,Child Mental Health,True
+upps11_y,Child Mental Health,Child Mental Health,True
+upps12_y,Child Mental Health,Child Mental Health,True
+upps15_y,Child Mental Health,Child Mental Health,True
+upps16_y,Child Mental Health,Child Mental Health,True
+upps17_y,Child Mental Health,Child Mental Health,True
+upps18_y,Child Mental Health,Child Mental Health,True
+upps19_y,Child Mental Health,Child Mental Health,True
+upps20_y,Child Mental Health,Child Mental Health,True
+upps21_y,Child Mental Health,Child Mental Health,True
+upps22_y,Child Mental Health,Child Mental Health,True
+upps23_y,Child Mental Health,Child Mental Health,True
+upps24_y,Child Mental Health,Child Mental Health,True
+upps27_y,Child Mental Health,Child Mental Health,True
+upps28_y,Child Mental Health,Child Mental Health,True
+upps35_y,Child Mental Health,Child Mental Health,True
+upps36_y,Child Mental Health,Child Mental Health,True
+upps37_y,Child Mental Health,Child Mental Health,True
+upps39_y,Child Mental Health,Child Mental Health,True
+upps6_y,Child Mental Health,Child Mental Health,True
+upps7_y,Child Mental Health,Child Mental Health,True
+screentime_1_wkdy_composit,Screen Time,Screen Time,True
+screentime_1_wkdy_composit_p,Screen Time,Screen Time,True
+screentime_1_wknd_composit_p,Screen Time,Screen Time,True
+screentime_10_wknd_composit,Screen Time,Screen Time,True
+screentime_11_wknd_composit,Screen Time,Screen Time,True
+screentime_12_wknd_composit,Screen Time,Screen Time,True
+screentime_13_wknd_composit,Screen Time,Screen Time,True
+screentime_14_wknd_composit,Screen Time,Screen Time,True
+screentime_15_wknd_composit,Screen Time,Screen Time,True
+screentime_2_wkdy_composit,Screen Time,Screen Time,True
+screentime_3_wkdy_composit,Screen Time,Screen Time,True
+screentime_4_wkdy_composit,Screen Time,Screen Time,True
+screentime_5_wkdy_composit,Screen Time,Screen Time,True
+screentime_6_wkdy_composit,Screen Time,Screen Time,True
+screentime_7_wkdy_composit,Screen Time,Screen Time,True
+screentime_7_wknd_composit,Screen Time,Screen Time,True
+screentime_8_wkdy_composit,Screen Time,Screen Time,True
+screentime_8_wknd_composit,Screen Time,Screen Time,True
+screentime_9_wkdy_composit,Screen Time,Screen Time,True
+screentime_9_wknd_composit,Screen Time,Screen Time,True
+screentime_device_cell_age_p,Screen Time,Screen Time,True
+screentime_device_cell_no_p,Screen Time,Screen Time,True
+screentime_device_p__0,Screen Time,Screen Time,True
+screentime_device_p__1,Screen Time,Screen Time,True
+screentime_device_p__2,Screen Time,Screen Time,True
+screentime_device_p__3,Screen Time,Screen Time,True
+screentime_device_p__4,Screen Time,Screen Time,True
+screentime_device_p__6,Screen Time,Screen Time,True
+screentime_device_wifi_p,Screen Time,Screen Time,True
+screentime_following_child_p,Screen Time,Screen Time,True
+screentime_online_1_p,Screen Time,Screen Time,True
+screentime_online_2_p,Screen Time,Screen Time,True
+screentime_online_3_p,Screen Time,Screen Time,True
+screentime_phone_scale,Screen Time,Screen Time,True
+screentime_phone_yn,Screen Time,Screen Time,True
+screentime_phone1,Screen Time,Screen Time,True
+screentime_phone2,Screen Time,Screen Time,True
+screentime_phone3,Screen Time,Screen Time,True
+screentime_phone4,Screen Time,Screen Time,True
+screentime_phone5,Screen Time,Screen Time,True
+screentime_phone6,Screen Time,Screen Time,True
+screentime_phone7,Screen Time,Screen Time,True
+screentime_phone8,Screen Time,Screen Time,True
+screentime_pmum_short_1_p,Screen Time,Screen Time,True
+screentime_pmum_short_2_p,Screen Time,Screen Time,True
+screentime_pmum_short_3_p,Screen Time,Screen Time,True
+screentime_pmum_short_4_p,Screen Time,Screen Time,True
+screentime_pmum_short_5_p,Screen Time,Screen Time,True
+screentime_pmum_short_6_p,Screen Time,Screen Time,True
+screentime_pmum_short_7_p,Screen Time,Screen Time,True
+screentime_pmum_short_8_p,Screen Time,Screen Time,True
+screentime_pmum_short_9_p,Screen Time,Screen Time,True
+screentime_scrn_media_p__1,Screen Time,Screen Time,True
+screentime_scrn_media_p__2,Screen Time,Screen Time,True
+screentime_scrn_media_p__3,Screen Time,Screen Time,True
+screentime_scrn_media_p__4,Screen Time,Screen Time,True
+screentime_scrn_media_p__5,Screen Time,Screen Time,True
+screentime_scrn_media_p__6,Screen Time,Screen Time,True
+screentime_secs_media_p,Screen Time,Screen Time,True
+screentime_smq_account,Screen Time,Screen Time,True
+screentime_smq_facebook,Screen Time,Screen Time,True
+screentime_smq_followers,Screen Time,Screen Time,True
+screentime_smq_following,Screen Time,Screen Time,True
+screentime_smq_instagram,Screen Time,Screen Time,True
+screentime_smq_mg_chat,Screen Time,Screen Time,True
+screentime_smq_musical_ly,Screen Time,Screen Time,True
+screentime_smq_other,Screen Time,Screen Time,True
+screentime_smq_pinterest,Screen Time,Screen Time,True
+screentime_smq_reddit,Screen Time,Screen Time,True
+screentime_smq_snapchat,Screen Time,Screen Time,True
+screentime_smq_soc_med_composit,Screen Time,Screen Time,True
+screentime_smq_twitter,Screen Time,Screen Time,True
+screentime_smq_youtube,Screen Time,Screen Time,True
+screentime_smqa1,Screen Time,Screen Time,True
+screentime_smqa2,Screen Time,Screen Time,True
+screentime_smqa3,Screen Time,Screen Time,True
+screentime_smqa4,Screen Time,Screen Time,True
+screentime_smqa5,Screen Time,Screen Time,True
+screentime_smqa6,Screen Time,Screen Time,True
+screentime_sq1,Screen Time,Screen Time,True
+screentime_sq10,Screen Time,Screen Time,True
+screentime_sq11,Screen Time,Screen Time,True
+screentime_sq12,Screen Time,Screen Time,True
+screentime_sq13,Screen Time,Screen Time,True
+screentime_sq2_outside,Screen Time,Screen Time,True
+screentime_sq2_phoneoff,Screen Time,Screen Time,True
+screentime_sq2_ringeron,Screen Time,Screen Time,True
+screentime_sq2_silent,Screen Time,Screen Time,True
+screentime_sq3,Screen Time,Screen Time,True
+screentime_sq4,Screen Time,Screen Time,True
+screentime_sq5,Screen Time,Screen Time,True
+screentime_sq6,Screen Time,Screen Time,True
+screentime_sq7,Screen Time,Screen Time,True
+screentime_sq8,Screen Time,Screen Time,True
+screentime_sq9,Screen Time,Screen Time,True
+screentime_usesoc,Screen Time,Screen Time,True
+screentime_vgaq1,Screen Time,Screen Time,True
+screentime_vgaq2,Screen Time,Screen Time,True
+screentime_vgaq3,Screen Time,Screen Time,True
+screentime_vgaq4,Screen Time,Screen Time,True
+screentime_vgaq5,Screen Time,Screen Time,True
+screentime_vgaq6,Screen Time,Screen Time,True
+screentime_wkdy_school_composit,Screen Time,Screen Time,True
+screentime_wkdy_typical_composit,Screen Time,Screen Time,True
+screentime_wknd_typical_composit,Screen Time,Screen Time,True
+demo_child_time_v2_l,Demographics,Demographics,True
+demo_comb_income_v2_l,Demographics,Demographics,True
+demo_ed_v2_l,Demographics,Demographics,True
+demo_fam_exp1_v2_l,Demographics,Demographics,True
+demo_fam_exp3_v2_l,Demographics,Demographics,True
+demo_fam_exp5_v2_l,Demographics,Demographics,True
+demo_fam_exp6_v2_l,Demographics,Demographics,True
+demo_fam_exp7_v2_l,Demographics,Demographics,True
+demo_med_insur_a_p,Demographics,Demographics,True
+demo_med_insur_b_p,Demographics,Demographics,True
+demo_med_insur_d_p,Demographics,Demographics,True
+demo_med_insur_e_p,Demographics,Demographics,True
+demo_prnt_age_v2_l,Demographics,Demographics,True
+demo_prnt_ed_v2_2yr_l,Demographics,Demographics,True
+demo_prnt_empl_v2_l,Demographics,Demographics,True
+demo_prnt_income_v2_l,Demographics,Demographics,True
+demo_prnt_prtnr_bio_l,Demographics,Demographics,True
+demo_prnt_prtnr_v2_l,Demographics,Demographics,True
+demo_prtnr_ed_v2_2yr_l,Demographics,Demographics,True
+demo_prtnr_empl_v2_l,Demographics,Demographics,True
+demo_prtnr_income_v2_l,Demographics,Demographics,True
+demo_roster_v2_l,Demographics,Demographics,True
+demo_yrs_1_l,Demographics,Demographics,True
+demo_yrs_2_l,Demographics,Demographics,True
+demo_yrs_2a_l,Demographics,Demographics,True
+demo_yrs_2b_l,Demographics,Demographics,True
+aeq_negative_expectancies_ss,Substance,Substance,True
+aeq_positive_expectancies_ss,Substance,Substance,True
+aeq_section_q01,Substance,Substance,True
+aeq_section_q02,Substance,Substance,True
+aeq_section_q03,Substance,Substance,True
+aeq_section_q04,Substance,Substance,True
+aeq_section_q05,Substance,Substance,True
+aeq_section_q06,Substance,Substance,True
+aeq_section_q07,Substance,Substance,True
+ascq_section_q01,Substance,Substance,True
+ascq_section_q02,Substance,Substance,True
+ascq_section_q03,Substance,Substance,True
+ascq_section_q04,Substance,Substance,True
+ascq_section_q05,Substance,Substance,True
+ascq_section_q06,Substance,Substance,True
+caff_max_yn_l,Substance,Substance,True
+isip_1b_yn_l2,Substance,Substance,True
+isip_1d_l,Substance,Substance,True
+meeq_negative_expectancies_ss,Substance,Unclassified,False
+meeq_positive_expectancies_ss,Substance,Unclassified,False
+meeq_section_q01,Substance,Unclassified,False
+meeq_section_q02,Substance,Unclassified,False
+meeq_section_q03,Substance,Unclassified,False
+meeq_section_q04,Substance,Unclassified,False
+meeq_section_q05,Substance,Unclassified,False
+meeq_section_q06,Substance,Unclassified,False
+path_alc_youth1_l,Substance,Substance,True
+path_alc_youth2_l,Substance,Substance,True
+path_alc_youth3_l,Substance,Substance,True
+path_alc_youth4_l,Substance,Substance,True
+path_alc_youth5_l,Substance,Substance,True
+path_alc_youth6_l,Substance,Substance,True
+path_alc_youth7_l,Substance,Substance,True
+path_alc_youth8_l,Substance,Substance,True
+path_alc_youth9_l,Substance,Substance,True
+peer_deviance_2_l,Substance,Substance,True
+peer_deviance_9_l,Substance,Substance,True
+phs_1_y,Substance,Unclassified,False
+phs_10_y,Substance,Unclassified,False
+phs_11_y,Substance,Unclassified,False
+phs_12_y,Substance,Unclassified,False
+phs_13_y,Substance,Unclassified,False
+phs_14_y,Substance,Unclassified,False
+phs_15_y,Substance,Unclassified,False
+phs_16_y,Substance,Unclassified,False
+phs_2_y,Substance,Unclassified,False
+phs_3_y,Substance,Unclassified,False
+phs_4_y,Substance,Unclassified,False
+phs_5_y,Substance,Unclassified,False
+phs_6_y,Substance,Unclassified,False
+phs_7_y,Substance,Unclassified,False
+phs_8_y,Substance,Unclassified,False
+phs_9_y,Substance,Unclassified,False
+ptu_a_y,Substance,Unclassified,False
+ptu_b_y,Substance,Unclassified,False
+ptu_c_y,Substance,Unclassified,False
+ptu_d_y,Substance,Unclassified,False
+ptu_e_y,Substance,Unclassified,False
+ptu_f_y,Substance,Unclassified,False
+ptu_g_y,Substance,Unclassified,False
+ptu_h_y,Substance,Unclassified,False
+ptu_i_y,Substance,Unclassified,False
+ptu_j_y,Substance,Unclassified,False
+ptu_k_y,Substance,Unclassified,False
+ptu_l_y,Substance,Unclassified,False
+ptu_m_y,Substance,Unclassified,False
+ptu_n_y,Substance,Unclassified,False
+ptu_o_y,Substance,Unclassified,False
+ptu_p_y,Substance,Unclassified,False
+su_caff_intake_1_calc_l,Substance,Substance,True
+su_caff_intake_3_calc_l,Substance,Substance,True
+su_caff_intake_4_calc_l,Substance,Substance,True
+su_caff_intake_6_calc_l,Substance,Substance,True
+su_caff_intake_9_calc_l,Substance,Substance,True
+su_caff_max_calc_l,Substance,Substance,True
+su_caff_ss_sum_calc_l,Substance,Substance,True
+su_crpf_avail_1,Substance,Substance,True
+su_crpf_avail_10,Substance,Substance,True
+su_crpf_avail_11,Substance,Substance,True
+su_crpf_avail_12,Substance,Substance,True
+su_crpf_avail_13,Substance,Substance,True
+su_crpf_avail_2,Substance,Substance,True
+su_crpf_avail_3,Substance,Substance,True
+su_crpf_avail_4,Substance,Substance,True
+su_crpf_avail_5,Substance,Substance,True
+su_crpf_avail_6,Substance,Substance,True
+su_crpf_avail_7,Substance,Substance,True
+su_crpf_avail_8,Substance,Substance,True
+su_crpf_avail_9,Substance,Substance,True
+su_isip_1_calc_l,Substance,Substance,True
+su_isip_1b_calc_l,Substance,Substance,True
+tlfb_alc_sip_l2,Substance,Substance,True
+tlfb_bitta_l2,Substance,Substance,True
+tlfb_inhalant_l2,Substance,Substance,True
+tlfb_list_l2___1,Substance,Substance,True
+tlfb_list_l2___12,Substance,Substance,True
+tlfb_list_l2___18,Substance,Substance,True
+tlfb_list_l2___3,Substance,Substance,True
+tlfb_list_l2___7,Substance,Substance,True
+tlfb_list_yes_no_l2,Substance,Substance,True
+tlfb_mj_l2,Substance,Substance,True
+tlfb_mj_synth_l2,Substance,Substance,True
+tlfb_rx_misuse_l2,Substance,Substance,True
+comc_phenx_budget_p,Substance,Unclassified,False
+comc_phenx_close_knit_p,Substance,Unclassified,False
+comc_phenx_disrespect_p,Substance,Unclassified,False
+comc_phenx_fight_p,Substance,Unclassified,False
+comc_phenx_get_along_p,Substance,Unclassified,False
+comc_phenx_graffiti_p,Substance,Unclassified,False
+comc_phenx_help_p,Substance,Unclassified,False
+comc_phenx_share_values_p,Substance,Unclassified,False
+comc_phenx_skip_p,Substance,Unclassified,False
+comc_phenx_trusted_p,Substance,Unclassified,False
+comc_ss_cohesion_p,Substance,Unclassified,False
+comc_ss_collective_capacity_p,Substance,Unclassified,False
+comc_ss_control_p,Substance,Unclassified,False
+cybb_phenx_harm,Substance,Unclassified,False
+cybb_phenx_harm_12mo,Substance,Unclassified,False
+cybb_phenx_harm_often,Substance,Unclassified,False
+cybb_phenx_power,Substance,Unclassified,False
+dim_matrix_q1,Substance,Unclassified,False
+dim_matrix_q2,Substance,Unclassified,False
+dim_matrix_q3,Substance,Unclassified,False
+dim_matrix_q4,Substance,Unclassified,False
+dim_matrix_q5,Substance,Unclassified,False
+dim_matrix_q6,Substance,Unclassified,False
+dim_matrix_q7,Substance,Unclassified,False
+dim_y_ss_mean,Substance,Unclassified,False
+dim_yesno_q1,Substance,Unclassified,False
+dim_yesno_q3,Substance,Unclassified,False
+dim_yesno_q4,Substance,Unclassified,False
+fes_1_p,Substance,Culture/Environment,False
+fes_11r_p,Substance,Culture/Environment,False
+fes_12_p,Substance,Culture/Environment,False
+fes_16r_p,Substance,Culture/Environment,False
+fes_17_p,Substance,Culture/Environment,False
+fes_19_p,Substance,Culture/Environment,False
+fes_21_p,Substance,Culture/Environment,False
+fes_22_p,Substance,Culture/Environment,False
+fes_26_p,Substance,Culture/Environment,False
+fes_27r_p,Substance,Culture/Environment,False
+fes_29r_p,Substance,Culture/Environment,False
+fes_2r_p,Substance,Culture/Environment,False
+fes_31_p,Substance,Culture/Environment,False
+fes_32_p,Substance,Culture/Environment,False
+fes_36r_p,Substance,Culture/Environment,False
+fes_37_p,Substance,Culture/Environment,False
+fes_39_p,Substance,Culture/Environment,False
+fes_41r_p,Substance,Culture/Environment,False
+fes_42_p,Substance,Culture/Environment,False
+fes_46r_p,Substance,Culture/Environment,False
+fes_47_p,Substance,Culture/Environment,False
+fes_49r_p,Substance,Culture/Environment,False
+fes_51_p,Substance,Culture/Environment,False
+fes_52r_p,Substance,Culture/Environment,False
+fes_56_p,Substance,Culture/Environment,False
+fes_57r_p,Substance,Culture/Environment,False
+fes_59_p,Substance,Culture/Environment,False
+fes_6_p,Substance,Culture/Environment,False
+fes_61r_p,Substance,Culture/Environment,False
+fes_62_p,Substance,Culture/Environment,False
+fes_66_p,Substance,Culture/Environment,False
+fes_67_p,Substance,Culture/Environment,False
+fes_69_p,Substance,Culture/Environment,False
+fes_71_p,Substance,Culture/Environment,False
+fes_72r_p,Substance,Culture/Environment,False
+fes_76r_p,Substance,Culture/Environment,False
+fes_77_p,Substance,Culture/Environment,False
+fes_79r_p,Substance,Culture/Environment,False
+fes_7r_p,Substance,Culture/Environment,False
+fes_81_p,Substance,Culture/Environment,False
+fes_82_p,Substance,Culture/Environment,False
+fes_86_p,Substance,Culture/Environment,False
+fes_87r_p,Substance,Culture/Environment,False
+fes_89_p,Substance,Culture/Environment,False
+fes_9_p,Substance,Culture/Environment,False
+fes_p_ss_act_rec_sum_pr,Substance,Culture/Environment,False
+fes_p_ss_cohesion_sum_pr,Substance,Culture/Environment,False
+fes_p_ss_exp_sum_pr,Substance,Culture/Environment,False
+fes_p_ss_int_cult_sum_pr,Substance,Culture/Environment,False
+fes_p_ss_org_sum_pr,Substance,Culture/Environment,False
+pbp_athletes,Substance,Unclassified,False
+pbp_church,Substance,Unclassified,False
+pbp_good_student,Substance,Unclassified,False
+pbp_shoplifted,Substance,Unclassified,False
+pbp_skip_school,Substance,Unclassified,False
+pbp_ss_prosocial_peers,Substance,Culture/Environment,False
+pbp_ss_rule_break,Substance,Unclassified,False
+pbp_suspended,Substance,Unclassified,False
+ple_argue_fu2_p,Substance,Unclassified,False
+ple_argue_fu2_y,Substance,Unclassified,False
+ple_argue_p,Substance,Unclassified,False
+ple_argue_past_yr_p,Substance,Unclassified,False
+ple_argue_past_yr_y,Substance,Unclassified,False
+ple_argue_y,Substance,Unclassified,False
+ple_arrest_fu2_p,Substance,Unclassified,False
+ple_arrest_fu2_y,Substance,Unclassified,False
+ple_arrest_p,Substance,Unclassified,False
+ple_arrest_past_yr_y,Substance,Unclassified,False
+ple_arrest_y,Substance,Unclassified,False
+ple_away_fu_p,Substance,Unclassified,False
+ple_away_fu_y,Substance,Unclassified,False
+ple_away_fu2_p,Substance,Unclassified,False
+ple_away_fu2_y,Substance,Unclassified,False
+ple_away_p,Substance,Unclassified,False
+ple_away_past_yr_p,Substance,Unclassified,False
+ple_away_past_yr_y,Substance,Unclassified,False
+ple_away_y,Substance,Unclassified,False
+ple_crime_fu2_p,Substance,Unclassified,False
+ple_crime_fu2_y,Substance,Unclassified,False
+ple_crime_p,Substance,Unclassified,False
+ple_crime_past_yr_p,Substance,Unclassified,False
+ple_crime_past_yr_y,Substance,Unclassified,False
+ple_crime_y,Substance,Unclassified,False
+ple_died_fu_p,Substance,Unclassified,False
+ple_died_fu2_p,Substance,Unclassified,False
+ple_died_fu2_y,Substance,Unclassified,False
+ple_died_p,Substance,Unclassified,False
+ple_died_past_yr_p,Substance,Unclassified,False
+ple_died_past_yr_y,Substance,Unclassified,False
+ple_died_y,Substance,Unclassified,False
+ple_financial_fu_p,Substance,Unclassified,False
+ple_financial_fu2_p,Substance,Unclassified,False
+ple_financial_fu2_y,Substance,Unclassified,False
+ple_financial_p,Substance,Unclassified,False
+ple_financial_past_yr_p,Substance,Unclassified,False
+ple_financial_past_yr_y,Substance,Unclassified,False
+ple_financial_y,Substance,Unclassified,False
+ple_friend_died_fu2_p,Substance,Unclassified,False
+ple_friend_died_fu2_y,Substance,Unclassified,False
+ple_friend_died_p,Substance,Unclassified,False
+ple_friend_died_y,Substance,Unclassified,False
+ple_friend_fu2_p,Substance,Unclassified,False
+ple_friend_fu2_y,Substance,Unclassified,False
+ple_friend_injur_fu2_p,Substance,Unclassified,False
+ple_friend_injur_fu2_y,Substance,Unclassified,False
+ple_friend_injur_p,Substance,Unclassified,False
+ple_friend_injur_past_yr_y,Substance,Unclassified,False
+ple_friend_injur_y,Substance,Unclassified,False
+ple_friend_p,Substance,Unclassified,False
+ple_friend_past_yr_p,Substance,Unclassified,False
+ple_friend_past_yr_y,Substance,Unclassified,False
+ple_friend_y,Substance,Unclassified,False
+ple_ill_fu2_p,Substance,Unclassified,False
+ple_ill_fu2_y,Substance,Unclassified,False
+ple_ill_p,Substance,Unclassified,False
+ple_ill_past_yr_y,Substance,Unclassified,False
+ple_ill_y,Substance,Unclassified,False
+ple_injur_fu2_p,Substance,Unclassified,False
+ple_injur_fu2_y,Substance,Unclassified,False
+ple_injur_p,Substance,Unclassified,False
+ple_injur_p_p,Substance,Unclassified,False
+ple_injur_y,Substance,Unclassified,False
+ple_injur_y_past_yr_y,Substance,Unclassified,False
+ple_injured_fu2_p,Substance,Unclassified,False
+ple_injured_fu2_y,Substance,Unclassified,False
+ple_injured_p,Substance,Unclassified,False
+ple_injured_past_yr_y,Substance,Unclassified,False
+ple_injured_y,Substance,Unclassified,False
+ple_jail_fu2_p,Substance,Unclassified,False
+ple_jail_fu2_y,Substance,Unclassified,False
+ple_jail_p,Substance,Unclassified,False
+ple_jail_y,Substance,Unclassified,False
+ple_job_fu_p,Substance,Unclassified,False
+ple_job_fu2_p,Substance,Unclassified,False
+ple_job_fu2_y,Substance,Unclassified,False
+ple_job_p,Substance,Unclassified,False
+ple_job_past_yr_p,Substance,Unclassified,False
+ple_job_past_yr_y,Substance,Unclassified,False
+ple_job_y,Substance,Unclassified,False
+ple_law_fu2_p,Substance,Unclassified,False
+ple_law_fu2_y,Substance,Unclassified,False
+ple_law_p,Substance,Unclassified,False
+ple_law_y,Substance,Unclassified,False
+ple_mh_fu2_p,Substance,Unclassified,False
+ple_mh_fu2_y,Substance,Unclassified,False
+ple_mh_p,Substance,Unclassified,False
+ple_mh_past_yr_p,Substance,Unclassified,False
+ple_mh_past_yr_y,Substance,Unclassified,False
+ple_mh_y,Substance,Unclassified,False
+ple_move_fu_y,Substance,Unclassified,False
+ple_move_fu2_p,Substance,Unclassified,False
+ple_move_fu2_y,Substance,Unclassified,False
+ple_move_p,Substance,Unclassified,False
+ple_move_past_yr_p,Substance,Unclassified,False
+ple_move_past_yr_y,Substance,Unclassified,False
+ple_move_y,Substance,Unclassified,False
+ple_new_job_fu2_p,Substance,Unclassified,False
+ple_new_job_fu2_y,Substance,Unclassified,False
+ple_new_job_p,Substance,Unclassified,False
+ple_new_job_past_yr_p,Substance,Unclassified,False
+ple_new_job_past_yr_y,Substance,Unclassified,False
+ple_new_job_y,Substance,Unclassified,False
+ple_new_sib_fu2_p,Substance,Unclassified,False
+ple_new_sib_fu2_y,Substance,Unclassified,False
+ple_new_sib_p,Substance,Unclassified,False
+ple_new_sib_past_yr_p,Substance,Unclassified,False
+ple_new_sib_past_yr_y,Substance,Unclassified,False
+ple_new_sib_y,Substance,Unclassified,False
+ple_p_ss_affect_sum,Substance,Unclassified,False
+ple_p_ss_affected_bad_mean,Substance,Unclassified,False
+ple_p_ss_affected_bad_sum,Substance,Unclassified,False
+ple_p_ss_affected_good_mean,Substance,Unclassified,False
+ple_p_ss_affected_good_sum,Substance,Unclassified,False
+ple_p_ss_affected_mean,Substance,Unclassified,False
+ple_p_ss_total_bad,Substance,Unclassified,False
+ple_p_ss_total_good,Substance,Unclassified,False
+ple_p_ss_total_number,Substance,Unclassified,False
+ple_school_fu_p,Substance,Unclassified,False
+ple_school_fu_y,Substance,Unclassified,False
+ple_school_fu2_p,Substance,Unclassified,False
+ple_school_fu2_y,Substance,Unclassified,False
+ple_school_p,Substance,Unclassified,False
+ple_school_past_yr_p,Substance,Unclassified,False
+ple_school_past_yr_y,Substance,Unclassified,False
+ple_school_y,Substance,Unclassified,False
+ple_separ_fu_p,Substance,Unclassified,False
+ple_separ_fu2_p,Substance,Unclassified,False
+ple_separ_fu2_y,Substance,Unclassified,False
+ple_separ_p,Substance,Unclassified,False
+ple_separ_past_yr_p,Substance,Unclassified,False
+ple_separ_past_yr_y,Substance,Unclassified,False
+ple_separ_y,Substance,Unclassified,False
+ple_sib_fu_p,Substance,Unclassified,False
+ple_sib_fu_y,Substance,Unclassified,False
+ple_sib_fu2_p,Substance,Unclassified,False
+ple_sib_fu2_y,Substance,Unclassified,False
+ple_sib_p,Substance,Unclassified,False
+ple_sib_past_yr_p,Substance,Unclassified,False
+ple_sib_past_yr_y,Substance,Unclassified,False
+ple_sib_y,Substance,Unclassified,False
+ple_step_fu2_p,Substance,Unclassified,False
+ple_step_fu2_y,Substance,Unclassified,False
+ple_step_p,Substance,Unclassified,False
+ple_step_past_yr_y,Substance,Unclassified,False
+ple_step_y,Substance,Unclassified,False
+ple_sud_fu2_p,Substance,Unclassified,False
+ple_sud_fu2_y,Substance,Unclassified,False
+ple_sud_p,Substance,Unclassified,False
+ple_sud_past_yr_p,Substance,Unclassified,False
+ple_sud_past_yr_y,Substance,Unclassified,False
+ple_sud_y,Substance,Unclassified,False
+ple_y_ss_affect_sum,Substance,Unclassified,False
+ple_y_ss_affected_bad_mean,Substance,Unclassified,False
+ple_y_ss_affected_bad_sum,Substance,Unclassified,False
+ple_y_ss_affected_good_mean,Substance,Unclassified,False
+ple_y_ss_affected_good_sum,Substance,Unclassified,False
+ple_y_ss_total_bad,Substance,Unclassified,False
+ple_y_ss_total_good,Substance,Unclassified,False
+ple_y_ss_total_number,Substance,Unclassified,False
+pnh_art_involve,Substance,Unclassified,False
+pnh_encourage,Substance,Unclassified,False
+pnh_help,Substance,Unclassified,False
+pnh_how_much_encourage,Substance,Unclassified,False
+pnh_how_much_help,Substance,Unclassified,False
+pnh_ss_protective_scale,Substance,Unclassified,False
+pnh_substance,Substance,Substance,True
+reshist_addr1_coi_z_coi_nat,Substance,Culture/Environment,False
+reshist_addr1_coi_z_ed_nat,Substance,Culture/Environment,False
+reshist_addr1_coi_z_he_nat,Substance,Culture/Environment,False
+reshist_addr1_coi_z_se_nat,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_apenr,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_attain,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_college,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_ecenrol,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_hsgrad,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_math,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_prxece,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_prxhqece,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_reading,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_schpov,Substance,Culture/Environment,False
+reshist_addr1_coi_zed_teachxp,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_food,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_green,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_heat,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_hlthins,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_ozone,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_pm25,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_rsei,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_suprfnd,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_vacancy,Substance,Culture/Environment,False
+reshist_addr1_coi_zhe_walk,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_ecres,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_emprat,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_home,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_jobprox,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_mhe,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_occ,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_povrate,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_public,Substance,Culture/Environment,False
+reshist_addr1_coi_zse_single,Substance,Culture/Environment,False
+reshist_addr1_move_in_year,Substance,Culture/Environment,False
+reshist_addr1_move_out_year,Substance,Culture/Environment,False
+reshist_addr1_no2_2016_aavg,Substance,Culture/Environment,False
+reshist_addr1_o3_2016_annavg,Substance,Culture/Environment,False
+reshist_addr1_opat_kfrpp_avg,Substance,Culture/Environment,False
+reshist_addr1_svi_17_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_65_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_cap_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_crwd20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_dis_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_emp_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_eng_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_grp_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_hous20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_hs_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_min_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_mob_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_pov_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_sin_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_th1_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_th2_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_th3_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_th4_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_tot_20142018,Substance,Culture/Environment,False
+reshist_addr1_svi_veh_20142018,Substance,Culture/Environment,False
+reshist_addr1_traffic_count,Substance,Culture/Environment,False
+reshist_state_mj_laws_low,Substance,Culture/Environment,False
+reshist_state_mj_laws_med,Substance,Culture/Environment,False
+reshist_state_mj_laws_rec,Substance,Culture/Environment,False
+sag_days_skip_school,Substance,Unclassified,False
+sag_excused_absence_p,Substance,Unclassified,False
+sag_grade_type,Substance,Unclassified,False
+sag_grades_last_yr,Substance,Unclassified,False
+sag_iep_current_p,Substance,Unclassified,False
+sag_iep_ever_p,Substance,Unclassified,False
+sag_miss_school_excuse_p,Substance,Unclassified,False
+sag_miss_school_unexcuse_p,Substance,Unclassified,False
+sag_unexcuse_absence_p,Substance,Unclassified,False
+anthroweight1lb,Physical Health,Physical Health,True
+biospec_blood_baso_abs,Physical Health,Physical Health,True
+biospec_blood_baso_percent,Physical Health,Physical Health,True
+biospec_blood_cholesterol,Physical Health,Physical Health,True
+biospec_blood_eos_abs,Physical Health,Physical Health,True
+biospec_blood_eos_percent,Physical Health,Physical Health,True
+biospec_blood_ferritin,Physical Health,Physical Health,True
+biospec_blood_hdl_cholesterol,Physical Health,Physical Health,True
+biospec_blood_hematocrit,Physical Health,Physical Health,True
+biospec_blood_hemoglobin,Physical Health,Physical Health,True
+biospec_blood_hemoglobin_a1,Physical Health,Physical Health,True
+biospec_blood_imm_gran_abs,Physical Health,Physical Health,True
+biospec_blood_imm_gran_per,Physical Health,Physical Health,True
+biospec_blood_lymph_abs,Physical Health,Physical Health,True
+biospec_blood_lymph_percent,Physical Health,Physical Health,True
+biospec_blood_mch,Physical Health,Physical Health,True
+biospec_blood_mchc,Physical Health,Physical Health,True
+biospec_blood_mcv,Physical Health,Physical Health,True
+biospec_blood_mono_abs,Physical Health,Physical Health,True
+biospec_blood_mono_percent,Physical Health,Physical Health,True
+biospec_blood_mpv,Physical Health,Physical Health,True
+biospec_blood_neut_abs,Physical Health,Physical Health,True
+biospec_blood_neut_percent,Physical Health,Physical Health,True
+biospec_blood_plt_count,Physical Health,Physical Health,True
+biospec_blood_rbc_count,Physical Health,Physical Health,True
+biospec_blood_rdw,Physical Health,Physical Health,True
+biospec_blood_wbc_count,Physical Health,Physical Health,True
+bkfs_dt_carb,Physical Health,Unclassified,False
+bkfs_dt_fibe,Physical Health,Unclassified,False
+bkfs_dt_kcal,Physical Health,Unclassified,False
+bkfs_dt_prot,Physical Health,Unclassified,False
+bkfs_dt_sug_t,Physical Health,Unclassified,False
+bkfs_dt_tfat,Physical Health,Unclassified,False
+bkfs_group_sugarybevg_t_kcal,Physical Health,Unclassified,False
+blood_pressure_dia_mean,Physical Health,Unclassified,False
+blood_pressure_pulse_avg,Physical Health,Unclassified,False
+blood_pressure_sys_mean,Physical Health,Unclassified,False
+fit_ss_fitbit_fairlyactivemin,Physical Health,Unclassified,False
+fit_ss_fitbit_lightlyactivemin,Physical Health,Unclassified,False
+fit_ss_fitbit_sedentarymin,Physical Health,Unclassified,False
+fit_ss_fitbit_totalsteps,Physical Health,Unclassified,False
+fit_ss_fitbit_veryactivemin,Physical Health,Unclassified,False
+gish_f1_p,Physical Health,Unclassified,False
+gish_f1_y,Physical Health,Unclassified,False
+gish_f10_p,Physical Health,Unclassified,False
+gish_f12_p,Physical Health,Unclassified,False
+gish_f13_p,Physical Health,Unclassified,False
+gish_f14_p,Physical Health,Unclassified,False
+gish_f2_p,Physical Health,Unclassified,False
+gish_f2_y,Physical Health,Unclassified,False
+gish_f3_p,Physical Health,Unclassified,False
+gish_f3_y,Physical Health,Unclassified,False
+gish_f4_p,Physical Health,Unclassified,False
+gish_f4_y,Physical Health,Unclassified,False
+gish_f5_p,Physical Health,Unclassified,False
+gish_f6_p,Physical Health,Unclassified,False
+gish_f7_p,Physical Health,Unclassified,False
+gish_f8_p,Physical Health,Unclassified,False
+gish_m1_p,Physical Health,Unclassified,False
+gish_m1_y,Physical Health,Unclassified,False
+gish_m10_p,Physical Health,Unclassified,False
+gish_m12_p,Physical Health,Unclassified,False
+gish_m13_p,Physical Health,Unclassified,False
+gish_m14_p,Physical Health,Unclassified,False
+gish_m2_p,Physical Health,Unclassified,False
+gish_m2_y,Physical Health,Unclassified,False
+gish_m3_p,Physical Health,Unclassified,False
+gish_m3_y,Physical Health,Unclassified,False
+gish_m4_p,Physical Health,Unclassified,False
+gish_m4_y,Physical Health,Unclassified,False
+gish_m5_p,Physical Health,Unclassified,False
+gish_m6_p,Physical Health,Unclassified,False
+gish_m7_p,Physical Health,Unclassified,False
+gish_m8_p,Physical Health,Unclassified,False
+gish_p_ss_f_sum2,Physical Health,Unclassified,False
+gish_p_ss_m_sum2,Physical Health,Unclassified,False
+gish_y_ss_f_sum,Physical Health,Unclassified,False
+gish_y_ss_m_sum,Physical Health,Unclassified,False
+mctq_fd_alarm_parent,Physical Health,Unclassified,False
+mctq_fd_awakening_min,Physical Health,Unclassified,False
+mctq_fd_min_to_get_up,Physical Health,Unclassified,False
+mctq_fd_min_to_sleep,Physical Health,Physical Health,True
+mctq_fd_num_wake_up,Physical Health,Unclassified,False
+mctq_msfsc_calc,Physical Health,Unclassified,False
+mctq_sd_alarm_clock,Physical Health,Unclassified,False
+mctq_sd_awakening_min,Physical Health,Unclassified,False
+mctq_sd_before_alarm,Physical Health,Unclassified,False
+mctq_sd_min_to_get_up,Physical Health,Unclassified,False
+mctq_sd_min_to_sleep,Physical Health,Physical Health,True
+mctq_sd_num_wake_up,Physical Health,Unclassified,False
+mctq_sdf_calc,Physical Health,Unclassified,False
+mctq_sdw_calc,Physical Health,Unclassified,False
+mctq_sdweek_calc,Physical Health,Unclassified,False
+mctq_sjl_calc,Physical Health,Unclassified,False
+mctq_tbtf_calc,Physical Health,Unclassified,False
+mctq_tbtw_calc,Physical Health,Unclassified,False
+medhx_11_l,Physical Health,Physical Health,True
+medhx_12_l,Physical Health,Physical Health,True
+medhx_1a_l,Physical Health,Physical Health,True
+medhx_2_notes2_l,Physical Health,Physical Health,True
+medhx_2a_l,Physical Health,Physical Health,True
+medhx_2b_l,Physical Health,Physical Health,True
+medhx_2n_l,Physical Health,Physical Health,True
+medhx_2q_l,Physical Health,Physical Health,True
+medhx_2r_l,Physical Health,Physical Health,True
+medhx_4a_l,Physical Health,Physical Health,True
+medhx_6a_l,Physical Health,Physical Health,True
+medhx_6b_l,Physical Health,Physical Health,True
+medhx_6c_l,Physical Health,Physical Health,True
+medhx_6f_l,Physical Health,Physical Health,True
+medhx_6h_l,Physical Health,Physical Health,True
+medhx_6t_l,Physical Health,Physical Health,True
+medhx_9a_l,Physical Health,Physical Health,True
+medhx_9c_l,Physical Health,Physical Health,True
+medhx_ss_4b_p_l,Physical Health,Physical Health,True
+medhx_ss_6a_times_p_l,Physical Health,Physical Health,True
+medhx_ss_6b_times_p_l,Physical Health,Physical Health,True
+medhx_ss_6c_times_p_l,Physical Health,Physical Health,True
+medhx_ss_6f_times_p_l,Physical Health,Physical Health,True
+medhx_ss_6h_times_p_l,Physical Health,Physical Health,True
+medhx_ss_6t_times_p_l,Physical Health,Physical Health,True
+medhx_ss_9b_p_l,Physical Health,Physical Health,True
+menstrualcycle2_p,Physical Health,Unclassified,False
+menstrualcycle2_y,Physical Health,Unclassified,False
+menstrualcycle3_p,Physical Health,Unclassified,False
+menstrualcycle3_y,Physical Health,Unclassified,False
+menstrualcycle5_p,Physical Health,Unclassified,False
+menstrualcycle5_y,Physical Health,Unclassified,False
+menstrualcycle6_p,Physical Health,Unclassified,False
+menstrualcycle6_y,Physical Health,Unclassified,False
+pain_how_long,Physical Health,Unclassified,False
+pain_last_month,Physical Health,Unclassified,False
+pain_limit,Physical Health,Unclassified,False
+pain_scale_worst,Physical Health,Unclassified,False
+pds_f5_y,Physical Health,Physical Health,True
+pds_f5b_p,Physical Health,Physical Health,True
+pds_f6_p,Physical Health,Physical Health,True
+pds_f6_y,Physical Health,Physical Health,True
+sai_ss_lmusic_hours_2_p_l,Physical Health,Physical Health,True
+sai_ss_read_hours_2_p_l,Physical Health,Physical Health,True
+tbi_3_l,Physical Health,Physical Health,True
+tbi_3d_l,Physical Health,Physical Health,True
+abcl_scr_adapt_friends_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_aggressive_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_anxious_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_attention_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_critical_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_external_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_internal_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_intrusive_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_other_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_rulebreak_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_somatic_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_thought_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_total_r,Family Mental Health,Family Mental Health,True
+abcl_scr_prob_withdrawn_r,Family Mental Health,Family Mental Health,True
+abcl_scr_sub_use_alcohol_r,Family Mental Health,Family Mental Health,True
+abcl_scr_sub_use_drugs_r,Family Mental Health,Family Mental Health,True
+abcl_scr_sub_use_r_mean,Family Mental Health,Family Mental Health,True
+abcl_scr_sub_use_tobacco_r,Family Mental Health,Family Mental Health,True
+bpm_1_y,Child Mental Health,Child Mental Health,True
+bpm_10_y,Child Mental Health,Child Mental Health,True
+bpm_11_y,Child Mental Health,Child Mental Health,True
+bpm_12_y,Child Mental Health,Child Mental Health,True
+bpm_13_y,Child Mental Health,Child Mental Health,True
+bpm_14_y,Child Mental Health,Child Mental Health,True
+bpm_15_y,Child Mental Health,Child Mental Health,True
+bpm_16_y,Child Mental Health,Child Mental Health,True
+bpm_17_y,Child Mental Health,Child Mental Health,True
+bpm_18_y,Child Mental Health,Child Mental Health,True
+bpm_19_y,Child Mental Health,Child Mental Health,True
+bpm_2_y,Child Mental Health,Child Mental Health,True
+bpm_3_y,Child Mental Health,Child Mental Health,True
+bpm_4_y,Child Mental Health,Child Mental Health,True
+bpm_5_y,Child Mental Health,Child Mental Health,True
+bpm_6_y,Child Mental Health,Child Mental Health,True
+bpm_7_y,Child Mental Health,Child Mental Health,True
+bpm_8_y,Child Mental Health,Child Mental Health,True
+bpm_9_y,Child Mental Health,Child Mental Health,True
+bpm_y_scr_attention_r,Child Mental Health,Child Mental Health,True
+bpm_y_scr_external_r,Child Mental Health,Child Mental Health,True
+bpm_y_scr_internal_r,Child Mental Health,Child Mental Health,True
+bpm_y_scr_totalprob_r,Child Mental Health,Child Mental Health,True
+bpmt_q6,Child Mental Health,Child Mental Health,True
+eatq_africa_p,Child Mental Health,Child Mental Health,True
+eatq_alone_p,Child Mental Health,Child Mental Health,True
+eatq_angry_hit_p,Child Mental Health,Child Mental Health,True
+eatq_annoyed_p,Child Mental Health,Child Mental Health,True
+eatq_attachment_p,Child Mental Health,Child Mental Health,True
+eatq_ball_scared_p,Child Mental Health,Child Mental Health,True
+eatq_before_hw_p,Child Mental Health,Child Mental Health,True
+eatq_blame_p,Child Mental Health,Child Mental Health,True
+eatq_care_p,Child Mental Health,Child Mental Health,True
+eatq_city_move_p,Child Mental Health,Child Mental Health,True
+eatq_close_attention_p,Child Mental Health,Child Mental Health,True
+eatq_close_rel_p,Child Mental Health,Child Mental Health,True
+eatq_concentrate_p,Child Mental Health,Child Mental Health,True
+eatq_cry_p,Child Mental Health,Child Mental Health,True
+eatq_dark_scared_p,Child Mental Health,Child Mental Health,True
+eatq_deal_p,Child Mental Health,Child Mental Health,True
+eatq_disagree_p,Child Mental Health,Child Mental Health,True
+eatq_distracted_p,Child Mental Health,Child Mental Health,True
+eatq_doorslam_p,Child Mental Health,Child Mental Health,True
+eatq_early_start_p,Child Mental Health,Child Mental Health,True
+eatq_energized_p,Child Mental Health,Child Mental Health,True
+eatq_enjoy_p,Child Mental Health,Child Mental Health,True
+eatq_finish_hw_p,Child Mental Health,Child Mental Health,True
+eatq_finish_p,Child Mental Health,Child Mental Health,True
+eatq_friendly_p,Child Mental Health,Child Mental Health,True
+eatq_frustrated_p,Child Mental Health,Child Mental Health,True
+eatq_hardly_sad_p,Child Mental Health,Child Mental Health,True
+eatq_hugs_p,Child Mental Health,Child Mental Health,True
+eatq_impulse_p,Child Mental Health,Child Mental Health,True
+eatq_insult_p,Child Mental Health,Child Mental Health,True
+eatq_irritated_crit_p,Child Mental Health,Child Mental Health,True
+eatq_irritated_enjoy_p,Child Mental Health,Child Mental Health,True
+eatq_irritated_place_p,Child Mental Health,Child Mental Health,True
+eatq_is_shy_p,Child Mental Health,Child Mental Health,True
+eatq_laugh_control_p,Child Mental Health,Child Mental Health,True
+eatq_makes_fun_p,Child Mental Health,Child Mental Health,True
+eatq_meet_p,Child Mental Health,Child Mental Health,True
+eatq_no_criticize_p,Child Mental Health,Child Mental Health,True
+eatq_not_shy_p,Child Mental Health,Child Mental Health,True
+eatq_open_present_p,Child Mental Health,Child Mental Health,True
+eatq_p_ss_activation,Child Mental Health,Child Mental Health,True
+eatq_p_ss_affiliation,Child Mental Health,Child Mental Health,True
+eatq_p_ss_aggression,Child Mental Health,Child Mental Health,True
+eatq_p_ss_attention,Child Mental Health,Child Mental Health,True
+eatq_p_ss_depressive_mood,Child Mental Health,Child Mental Health,True
+eatq_p_ss_effort_cont_sup_scale,Child Mental Health,Child Mental Health,True
+eatq_p_ss_fear,Child Mental Health,Child Mental Health,True
+eatq_p_ss_frustration,Child Mental Health,Child Mental Health,True
+eatq_p_ss_inhibitory,Child Mental Health,Child Mental Health,True
+eatq_p_ss_neg_affect_sup_scale,Child Mental Health,Child Mental Health,True
+eatq_p_ss_shyness,Child Mental Health,Child Mental Health,True
+eatq_p_ss_surgency,Child Mental Health,Child Mental Health,True
+eatq_p_ss_surgency_sup_scale,Child Mental Health,Child Mental Health,True
+eatq_peripheral_p,Child Mental Health,Child Mental Health,True
+eatq_puts_off_p,Child Mental Health,Child Mental Health,True
+eatq_race_car_p,Child Mental Health,Child Mental Health,True
+eatq_rides_scared_p,Child Mental Health,Child Mental Health,True
+eatq_right_away_p,Child Mental Health,Child Mental Health,True
+eatq_rude_p,Child Mental Health,Child Mental Health,True
+eatq_sad_p,Child Mental Health,Child Mental Health,True
+eatq_school_excite_p,Child Mental Health,Child Mental Health,True
+eatq_sea_dive_p,Child Mental Health,Child Mental Health,True
+eatq_seems_sad_p,Child Mental Health,Child Mental Health,True
+eatq_share_p,Child Mental Health,Child Mental Health,True
+eatq_shy_meet_p,Child Mental Health,Child Mental Health,True
+eatq_sidetracked_p,Child Mental Health,Child Mental Health,True
+eatq_ski_slope_p,Child Mental Health,Child Mental Health,True
+eatq_social_p,Child Mental Health,Child Mental Health,True
+eatq_spend_time_p,Child Mental Health,Child Mental Health,True
+eatq_stick_to_plan_p,Child Mental Health,Child Mental Health,True
+eatq_travel_p,Child Mental Health,Child Mental Health,True
+eatq_trouble_p,Child Mental Health,Child Mental Health,True
+eatq_try_focus_p,Child Mental Health,Child Mental Health,True
+eatq_turn_taking_p,Child Mental Health,Child Mental Health,True
+eatq_worry_p,Child Mental Health,Child Mental Health,True
+kbi_p_c_age_services_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_best_friend_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_best_friend_len_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_bully_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_det_reason_l___8,Child Mental Health,Child Mental Health,True
+kbi_p_c_det_susp_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_drop_in_grades_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_gay_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_gay_problems_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_guard_l___2,Child Mental Health,Child Mental Health,True
+kbi_p_c_live_full_time_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_mh_sa_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_reg_friend_group_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_reg_friend_group_len_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___10,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___4,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___6,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___7,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___8,Child Mental Health,Child Mental Health,True
+kbi_p_c_spec_serv_l___9,Child Mental Health,Child Mental Health,True
+kbi_p_c_trans_l,Child Mental Health,Child Mental Health,True
+kbi_p_c_trans_problems_l,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___1,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___2,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___4,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___5,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___6,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___8,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_causes_l___9,Child Mental Health,Child Mental Health,True
+kbi_p_conflict_l,Child Mental Health,Child Mental Health,True
+kbi_p_grades_in_school_l,Child Mental Health,Child Mental Health,True
+kbi_p_how_well_c_school_l,Child Mental Health,Child Mental Health,True
+kbi_y_sex_orient,Child Mental Health,Child Mental Health,True
+kbi_y_sex_orient_probs,Child Mental Health,Child Mental Health,True
+kbi_y_trans_id,Child Mental Health,Child Mental Health,True
+kbipcregfriend_groupopin_l,Child Mental Health,Child Mental Health,True
+kbipcserviceschecklistl1,Child Mental Health,Child Mental Health,True
+kbipcserviceschecklistl10,Child Mental Health,Child Mental Health,True
+kbipcserviceschecklistl7,Child Mental Health,Child Mental Health,True
+kbipcserviceschecklistl8,Child Mental Health,Child Mental Health,True
+kbipcserviceschecklistl9,Child Mental Health,Child Mental Health,True
+ksads_16_99_t,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1001_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1003_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1004_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1005_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1006_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1007_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1008_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1009_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1010_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1012_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_1013_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_404_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_406_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_408_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_409_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_411_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_413_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_414_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_416_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_419_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_421_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_423_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_975_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_976_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_977_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_978_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_979_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_980_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_981_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_984_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_985_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_986_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_987_p,Child Mental Health,Child Mental Health,True
+ksads_adhd_raw_988_p,Child Mental Health,Child Mental Health,True
+ksads_asd_raw_558_p,Child Mental Health,Child Mental Health,True
+ksads_asd_raw_560_p,Child Mental Health,Child Mental Health,True
+ksads_asd_raw_562_p,Child Mental Health,Child Mental Health,True
+ksads_asd_raw_563_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_119_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_119_t,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_122_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_122_t,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_124_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_126_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_126_t,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_162_tTRAN,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_948_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_953_p,Child Mental Health,Child Mental Health,True
+ksads_bd_raw_959_p,Child Mental Health,Child Mental Health,True
+ksads_cdr_1087_p___5th,Child Mental Health,Child Mental Health,True
+ksads_cdr_466_p,Child Mental Health,Child Mental Health,True
+ksads_cdr_467_p,Child Mental Health,Child Mental Health,True
+ksads_cdr_473_p,Child Mental Health,Child Mental Health,True
+ksads_cdr_raw_466_t,Child Mental Health,Child Mental Health,True
+ksads_cdr_raw_467_t,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_101_p,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_101_t,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_118_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_118_tTRAN,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_95_p,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_95_t,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_98_p,Child Mental Health,Child Mental Health,True
+ksads_dp_raw_98_t,Child Mental Health,Child Mental Health,True
+ksads_eatingdis_raw_358_p,Child Mental Health,Child Mental Health,True
+ksads_eatingdis_raw_358_t,Child Mental Health,Child Mental Health,True
+ksads_eatingdis_raw_359_pBMI,Child Mental Health,Child Mental Health,True
+ksads_eatingdis_raw_359_tBMI,Child Mental Health,Child Mental Health,True
+ksads_eatingdis_raw_363_pBMI,Child Mental Health,Child Mental Health,True
+ksads_gad_raw_1965_p,Child Mental Health,Child Mental Health,True
+ksads_gad_raw_1966_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_gad_raw_271_p,Child Mental Health,Child Mental Health,True
+ksads_gad_raw_271_t,Child Mental Health,Child Mental Health,True
+ksads_gad_raw_273_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1019_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1020_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1022_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1030_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1032_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1033_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1034_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1035_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1037_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1039_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_1042_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_454_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_455_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_457_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_458_p,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_465_p_ageonset,Child Mental Health,Child Mental Health,True
+ksads_odd_raw_465_p_ageworsen,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_220_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_221_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_222_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_228_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_230_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_251_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_252_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_259_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_268_p,Child Mental Health,Child Mental Health,True
+ksads_phobia_raw_270_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_sa_raw_1836_p,Child Mental Health,Child Mental Health,True
+ksads_sa_raw_1837_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_sa_raw_198_p,Child Mental Health,Child Mental Health,True
+ksads_sa_raw_201_p,Child Mental Health,Child Mental Health,True
+ksads_sad_raw_209_t,Child Mental Health,Child Mental Health,True
+ksads_sleepprob_raw_814_p,Child Mental Health,Child Mental Health,True
+ksads_sleepprob_raw_814_t,Child Mental Health,Child Mental Health,True
+ksads_sleepprob_raw_818_pTRAN,Child Mental Health,Child Mental Health,True
+ksads_sleepprob_raw_818_tTRAN,Child Mental Health,Child Mental Health,True
+peq_chase_perp,Child Mental Health,Unclassified,False
+peq_chase_vic,Child Mental Health,Unclassified,False
+peq_exclude_perp,Child Mental Health,Unclassified,False
+peq_exclude_vic,Child Mental Health,Unclassified,False
+peq_gossip_perp,Child Mental Health,Unclassified,False
+peq_gossip_vic,Child Mental Health,Unclassified,False
+peq_hit_perp,Child Mental Health,Unclassified,False
+peq_hit_vic,Child Mental Health,Unclassified,False
+peq_invite_perp,Child Mental Health,Unclassified,False
+peq_invite_vic,Child Mental Health,Unclassified,False
+peq_left_out_perp,Child Mental Health,Unclassified,False
+peq_left_out_vic,Child Mental Health,Unclassified,False
+peq_loser_perp,Child Mental Health,Unclassified,False
+peq_loser_vic,Child Mental Health,Unclassified,False
+peq_rumor_perp,Child Mental Health,Unclassified,False
+peq_rumor_vic,Child Mental Health,Unclassified,False
+peq_ss_overt_aggression,Child Mental Health,Unclassified,False
+peq_ss_overt_victim,Child Mental Health,Unclassified,False
+peq_ss_relational_aggs,Child Mental Health,Unclassified,False
+peq_ss_relational_victim,Child Mental Health,Unclassified,False
+peq_ss_reputation_aggs,Child Mental Health,Unclassified,False
+peq_ss_reputation_victim,Child Mental Health,Unclassified,False
+peq_threat_perp,Child Mental Health,Unclassified,False
+peq_threat_vic,Child Mental Health,Unclassified,False
+poa_nihtb_1_y,Child Mental Health,Unclassified,False
+poa_nihtb_2_y,Child Mental Health,Unclassified,False
+poa_nihtb_3_y,Child Mental Health,Unclassified,False
+poa_nihtb_4_y,Child Mental Health,Unclassified,False
+poa_nihtb_5_y,Child Mental Health,Unclassified,False
+poa_nihtb_6_y,Child Mental Health,Unclassified,False
+poa_nihtb_7_y,Child Mental Health,Unclassified,False
+poa_nihtb_8_y,Child Mental Health,Unclassified,False
+poa_nihtb_9_y,Child Mental Health,Unclassified,False
+poa_y_ss_sum,Child Mental Health,Unclassified,False
+ssrs_15r_p,Child Mental Health,Unclassified,False
+ssrs_16_p,Child Mental Health,Unclassified,False
+ssrs_18_p,Child Mental Health,Unclassified,False
+ssrs_24_p,Child Mental Health,Unclassified,False
+ssrs_29_p,Child Mental Health,Unclassified,False
+ssrs_35_p,Child Mental Health,Unclassified,False
+ssrs_37_p,Child Mental Health,Unclassified,False
+ssrs_39_p,Child Mental Health,Unclassified,False
+ssrs_42_p,Child Mental Health,Unclassified,False
+ssrs_58_p,Child Mental Health,Unclassified,False
+ssrs_6_p,Child Mental Health,Unclassified,False
+ssrs_p_ss_sum,Child Mental Health,Unclassified,False
+sup_1_y,Child Mental Health,Unclassified,False
+sup_2_y,Child Mental Health,Unclassified,False
+sup_3_y,Child Mental Health,Unclassified,False
+sup_4_y,Child Mental Health,Unclassified,False
+sup_5_y,Child Mental Health,Unclassified,False
+sup_6_y,Child Mental Health,Unclassified,False
+sup_7_y,Child Mental Health,Unclassified,False
+sup_y_ss_sum,Child Mental Health,Unclassified,False

@@ -12,6 +12,8 @@ from python_pipeline.domains import (
     get_color_map,
     get_domain_order,
     load_domain_config,
+    load_phenotype_metadata,
+    _strip_year_suffix,
 )
 import pandas as pd
 
@@ -98,3 +100,64 @@ class TestHelpers:
         cmap = get_color_map(domain_specs)
         assert "Unclassified" in cmap
         assert cmap["Unclassified"] == "#808080"
+
+
+class TestMetadataLookup:
+    """Tests for phenotype_metadata.csv integration and year-suffix stripping."""
+
+    def test_metadata_lookup_takes_priority(self, domain_specs):
+        """Metadata assignment overrides regex when the variable is in the lookup."""
+        # Create a synthetic metadata dict that contradicts regex
+        # 'nihtbx_flanker_uncorrected' would normally be Cognition via regex,
+        # but if metadata says Substance we should get Substance.
+        metadata = {"nihtbx_flanker_uncorrected": {"domain": "Substance", "description": ""}}
+        result = assign_domain("nihtbx_flanker_uncorrected", domain_specs, metadata=metadata)
+        assert result == "Substance"
+
+    def test_metadata_fallback_to_regex(self, domain_specs):
+        """A variable absent from metadata still gets a domain via regex."""
+        metadata = {"some_other_var": {"domain": "Cognition", "description": ""}}
+        # nihtbx_flanker_agecorrected is not in metadata → should fall through to regex → Cognition
+        result = assign_domain("nihtbx_flanker_agecorrected", domain_specs, metadata=metadata)
+        assert result == "Cognition"
+
+    def test_load_phenotype_metadata_missing_file(self):
+        """load_phenotype_metadata returns empty dict gracefully for a missing file."""
+        result = load_phenotype_metadata("/nonexistent/path/metadata.csv")
+        assert result == {}
+
+    def test_year_suffix_stripping_3y(self, domain_specs):
+        """A _3y-suffixed variable matches the base variable in metadata."""
+        metadata = {"stq_y_ss_weekday": {"domain": "Screen Time", "description": ""}}
+        result = assign_domain("stq_y_ss_weekday_3y", domain_specs, metadata=metadata)
+        assert result == "Screen Time"
+
+    def test_year_suffix_stripping_l(self, domain_specs):
+        """A _l-suffixed variable (longitudinal) matches the base variable in metadata."""
+        metadata = {"cbcl_scr_syn_total_t": {"domain": "Child Mental Health", "description": ""}}
+        result = assign_domain("cbcl_scr_syn_total_t_l", domain_specs, metadata=metadata)
+        assert result == "Child Mental Health"
+
+    def test_strip_year_suffix_examples(self):
+        """_strip_year_suffix removes known wave suffixes."""
+        assert _strip_year_suffix("stq_y_ss_weekday_3y") == "stq_y_ss_weekday"
+        assert _strip_year_suffix("cbcl_scr_syn_total_t_l") == "cbcl_scr_syn_total_t"
+        assert _strip_year_suffix("nihtbx_flanker_4y") == "nihtbx_flanker"
+        # No suffix → unchanged
+        assert _strip_year_suffix("nihtbx_flanker_uncorrected") == "nihtbx_flanker_uncorrected"
+
+    def test_assign_domains_to_results_adds_description(self, domain_specs):
+        """assign_domains_to_results adds phenotype_description column from metadata."""
+        import tempfile, os
+        meta_csv = "study_variable,description,domain\nnihtbx_flanker_uncorrected,Flanker test,Cognition\n"
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".csv", delete=False) as f:
+            f.write(meta_csv)
+            path = f.name
+        try:
+            df = pd.DataFrame({"phenotype": ["nihtbx_flanker_uncorrected", "cbcl_scr_syn_total_t"]})
+            result = assign_domains_to_results(df, domain_specs, metadata_file=path)
+            assert "phenotype_description" in result.columns
+            assert result.loc[result["phenotype"] == "nihtbx_flanker_uncorrected",
+                               "phenotype_description"].iloc[0] == "Flanker test"
+        finally:
+            os.unlink(path)

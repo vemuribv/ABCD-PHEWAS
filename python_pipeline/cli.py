@@ -277,7 +277,10 @@ def run_pipeline(cfg: PheWASConfig, args: argparse.Namespace) -> None:
     # ------------------------------------------------------------------ #
     logger.info("=== Stage 8: Domain assignment ===")
     domain_specs = load_domain_config(cfg.domain_config_file)
-    results_df = assign_domains_to_results(results_df, domain_specs)
+    results_df = assign_domains_to_results(
+        results_df, domain_specs,
+        metadata_file=cfg.phenotype_metadata_file,
+    )
 
     # ------------------------------------------------------------------ #
     # Stage 9: Write results CSVs
@@ -379,7 +382,10 @@ def main(argv: list[str] | None = None) -> None:
 
         # Re-add domain assignment if missing
         if "domain" not in results_df.columns:
-            results_df = assign_domains_to_results(results_df, domain_specs)
+            results_df = assign_domains_to_results(
+                results_df, domain_specs,
+                metadata_file=cfg.phenotype_metadata_file,
+            )
 
         dummy_cols = sorted(
             results_df["cluster_contrast"].dropna().unique().tolist()
