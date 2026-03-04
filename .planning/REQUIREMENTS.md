@@ -73,31 +73,31 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | — | Pending |
-| DATA-02 | — | Pending |
-| DATA-03 | — | Pending |
-| DATA-04 | — | Pending |
-| DATA-05 | — | Pending |
-| DOMN-01 | — | Pending |
-| DOMN-02 | — | Pending |
-| STAT-01 | — | Pending |
-| STAT-02 | — | Pending |
-| STAT-03 | — | Pending |
-| STAT-04 | — | Pending |
-| STAT-05 | — | Pending |
-| STAT-06 | — | Pending |
-| OUTP-01 | — | Pending |
-| OUTP-02 | — | Pending |
-| OUTP-03 | — | Pending |
-| PIPE-01 | — | Pending |
-| PIPE-02 | — | Pending |
-| PIPE-03 | — | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 1 | Pending |
+| DATA-03 | Phase 1 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| DATA-05 | Phase 1 | Pending |
+| DOMN-01 | Phase 1 | Pending |
+| DOMN-02 | Phase 1 | Pending |
+| STAT-01 | Phase 2 | Pending |
+| STAT-02 | Phase 2 | Pending |
+| STAT-03 | Phase 2 | Pending |
+| STAT-04 | Phase 2 | Pending |
+| STAT-05 | Phase 2 | Pending |
+| STAT-06 | Phase 2 | Pending |
+| OUTP-01 | Phase 3 | Pending |
+| OUTP-02 | Phase 3 | Pending |
+| OUTP-03 | Phase 3 | Pending |
+| PIPE-01 | Phase 4 | Pending |
+| PIPE-02 | Phase 4 | Pending |
+| PIPE-03 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 19 total
-- Mapped to phases: 0
-- Unmapped: 19 ⚠️
+- Mapped to phases: 19
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-03-04*
-*Last updated: 2026-03-04 after initial definition*
+*Last updated: 2026-03-04 after roadmap creation*
