@@ -11,12 +11,12 @@
 - [x] **DATA-02**: Auto-detect variable types: binary, categorical, ordinal, continuous
 - [x] **DATA-03**: Handle missing data with per-variable NA exclusion and missingness rate reporting
 - [x] **DATA-04**: Skip variables with <10 non-missing subjects in any comparison group
-- [ ] **DATA-05**: Apply skewness check, winsorization (mean +/- 3 SD), and rank-based INT to skewed continuous variables (|skew| > 1.96); z-score non-skewed continuous variables
+- [x] **DATA-05**: Apply skewness check, winsorization (mean +/- 3 SD), and rank-based INT to skewed continuous variables (|skew| > 1.96); z-score non-skewed continuous variables
 
 ### Domain Mapping
 
-- [ ] **DOMN-01**: Assign phenotype variables to ABCD domains using configurable regex mapping
-- [ ] **DOMN-02**: Preserve existing 8-domain structure and color palette from current R codebase
+- [x] **DOMN-01**: Assign phenotype variables to ABCD domains using configurable regex mapping
+- [x] **DOMN-02**: Preserve existing 8-domain structure and color palette from current R codebase
 
 ### Statistical Testing
 
@@ -77,9 +77,9 @@
 | DATA-02 | Phase 1 | Complete |
 | DATA-03 | Phase 1 | Complete |
 | DATA-04 | Phase 1 | Complete |
-| DATA-05 | Phase 1 | Pending |
-| DOMN-01 | Phase 1 | Pending |
-| DOMN-02 | Phase 1 | Pending |
+| DATA-05 | Phase 1 | Complete |
+| DOMN-01 | Phase 1 | Complete |
+| DOMN-02 | Phase 1 | Complete |
 | STAT-01 | Phase 2 | Pending |
 | STAT-02 | Phase 2 | Pending |
 | STAT-03 | Phase 2 | Pending |

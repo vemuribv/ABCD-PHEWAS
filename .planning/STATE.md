@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-data-foundation-01-01-PLAN.md
-last_updated: "2026-03-05T00:27:23.490Z"
+stopped_at: Completed 01-data-foundation-01-02-PLAN.md
+last_updated: "2026-03-05T00:35:34.302Z"
 last_activity: 2026-03-04 — Roadmap created, requirements mapped to 4 phases
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-data-foundation P01 | 5 | 3 tasks | 10 files |
+| Phase 01-data-foundation P02 | 6 | 3 tasks | 6 files |
 
 ## Accumulated Context
 
@@ -66,6 +67,9 @@ Recent decisions affecting current work:
 - [Phase 01-data-foundation]: Binary check takes precedence over ordinal in type detection (n_unique==2 -> BINARY first)
 - [Phase 01-data-foundation]: Pipeline order enforced: load -> blocklist -> sentinel replacement -> missingness -> type detection
 - [Phase 01-data-foundation]: Python 3.12 via uv venv at project root (.venv) for union type hints
+- [Phase 01-data-foundation]: Lognormal for INT test: exponential(2.0) drops below skew threshold after winsorization; lognormal stays skewed
+- [Phase 01-data-foundation]: Sentinel replacement (Stage 2) enforced before type detection (Stage 7) in run_pipeline; validated by ordering test
+- [Phase 01-data-foundation]: Missingness computed before min-n filter: users can see why skipped variables were excluded
 
 ### Pending Todos
 
@@ -80,6 +84,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-05T00:27:23.489Z
-Stopped at: Completed 01-data-foundation-01-01-PLAN.md
+Last session: 2026-03-05T00:35:34.301Z
+Stopped at: Completed 01-data-foundation-01-02-PLAN.md
 Resume file: None
