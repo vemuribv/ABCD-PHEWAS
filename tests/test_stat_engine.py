@@ -375,3 +375,160 @@ class TestDispatchTable:
                     f"Missing dispatch entry for ({vt}, {ct})"
                 )
         assert len(TEST_DISPATCH) == 8
+
+
+# ---------------------------------------------------------------------------
+# Helpers: build minimal PipelineResult for run_all_tests tests
+# ---------------------------------------------------------------------------
+
+
+def _make_pipeline_result(n_clusters, n_vars_per_type=1):
+    """Build a minimal PipelineResult with synthetic data for testing.
+
+    Creates n_vars_per_type variables of each VarType with n_clusters clusters.
+    Each cluster has 50 subjects.
+    """
+    from abcd_phewas.pipeline import PipelineResult
+
+    rng = np.random.default_rng(42)
+    n_per = 50
+    n_total = n_clusters * n_per
+
+    # Build cluster assignments
+    clusters = []
+    for c in range(1, n_clusters + 1):
+        clusters.extend([c] * n_per)
+
+    data = {
+        "src_subject_id": [f"sub-{i:04d}" for i in range(n_total)],
+        "cluster": clusters,
+    }
+    type_map = {}
+    domain_map = {}
+
+    for i in range(n_vars_per_type):
+        # Continuous
+        name = f"cont_{i}"
+        vals = []
+        for c in range(1, n_clusters + 1):
+            mean = 10.0 + c
+            vals.extend(rng.normal(mean, 2, size=n_per).tolist())
+        data[name] = vals
+        type_map[name] = VarType.CONTINUOUS
+        domain_map[name] = ("TestDomain", "#000000")
+
+        # Binary
+        name = f"binary_{i}"
+        vals = []
+        for c in range(1, n_clusters + 1):
+            p1 = 0.8 if c == 1 else 0.3
+            vals.extend(rng.choice([0, 1], size=n_per, p=[1 - p1, p1]).tolist())
+        data[name] = vals
+        type_map[name] = VarType.BINARY
+        domain_map[name] = ("TestDomain", "#000000")
+
+        # Ordinal
+        name = f"ordinal_{i}"
+        vals = []
+        for c in range(1, n_clusters + 1):
+            low = 1 if c <= n_clusters // 2 else 3
+            vals.extend(rng.integers(low, low + 3, size=n_per).tolist())
+        data[name] = vals
+        type_map[name] = VarType.ORDINAL
+        domain_map[name] = ("TestDomain", "#000000")
+
+        # Categorical
+        name = f"categ_{i}"
+        vals = []
+        for c in range(1, n_clusters + 1):
+            if c == 1:
+                vals.extend(rng.choice(["A", "B", "C"], size=n_per, p=[0.7, 0.2, 0.1]).tolist())
+            else:
+                vals.extend(rng.choice(["A", "B", "C"], size=n_per, p=[0.1, 0.5, 0.4]).tolist())
+        data[name] = vals
+        type_map[name] = VarType.CATEGORICAL
+        domain_map[name] = ("TestDomain", "#000000")
+
+    df = pd.DataFrame(data)
+
+    return PipelineResult(
+        df=df,
+        type_map=type_map,
+        domain_map=domain_map,
+        transformation_log=pd.DataFrame(),
+        missingness=pd.DataFrame(),
+        skipped_vars=[],
+        unclassified_vars=[],
+    )
+
+
+# ---------------------------------------------------------------------------
+# Test: run_all_tests integration
+# ---------------------------------------------------------------------------
+
+
+class TestRunAllTests:
+    def test_run_all_tests_2_clusters(self):
+        """2 clusters, 4 variables (1 per type) -> 4 * 3 = 12 rows."""
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=2, n_vars_per_type=1)
+        result = run_all_tests(pr, cluster_col="cluster", n_workers=1)
+        assert len(result) == 4 * 3  # 4 vars * (1 omnibus + 2 one-vs-rest)
+
+    def test_run_all_tests_8_clusters(self):
+        """8 clusters, 4 variables (1 per type) -> 4 * 9 = 36 rows."""
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=8, n_vars_per_type=1)
+        result = run_all_tests(pr, cluster_col="cluster", n_workers=1)
+        assert len(result) == 4 * 9  # 4 vars * (1 omnibus + 8 one-vs-rest)
+
+    def test_run_all_tests_columns(self):
+        """Result has all 12 required columns."""
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=2, n_vars_per_type=1)
+        result = run_all_tests(pr, cluster_col="cluster", n_workers=1)
+        assert set(result.columns) == REQUIRED_COLUMNS
+
+    def test_run_all_tests_no_correction(self):
+        """No q_value or bonferroni_p columns (STAT-04/05 deferred)."""
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=2, n_vars_per_type=1)
+        result = run_all_tests(pr, cluster_col="cluster", n_workers=1)
+        assert "q_value" not in result.columns
+        assert "bonferroni_p" not in result.columns
+
+    def test_run_all_tests_parallel(self):
+        """Parallel (n_workers=2) produces same results as serial."""
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=2, n_vars_per_type=1)
+        serial = run_all_tests(pr, cluster_col="cluster", n_workers=1, random_state=42)
+        parallel = run_all_tests(pr, cluster_col="cluster", n_workers=2, random_state=42)
+        # Same shape
+        assert serial.shape == parallel.shape
+        # Same p-values (sort both by same key to align)
+        s = serial.sort_values(["variable", "comparison_type", "cluster_label"]).reset_index(drop=True)
+        p = parallel.sort_values(["variable", "comparison_type", "cluster_label"]).reset_index(drop=True)
+        pd.testing.assert_frame_equal(s, p)
+
+    def test_result_shape_assertion_failure(self):
+        """AssertionError when row count is wrong (mocked scenario)."""
+        from unittest.mock import patch
+        from abcd_phewas.stat_engine import run_all_tests
+
+        pr = _make_pipeline_result(n_clusters=2, n_vars_per_type=1)
+
+        # Patch test_single_variable to return wrong number of rows
+        def bad_wrapper(args):
+            return [{"variable": "x", "comparison_type": "omnibus", "cluster_label": None,
+                     "test_used": "fake", "statistic": 0, "p_value": 1, "effect_size": 0,
+                     "effect_size_type": "none", "ci_lower": 0, "ci_upper": 0,
+                     "n_target": 0, "n_rest": 0}]  # Only 1 row instead of 3
+
+        with patch("abcd_phewas.stat_engine._test_variable_wrapper", side_effect=bad_wrapper):
+            with pytest.raises(AssertionError):
+                run_all_tests(pr, cluster_col="cluster", n_workers=1)
