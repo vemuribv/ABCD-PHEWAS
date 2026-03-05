@@ -1,5 +1,5 @@
 ---
-status: complete
+status: diagnosed
 phase: 01-data-foundation
 source: [01-01-SUMMARY.md, 01-02-SUMMARY.md]
 started: 2026-03-05T00:39:33Z
@@ -59,5 +59,12 @@ skipped: 1
   reason: "User reported: [Errno 2] No such file or directory: 'config/domain_mapping.yaml'"
   severity: major
   test: 5
-  artifacts: []
-  missing: []
+  root_cause: "load_domain_config() takes a raw path string with no package-relative resolution. config/domain_mapping.yaml is relative to CWD, which fails when running from a Jupyter notebook on a different server where CWD != project root."
+  artifacts:
+    - path: "src/abcd_phewas/domain_mapper.py"
+      issue: "load_domain_config() line 35 uses raw open(yaml_path) with no fallback to package-relative path"
+    - path: "config/domain_mapping.yaml"
+      issue: "Config file exists in repo but isn't bundled with package or discoverable via importlib"
+  missing:
+    - "Add a default path resolver using importlib.resources or pathlib relative to package root"
+    - "Bundle config/domain_mapping.yaml as package data or provide a get_default_config_path() helper"
