@@ -47,8 +47,8 @@ Plans:
 **Plans**: 3 plans
 Plans:
 - [x] 02-01-PLAN.md — Effect sizes, Monte Carlo chi-square, bootstrap CIs (TDD)
-- [ ] 02-02-PLAN.md — Stat engine dispatch, test runners, sparse fallback chain
-- [ ] 02-03-PLAN.md — run_all_tests orchestrator, parallelization, result shape assertion
+- [x] 02-02-PLAN.md — Stat engine dispatch, test runners, sparse fallback chain
+- [x] 02-03-PLAN.md — run_all_tests orchestrator, parallelization, result shape assertion
 
 ### Phase 3: Correction and Outputs
 **Goal**: Final corrected results table and publication-quality plots are produced from the raw p-value array
@@ -58,7 +58,10 @@ Plans:
   1. Results CSV contains one row per (variable, cluster) pair with FDR-BH q-value, Bonferroni p-value, effect size, CI, n per group, and missingness rate
   2. Manhattan plot renders for each one-vs-rest cluster comparison: domain-colored x-axis, FDR and Bonferroni threshold lines, directional markers, non-overlapping labels on significant hits at 300 DPI
   3. Global omnibus Manhattan plot renders showing which variables differ across any cluster
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 03-01-PLAN.md — Multiple comparison correction and results CSV assembly (TDD)
+- [ ] 03-02-PLAN.md — Publication-quality Manhattan plots with domain grouping
 
 ### Phase 4: Pipeline Orchestration
 **Goal**: A single command runs the full pipeline for a given sex stratum and timepoint, producing all outputs in an organized directory
@@ -79,5 +82,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-03-05 |
 | 2. Statistical Core | 3/3 | Complete   | 2026-03-05 |
-| 3. Correction and Outputs | 0/TBD | Not started | - |
+| 3. Correction and Outputs | 0/2 | Not started | - |
 | 4. Pipeline Orchestration | 0/TBD | Not started | - |
