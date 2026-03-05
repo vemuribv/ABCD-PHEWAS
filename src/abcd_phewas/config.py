@@ -1,5 +1,7 @@
 """PipelineConfig: Central configuration dataclass for the abcd_phewas pipeline."""
 
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
