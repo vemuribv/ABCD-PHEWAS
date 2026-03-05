@@ -31,8 +31,8 @@ Decimal phases appear between their surrounding integers in numeric order.
   5. Every variable has a domain label; no variable has a NULL domain (unmatched variables receive "Other/Unclassified")
 **Plans**: 2 plans
 Plans:
-- [ ] 01-01-PLAN.md — Project scaffold, data loader, and variable type detector
-- [ ] 01-02-PLAN.md — Preprocessor, domain mapper, and pipeline orchestrator
+- [x] 01-01-PLAN.md — Project scaffold, data loader, and variable type detector
+- [x] 01-02-PLAN.md — Preprocessor, domain mapper, and pipeline orchestrator
 
 ### Phase 2: Statistical Core
 **Goal**: Per-variable test results (one-vs-rest per cluster + global omnibus) with raw p-values and effect sizes, validated on synthetic data before running on ABCD
@@ -43,8 +43,12 @@ Plans:
   2. Each variable receives the correct test: Kruskal-Wallis for continuous/ordinal, chi-square or Fisher's exact for binary/categorical
   3. Running on a 2-cluster and an 8-cluster assignment file both produce valid results without code changes
   4. Effect sizes (Cohen's d for continuous, Cramer's V for categorical) are present for all (variable, cluster) pairs, not just significant ones
-  5. The raw p-value array length equals n_variables × (n_clusters + 1), confirmed by assertion before correction
-**Plans**: TBD
+  5. The raw p-value array length equals n_variables x (n_clusters + 1), confirmed by assertion before correction
+**Plans**: 3 plans
+Plans:
+- [ ] 02-01-PLAN.md — Effect sizes, Monte Carlo chi-square, bootstrap CIs (TDD)
+- [ ] 02-02-PLAN.md — Stat engine dispatch, test runners, sparse fallback chain
+- [ ] 02-03-PLAN.md — run_all_tests orchestrator, parallelization, result shape assertion
 
 ### Phase 3: Correction and Outputs
 **Goal**: Final corrected results table and publication-quality plots are produced from the raw p-value array
@@ -74,6 +78,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-03-05 |
-| 2. Statistical Core | 0/TBD | Not started | - |
+| 2. Statistical Core | 0/3 | Planning complete | - |
 | 3. Correction and Outputs | 0/TBD | Not started | - |
 | 4. Pipeline Orchestration | 0/TBD | Not started | - |
