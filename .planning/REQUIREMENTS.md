@@ -22,7 +22,7 @@
 
 - [ ] **STAT-01**: One-vs-rest comparison per cluster: Kruskal-Wallis for continuous/ordinal, chi-square/Fisher for binary/categorical
 - [ ] **STAT-02**: Global omnibus test per variable across all clusters
-- [ ] **STAT-03**: Effect sizes: Cohen's d (continuous), Cramer's V (binary/categorical)
+- [x] **STAT-03**: Effect sizes: Cohen's d (continuous), Cramer's V (binary/categorical)
 - [ ] **STAT-04**: Global FDR (Benjamini-Hochberg) and Bonferroni correction across all tests
 - [ ] **STAT-05**: Within-domain FDR and Bonferroni correction
 - [ ] **STAT-06**: Support 2-8 clusters
@@ -82,7 +82,7 @@
 | DOMN-02 | Phase 1 | Complete |
 | STAT-01 | Phase 2 | Pending |
 | STAT-02 | Phase 2 | Pending |
-| STAT-03 | Phase 2 | Pending |
+| STAT-03 | Phase 2 | Complete |
 | STAT-04 | Phase 2 | Pending |
 | STAT-05 | Phase 2 | Pending |
 | STAT-06 | Phase 2 | Pending |

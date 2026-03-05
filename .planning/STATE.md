@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: planning
-stopped_at: Phase 2 context gathered
-last_updated: "2026-03-05T09:25:28.758Z"
-last_activity: 2026-03-04 — Roadmap created, requirements mapped to 4 phases
+status: executing
+stopped_at: Completed 02-01-PLAN.md
+last_updated: "2026-03-05T09:49:00.000Z"
+last_activity: 2026-03-05 — Completed Phase 2 Plan 01 (effect sizes)
 progress:
   total_phases: 4
   completed_phases: 1
-  total_plans: 2
-  completed_plans: 2
-  percent: 0
+  total_plans: 5
+  completed_plans: 3
+  percent: 15
 ---
 
 # Project State
@@ -21,37 +21,39 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-04)
 
 **Core value:** Discover the phenotypic "character" of each pubertal trajectory cluster across 3,000+ ABCD variables
-**Current focus:** Phase 1 - Data Foundation
+**Current focus:** Phase 2 - Statistical Core
 
 ## Current Position
 
-Phase: 1 of 4 (Data Foundation)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-03-04 — Roadmap created, requirements mapped to 4 phases
+Phase: 2 of 4 (Statistical Core)
+Plan: 1 of 3 in current phase
+Status: Executing
+Last activity: 2026-03-05 — Completed Phase 2 Plan 01 (effect sizes)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [##░░░░░░░░] 15%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: -
-- Total execution time: 0 hours
+- Total plans completed: 3
+- Average duration: ~6 min
+- Total execution time: ~17 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-data-foundation | 2 | ~11 min | ~5.5 min |
+| 02-statistical-core | 1 | ~5 min | ~5 min |
 
 **Recent Trend:**
-- Last 5 plans: -
-- Trend: -
+- Last 3 plans: P01-01 (5m), P01-02 (6m), P02-01 (5m)
+- Trend: Stable
 
 *Updated after each plan completion*
 | Phase 01-data-foundation P01 | 5 | 3 tasks | 10 files |
 | Phase 01-data-foundation P02 | 6 | 3 tasks | 6 files |
+| Phase 02-statistical-core P01 | 5 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -70,6 +72,9 @@ Recent decisions affecting current work:
 - [Phase 01-data-foundation]: Lognormal for INT test: exponential(2.0) drops below skew threshold after winsorization; lognormal stays skewed
 - [Phase 01-data-foundation]: Sentinel replacement (Stage 2) enforced before type detection (Stage 7) in run_pipeline; validated by ordering test
 - [Phase 01-data-foundation]: Missingness computed before min-n filter: users can see why skipped variables were excluded
+- [Phase 02-statistical-core]: Percentile bootstrap (not BCa) to handle degenerate/constant data without error
+- [Phase 02-statistical-core]: Monte Carlo chi-square uses multinomial sampling with expected-frequency probabilities
+- [Phase 02-statistical-core]: Zero pooled SD in cohens_d returns 0.0 (not inf)
 
 ### Pending Todos
 
@@ -84,6 +89,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-05T09:25:28.747Z
-Stopped at: Phase 2 context gathered
-Resume file: .planning/phases/02-statistical-core/02-CONTEXT.md
+Last session: 2026-03-05T09:49:00.000Z
+Stopped at: Completed 02-01-PLAN.md
+Resume file: .planning/phases/02-statistical-core/02-01-SUMMARY.md

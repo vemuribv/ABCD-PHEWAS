@@ -46,7 +46,7 @@ Plans:
   5. The raw p-value array length equals n_variables x (n_clusters + 1), confirmed by assertion before correction
 **Plans**: 3 plans
 Plans:
-- [ ] 02-01-PLAN.md — Effect sizes, Monte Carlo chi-square, bootstrap CIs (TDD)
+- [x] 02-01-PLAN.md — Effect sizes, Monte Carlo chi-square, bootstrap CIs (TDD)
 - [ ] 02-02-PLAN.md — Stat engine dispatch, test runners, sparse fallback chain
 - [ ] 02-03-PLAN.md — run_all_tests orchestrator, parallelization, result shape assertion
 
@@ -78,6 +78,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-03-05 |
-| 2. Statistical Core | 0/3 | Planning complete | - |
+| 2. Statistical Core | 1/3 | Executing | - |
 | 3. Correction and Outputs | 0/TBD | Not started | - |
 | 4. Pipeline Orchestration | 0/TBD | Not started | - |
