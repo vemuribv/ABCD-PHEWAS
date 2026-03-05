@@ -7,10 +7,10 @@
 
 ### Data Foundation
 
-- [ ] **DATA-01**: Load cluster assignments (subject ID + cluster label) and single-timepoint phenotype file
-- [ ] **DATA-02**: Auto-detect variable types: binary, categorical, ordinal, continuous
-- [ ] **DATA-03**: Handle missing data with per-variable NA exclusion and missingness rate reporting
-- [ ] **DATA-04**: Skip variables with <10 non-missing subjects in any comparison group
+- [x] **DATA-01**: Load cluster assignments (subject ID + cluster label) and single-timepoint phenotype file
+- [x] **DATA-02**: Auto-detect variable types: binary, categorical, ordinal, continuous
+- [x] **DATA-03**: Handle missing data with per-variable NA exclusion and missingness rate reporting
+- [x] **DATA-04**: Skip variables with <10 non-missing subjects in any comparison group
 - [ ] **DATA-05**: Apply skewness check, winsorization (mean +/- 3 SD), and rank-based INT to skewed continuous variables (|skew| > 1.96); z-score non-skewed continuous variables
 
 ### Domain Mapping
@@ -73,10 +73,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | Phase 1 | Pending |
-| DATA-02 | Phase 1 | Pending |
-| DATA-03 | Phase 1 | Pending |
-| DATA-04 | Phase 1 | Pending |
+| DATA-01 | Phase 1 | Complete |
+| DATA-02 | Phase 1 | Complete |
+| DATA-03 | Phase 1 | Complete |
+| DATA-04 | Phase 1 | Complete |
 | DATA-05 | Phase 1 | Pending |
 | DOMN-01 | Phase 1 | Pending |
 | DOMN-02 | Phase 1 | Pending |

@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 1 context gathered
-last_updated: "2026-03-05T00:01:54.956Z"
+stopped_at: Completed 01-data-foundation-01-01-PLAN.md
+last_updated: "2026-03-05T00:27:23.490Z"
 last_activity: 2026-03-04 — Roadmap created, requirements mapped to 4 phases
 progress:
   total_phases: 4
   completed_phases: 0
-  total_plans: 0
-  completed_plans: 0
+  total_plans: 2
+  completed_plans: 1
   percent: 0
 ---
 
@@ -50,6 +50,7 @@ Progress: [░░░░░░░░░░] 0%
 - Trend: -
 
 *Updated after each plan completion*
+| Phase 01-data-foundation P01 | 5 | 3 tasks | 10 files |
 
 ## Accumulated Context
 
@@ -62,6 +63,9 @@ Recent decisions affecting current work:
 - [Pre-phase]: No age/sex covariate adjustment (clusters are age-indexed, sex-stratified by design)
 - [Pre-phase]: Both FDR and Bonferroni correction on same plots (liberal + conservative thresholds)
 - [Pre-phase]: Domain grouping from ABCD dictionary (natural grouping for Manhattan x-axis)
+- [Phase 01-data-foundation]: Binary check takes precedence over ordinal in type detection (n_unique==2 -> BINARY first)
+- [Phase 01-data-foundation]: Pipeline order enforced: load -> blocklist -> sentinel replacement -> missingness -> type detection
+- [Phase 01-data-foundation]: Python 3.12 via uv venv at project root (.venv) for union type hints
 
 ### Pending Todos
 
@@ -76,6 +80,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-05T00:01:54.949Z
-Stopped at: Phase 1 context gathered
-Resume file: .planning/phases/01-data-foundation/01-CONTEXT.md
+Last session: 2026-03-05T00:27:23.489Z
+Stopped at: Completed 01-data-foundation-01-01-PLAN.md
+Resume file: None
