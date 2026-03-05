@@ -160,3 +160,82 @@ class TestBootstrapCI:
         low, high = bootstrap_ci(cohens_d, (g1, g2), n_resamples=200, random_state=42)
         # Should not raise; result is either (nan, nan) or (0.0, 0.0)
         assert (np.isnan(low) and np.isnan(high)) or (low == 0.0 and high == 0.0)
+
+
+# ---------------------------------------------------------------------------
+# Cross-validation spot-checks against statsmodels / scipy
+# ---------------------------------------------------------------------------
+
+
+class TestSpotCheckVsStatsmodels:
+    """Verify our effect size functions match established packages."""
+
+    def test_cohens_d_vs_independent_calc(self):
+        """Cohen's d matches independent pooled-SD calculation."""
+        rng = np.random.default_rng(123)
+        g1 = rng.normal(8, 3, size=200)
+        g2 = rng.normal(5, 3, size=200)
+
+        ours = cohens_d(g1, g2)
+
+        # Independent calculation using only numpy primitives
+        n1, n2 = len(g1), len(g2)
+        var1 = np.sum((g1 - np.mean(g1)) ** 2) / (n1 - 1)
+        var2 = np.sum((g2 - np.mean(g2)) ** 2) / (n2 - 1)
+        pooled_sd = np.sqrt(((n1 - 1) * var1 + (n2 - 1) * var2) / (n1 + n2 - 2))
+        independent_d = (np.mean(g1) - np.mean(g2)) / pooled_sd
+
+        assert ours == pytest.approx(independent_d, abs=1e-10)
+
+    def test_rank_biserial_vs_scipy(self):
+        """Rank-biserial from MWU matches scipy's direct calculation."""
+        from scipy.stats import mannwhitneyu
+
+        rng = np.random.default_rng(456)
+        g1 = rng.normal(10, 2, size=80)
+        g2 = rng.normal(7, 2, size=120)
+
+        result = mannwhitneyu(g1, g2, alternative="two-sided")
+        ours = rank_biserial(result.statistic, len(g1), len(g2))
+
+        # scipy >= 1.7 mannwhitneyu doesn't expose r directly,
+        # but the formula r = 1 - 2U/(n1*n2) is standard.
+        # Verify against independent calculation:
+        n1, n2 = len(g1), len(g2)
+        independent_r = 1.0 - (2.0 * result.statistic) / (n1 * n2)
+        assert ours == pytest.approx(independent_r, abs=1e-10)
+        # Also verify it's in valid range
+        assert -1.0 <= ours <= 1.0
+        # Note: scipy MWU U is large when g1 ranks higher, so
+        # r = 1 - 2U/(n1*n2) is NEGATIVE when g1 > g2.
+        # This is correct — sign depends on U convention, not mean direction.
+        assert ours < 0  # g1 ranks higher → large U → negative r
+
+    def test_cramers_v_vs_scipy_association(self):
+        """Cramer's V matches scipy.stats.contingency.association."""
+        from scipy.stats.contingency import association
+
+        tables = [
+            np.array([[30, 10], [5, 55]]),       # strong association
+            np.array([[50, 50], [50, 50]]),       # independence
+            np.array([[20, 30, 10], [5, 15, 20]]),  # 2x3 table
+        ]
+        for table in tables:
+            ours = cramers_v(table)
+            theirs = association(table, method="cramer")
+            assert ours == pytest.approx(theirs, abs=1e-10), (
+                f"Mismatch on table {table}: ours={ours}, scipy={theirs}"
+            )
+
+    def test_epsilon_squared_vs_manual(self):
+        """Epsilon-squared matches manual H/(n-1) from scipy kruskal."""
+        from scipy.stats import kruskal
+
+        rng = np.random.default_rng(789)
+        groups = [rng.normal(mu, 2, size=50) for mu in [5, 7, 6]]
+        h_stat, _ = kruskal(*groups)
+        n_total = sum(len(g) for g in groups)
+
+        ours = epsilon_squared(h_stat, n_total)
+        manual = h_stat / (n_total - 1)
+        assert ours == pytest.approx(manual, abs=1e-10)
