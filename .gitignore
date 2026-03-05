@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Editor
+.DS_Store
+*.swp
+*.swo
+
+# Data (never commit real ABCD data)
+data/
+*.csv.gz
+*.xlsx
