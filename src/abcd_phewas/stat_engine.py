@@ -8,7 +8,9 @@ Each runner returns a standardised result dict with 12 columns.
 """
 from __future__ import annotations
 
+import logging
 import warnings
+from concurrent.futures import ProcessPoolExecutor
 from enum import Enum
 from typing import Optional
 
@@ -488,3 +490,143 @@ def test_single_variable(
         results.append(row)
 
     return results
+
+
+# ---------------------------------------------------------------------------
+# Parallel wrapper for ProcessPoolExecutor
+# ---------------------------------------------------------------------------
+
+logger = logging.getLogger(__name__)
+
+
+def _test_variable_wrapper(args: tuple) -> list[dict]:
+    """Unpack args tuple and call test_single_variable.
+
+    ProcessPoolExecutor can't efficiently pickle DataFrames, so we pass
+    raw values and reconstruct pd.Series inside each worker.
+
+    Parameters
+    ----------
+    args : tuple
+        (variable, data_values, cluster_values, var_type, random_state)
+
+    Returns
+    -------
+    list[dict]
+        Result rows from test_single_variable, or a single NaN row on error.
+    """
+    variable, data_values, cluster_values, var_type, random_state = args
+    try:
+        data_series = pd.Series(data_values)
+        cluster_series = pd.Series(cluster_values)
+        return test_single_variable(
+            variable, data_series, cluster_series, var_type,
+            random_state=random_state,
+        )
+    except Exception as exc:
+        logger.warning("Error testing variable '%s': %s", variable, exc)
+        return [_nan_result(
+            variable=variable,
+            comparison_type=ComparisonType.OMNIBUS.value,
+            cluster_label=None,
+            test_used="error",
+            effect_size_type="none",
+            n_target=0,
+            n_rest=None,
+        )]
+
+
+# ---------------------------------------------------------------------------
+# Main orchestrator: run all tests across all variables
+# ---------------------------------------------------------------------------
+
+
+def run_all_tests(
+    pipeline_result,
+    cluster_col: str = "cluster",
+    n_workers: int | None = None,
+    random_state: int = 42,
+) -> pd.DataFrame:
+    """Run omnibus + one-vs-rest tests for every variable in the pipeline result.
+
+    Parameters
+    ----------
+    pipeline_result : PipelineResult
+        Output from run_pipeline containing df, type_map, etc.
+    cluster_col : str
+        Name of the cluster column in pipeline_result.df.
+    n_workers : int or None
+        Number of parallel workers.  1 = serial (for debugging).
+        None = let ProcessPoolExecutor decide (os.cpu_count()).
+    random_state : int
+        Seed for reproducibility of bootstrap and Monte Carlo.
+
+    Returns
+    -------
+    pd.DataFrame
+        Result table with one row per (variable, comparison) pair.
+        Columns: variable, comparison_type, cluster_label, test_used,
+        statistic, p_value, effect_size, effect_size_type,
+        ci_lower, ci_upper, n_target, n_rest.
+
+    Raises
+    ------
+    AssertionError
+        If row count != n_variables * (n_clusters + 1).
+    """
+    df = pipeline_result.df
+    type_map = pipeline_result.type_map
+    variables = list(type_map.keys())
+    n_variables = len(variables)
+    cluster_series = df[cluster_col]
+    n_clusters = cluster_series.nunique()
+
+    # Prepare argument tuples (picklable values, not DataFrames)
+    args_list = []
+    for var in variables:
+        args_list.append((
+            var,
+            df[var].values.tolist(),
+            cluster_series.values.tolist(),
+            type_map[var],
+            random_state,
+        ))
+
+    # Execute: serial or parallel
+    if n_workers == 1:
+        all_results = list(map(_test_variable_wrapper, args_list))
+    else:
+        with ProcessPoolExecutor(max_workers=n_workers) as executor:
+            all_results = list(executor.map(_test_variable_wrapper, args_list))
+
+    # Flatten list of lists into single list of dicts
+    rows = []
+    for result_list in all_results:
+        rows.extend(result_list)
+
+    # Shape assertion
+    expected_rows = n_variables * (n_clusters + 1)
+    if len(rows) != expected_rows:
+        # Log which variables produced wrong row counts
+        var_counts = {}
+        for row in rows:
+            v = row["variable"]
+            var_counts[v] = var_counts.get(v, 0) + 1
+        bad_vars = {v: c for v, c in var_counts.items() if c != n_clusters + 1}
+        logger.error(
+            "Row count mismatch: expected %d, got %d. "
+            "Variables with wrong counts: %s",
+            expected_rows, len(rows), bad_vars,
+        )
+        raise AssertionError(
+            f"Expected {expected_rows} rows ({n_variables} vars * "
+            f"{n_clusters + 1} comparisons), got {len(rows)}. "
+            f"Bad variables: {bad_vars}"
+        )
+
+    result_df = pd.DataFrame(rows)
+    result_df = result_df.sort_values(
+        ["variable", "comparison_type", "cluster_label"],
+    ).reset_index(drop=True)
+
+    return result_df
