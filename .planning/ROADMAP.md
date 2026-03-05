@@ -29,7 +29,10 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. ABCD sentinel values (-999, 777, 999) are treated as missing, not as numeric or categorical values
   4. Variables in the CRLI blocklist are absent from the DataFrame before any test runs
   5. Every variable has a domain label; no variable has a NULL domain (unmatched variables receive "Other/Unclassified")
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 01-01-PLAN.md — Project scaffold, data loader, and variable type detector
+- [ ] 01-02-PLAN.md — Preprocessor, domain mapper, and pipeline orchestrator
 
 ### Phase 2: Statistical Core
 **Goal**: Per-variable test results (one-vs-rest per cluster + global omnibus) with raw p-values and effect sizes, validated on synthetic data before running on ABCD
@@ -70,7 +73,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Data Foundation | 0/TBD | Not started | - |
+| 1. Data Foundation | 0/2 | Planning complete | - |
 | 2. Statistical Core | 0/TBD | Not started | - |
 | 3. Correction and Outputs | 0/TBD | Not started | - |
 | 4. Pipeline Orchestration | 0/TBD | Not started | - |
