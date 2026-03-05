@@ -14,11 +14,11 @@ Clean, typed, domain-labeled DataFrame ready for statistical testing, with CRLI 
 ## Implementation Decisions
 
 ### Variable Type Detection
-- Auto-detect using unique value count: ≤10 unique values = categorical, >10 = continuous
+- Auto-detect as baseline heuristic: ≤10 unique values = categorical, >10 = continuous
 - Binary: exactly 2 unique non-NA values
 - Ordinal: ≤10 unique values AND values are sequential integers (e.g., 1,2,3,4,5 Likert scales)
 - Nominal categorical: ≤10 unique values but NOT sequential integers
-- No data dictionary required — pure heuristic approach
+- **Type override file**: optional CSV where user can manually correct any misclassified variables (columns: variable_name, forced_type). Overrides take precedence over auto-detection. This handles edge cases like sum scores 0-8 (auto-detected as categorical but actually continuous) or 11+ level categoricals.
 
 ### Input File Formats
 - Both cluster assignments and phenotype data are CSV files
