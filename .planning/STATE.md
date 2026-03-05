@@ -10,8 +10,8 @@ progress:
   total_phases: 4
   completed_phases: 1
   total_plans: 5
-  completed_plans: 4
-  percent: 40
+  completed_plans: 5
+  percent: 50
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-03-04)
 ## Current Position
 
 Phase: 2 of 4 (Statistical Core)
-Plan: 2 of 3 in current phase
-Status: Executing
-Last activity: 2026-03-05 — Completed Phase 2 Plan 02 (stat engine)
+Plan: 3 of 3 in current phase
+Status: Phase Complete
+Last activity: 2026-03-05 — Completed Phase 2 Plan 03 (run_all_tests orchestrator)
 
-Progress: [####░░░░░░] 40%
+Progress: [#####░░░░░] 50%
 
 ## Performance Metrics
 
@@ -55,6 +55,7 @@ Progress: [####░░░░░░] 40%
 | Phase 01-data-foundation P02 | 6 | 3 tasks | 6 files |
 | Phase 02-statistical-core P01 | 5 | 2 tasks | 3 files |
 | Phase 02-statistical-core P02 | 5 | 1 task | 2 files |
+| Phase 02-statistical-core P03 | 10 | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -79,6 +80,9 @@ Recent decisions affecting current work:
 - [Phase 02-statistical-core]: No sparse fallback for omnibus KxL tables (full-sample expected cells safely above 5)
 - [Phase 02-statistical-core]: Dispatch table keyed on (VarType, ComparisonType) tuple for O(1) test selection
 - [Phase 02-statistical-core]: NaN CI for omnibus effect sizes (bootstrap CIs only for one-vs-rest)
+- [Phase 02-statistical-core]: Picklable tuple args for ProcessPoolExecutor (values.tolist() not DataFrame)
+- [Phase 02-statistical-core]: n_workers=1 serial mode for debugging; None for auto CPU count
+- [Phase 02-statistical-core]: Shape assertion with diagnostic logging of bad variable counts
 
 ### Pending Todos
 
@@ -93,6 +97,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-05T10:06:00.000Z
-Stopped at: Completed 02-02-PLAN.md
-Resume file: .planning/phases/02-statistical-core/02-02-SUMMARY.md
+Last session: 2026-03-05T10:18:23Z
+Stopped at: Completed 02-03-PLAN.md
+Resume file: .planning/phases/02-statistical-core/02-03-SUMMARY.md
