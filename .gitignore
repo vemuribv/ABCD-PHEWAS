@@ -24,5 +24,6 @@ htmlcov/
 
 # Data (never commit real ABCD data)
 data/
+!src/abcd_phewas/data/
 *.csv.gz
 *.xlsx

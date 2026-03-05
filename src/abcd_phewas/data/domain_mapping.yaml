@@ -1,0 +1,113 @@
+# ABCD PheWAS domain mapping configuration
+# Source: PheWAS Analyses Resub5.Rmd lines 2914-2961
+#
+# ORDER MATTERS: first match wins. More specific patterns should come before
+# broader ones. Regex patterns are matched case-insensitively against variable names.
+#
+# Color values are closest hex equivalents to R color names used in the original
+# R codebase. Exact hex-to-R-color mapping should be verified in Phase 3 (plotting).
+# R color names: darkorange1, lightseagreen, orchid3, lightskyblue, goldenrod1,
+#                seagreen, pink2, deepskyblue4
+
+domains:
+  - domain: "Cognition"
+    color: "#FF7F00"   # R: darkorange1
+    patterns:
+      - "nihtbx"
+      - "RAVLT"
+      - "cash"
+      - "lmt"
+      - "wisc"
+
+  - domain: "Screen Time"
+    color: "#20B2AA"   # R: lightseagreen
+    patterns:
+      - "screen"
+      - "stq"
+
+  - domain: "Demographics"
+    color: "#DA70D6"   # R: orchid3
+    patterns:
+      - "demo"
+      - "prtnr_wor"
+      - "prnt_wor"
+
+  - domain: "Substance"
+    color: "#87CEFA"   # R: lightskyblue
+    patterns:
+      - "tlfb"
+      - "path"
+      - "isip"
+      - "su_"
+      - "caff"
+      - "rules_"
+      - "peer_dev"
+
+  - domain: "Culture/Environment"
+    color: "#FFD700"   # R: goldenrod1
+    patterns:
+      - "crpbi"
+      - "fes"
+      - "prosocial"
+      - "school"
+      - "reshist"
+      - "monitor"
+      - "neighborhood"
+      - "enviro"
+      - "pmq"
+      - "psb_"
+      - "nsc_"
+      - "srpf"
+
+  - domain: "Physical Health"
+    color: "#2E8B57"   # R: seagreen
+    patterns:
+      - "medhx"
+      - "devhx"
+      - "tbi"
+      - "pds"
+      - "puber"
+      - "sports"
+      - "sai_"
+      - "filtered_"
+      - "anthro"
+      - "child_"
+      - "antidep_"
+      - "sds_"
+      - "sleep"
+      - "weight"
+      - "SSRI"
+      - "antidep"
+      - "hormon_sal"
+      - "medicat"
+      - "physical"
+      - "caff_24"
+      - "caff_ago"
+
+  - domain: "Family Mental Health"
+    color: "#FFB6C1"   # R: pink2
+    patterns:
+      - "asr_"
+      - "famhx"
+      - "fam_hist"
+
+  - domain: "Child Mental Health"
+    color: "#00008B"   # R: deepskyblue4
+    patterns:
+      - "ksad"
+      - "cbcl"
+      - "prodrom"
+      - "pps_"
+      - "upps"
+      - "bisbas"
+      - "bis_"
+      - "resiliency"
+      - "kbi"
+      - "gen_child"
+      - "pgbi"
+      - "bpm"
+      - "ADHD"
+
+  - domain: "Other/Unclassified"
+    color: "#AAAAAA"
+    patterns: []  # catch-all — never matched by loop, assigned as fallback only

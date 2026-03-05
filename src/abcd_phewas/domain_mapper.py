@@ -12,19 +12,23 @@ from __future__ import annotations
 
 import logging
 import re
+from pathlib import Path
 
 import yaml
 
 logger = logging.getLogger(__name__)
 
+_DEFAULT_CONFIG = Path(__file__).parent / "data" / "domain_mapping.yaml"
 
-def load_domain_config(yaml_path: str) -> list[dict]:
+
+def load_domain_config(yaml_path: str | None = None) -> list[dict]:
     """Load domain mapping config from a YAML file.
 
     Parameters
     ----------
     yaml_path:
-        Path to the YAML config file (e.g., config/domain_mapping.yaml).
+        Path to the YAML config file. If *None*, uses the bundled
+        default at ``abcd_phewas/data/domain_mapping.yaml``.
 
     Returns
     -------
@@ -32,7 +36,8 @@ def load_domain_config(yaml_path: str) -> list[dict]:
         List of domain dicts, each with keys: 'domain', 'color', 'patterns'.
         Preserves YAML order (important: first match wins during assignment).
     """
-    with open(yaml_path, "r") as f:
+    path = Path(yaml_path) if yaml_path is not None else _DEFAULT_CONFIG
+    with open(path, "r") as f:
         config = yaml.safe_load(f)
     return config["domains"]
 
