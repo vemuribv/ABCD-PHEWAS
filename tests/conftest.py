@@ -83,3 +83,113 @@ def tmp_blocklist(tmp_path) -> str:
     with open(blocklist_path, "w") as f:
         f.write("\n".join(blocked_vars) + "\n")
     return blocklist_path
+
+
+# ---------------------------------------------------------------------------
+# Phase 2 fixtures: statistical test data with known effect sizes
+# ---------------------------------------------------------------------------
+
+
+@pytest.fixture
+def two_cluster_data() -> pd.DataFrame:
+    """200 subjects in 2 clusters (100 each) with 4 phenotype columns.
+
+    Known effect sizes baked in:
+    - cont_pheno: cluster 1 mean=10 sd=2, cluster 2 mean=5 sd=2 -> Cohen's d ~ 2.5
+    - binary_pheno: cluster 1 ~80% 1s, cluster 2 ~20% 1s
+    - ordinal_pheno: cluster 1 values 3-5, cluster 2 values 1-3
+    - categ_pheno: cluster 1 mostly "A", cluster 2 mostly "B"
+    """
+    rng = np.random.default_rng(42)
+    n_per = 100
+    subjects = [f"sub-{i:04d}" for i in range(2 * n_per)]
+    clusters = [1] * n_per + [2] * n_per
+
+    cont_c1 = rng.normal(10, 2, size=n_per)
+    cont_c2 = rng.normal(5, 2, size=n_per)
+    cont = np.concatenate([cont_c1, cont_c2])
+
+    binary_c1 = rng.choice([0, 1], size=n_per, p=[0.2, 0.8])
+    binary_c2 = rng.choice([0, 1], size=n_per, p=[0.8, 0.2])
+    binary = np.concatenate([binary_c1, binary_c2])
+
+    ordinal_c1 = rng.integers(3, 6, size=n_per)  # 3, 4, 5
+    ordinal_c2 = rng.integers(1, 4, size=n_per)  # 1, 2, 3
+    ordinal = np.concatenate([ordinal_c1, ordinal_c2])
+
+    categ_c1 = rng.choice(["A", "B", "C"], size=n_per, p=[0.7, 0.2, 0.1])
+    categ_c2 = rng.choice(["A", "B", "C"], size=n_per, p=[0.1, 0.7, 0.2])
+    categ = np.concatenate([categ_c1, categ_c2])
+
+    return pd.DataFrame({
+        "src_subject_id": subjects,
+        "cluster": clusters,
+        "cont_pheno": cont,
+        "binary_pheno": binary,
+        "ordinal_pheno": ordinal,
+        "categ_pheno": categ,
+    })
+
+
+@pytest.fixture
+def eight_cluster_data() -> pd.DataFrame:
+    """400 subjects in 8 clusters (50 each) with 4 phenotype columns.
+
+    Cluster 1 has distinct effect vs rest for all phenotype types.
+    """
+    rng = np.random.default_rng(123)
+    n_per = 50
+    n_total = 8 * n_per
+    subjects = [f"sub-{i:04d}" for i in range(n_total)]
+    clusters = []
+    for c in range(1, 9):
+        clusters.extend([c] * n_per)
+
+    # Continuous: cluster 1 mean=15, rest mean=10, all sd=2
+    cont = []
+    for c in range(1, 9):
+        mean = 15.0 if c == 1 else 10.0
+        cont.extend(rng.normal(mean, 2, size=n_per).tolist())
+
+    # Binary: cluster 1 ~90% 1s, rest ~40% 1s
+    binary = []
+    for c in range(1, 9):
+        p1 = 0.9 if c == 1 else 0.4
+        binary.extend(rng.choice([0, 1], size=n_per, p=[1 - p1, p1]).tolist())
+
+    # Ordinal: cluster 1 values 4-5, rest values 1-3
+    ordinal = []
+    for c in range(1, 9):
+        if c == 1:
+            ordinal.extend(rng.integers(4, 6, size=n_per).tolist())
+        else:
+            ordinal.extend(rng.integers(1, 4, size=n_per).tolist())
+
+    # Categorical: cluster 1 mostly "X", rest mostly "Y"/"Z"
+    categ = []
+    for c in range(1, 9):
+        if c == 1:
+            categ.extend(rng.choice(["X", "Y", "Z"], size=n_per, p=[0.8, 0.1, 0.1]).tolist())
+        else:
+            categ.extend(rng.choice(["X", "Y", "Z"], size=n_per, p=[0.1, 0.5, 0.4]).tolist())
+
+    return pd.DataFrame({
+        "src_subject_id": subjects,
+        "cluster": clusters,
+        "cont_pheno": cont,
+        "binary_pheno": binary,
+        "ordinal_pheno": ordinal,
+        "categ_pheno": categ,
+    })
+
+
+@pytest.fixture
+def sparse_contingency_2x2() -> np.ndarray:
+    """2x2 contingency table with expected cell count < 5."""
+    return np.array([[1, 8], [2, 89]])
+
+
+@pytest.fixture
+def sparse_contingency_3x3() -> np.ndarray:
+    """3x3 contingency table with expected cell count < 5."""
+    return np.array([[1, 2, 0], [3, 1, 1], [0, 2, 90]])
