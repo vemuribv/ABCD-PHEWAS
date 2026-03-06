@@ -29,7 +29,7 @@
 
 ### Output
 
-- [ ] **OUTP-01**: Results CSV with variable, domain, test type, statistic, p-value, FDR q, Bonferroni p, effect size, CI, cluster label, n per group, missingness rate
+- [x] **OUTP-01**: Results CSV with variable, domain, test type, statistic, p-value, FDR q, Bonferroni p, effect size, CI, cluster label, n per group, missingness rate
 - [ ] **OUTP-02**: Manhattan-style PheWAS plot per cluster (one-vs-rest) with domain colors, FDR/Bonferroni threshold lines, direction markers, labels on significant hits
 - [ ] **OUTP-03**: Global Manhattan plot (omnibus test results)
 
@@ -86,7 +86,7 @@
 | STAT-04 | Phase 2 | Complete |
 | STAT-05 | Phase 2 | Complete |
 | STAT-06 | Phase 2 | Complete |
-| OUTP-01 | Phase 3 | Pending |
+| OUTP-01 | Phase 3 | Complete |
 | OUTP-02 | Phase 3 | Pending |
 | OUTP-03 | Phase 3 | Pending |
 | PIPE-01 | Phase 4 | Pending |

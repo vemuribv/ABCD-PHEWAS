@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Phase 3 context gathered
-last_updated: "2026-03-05T20:29:39.048Z"
-last_activity: 2026-03-05 — Completed Phase 2 Plan 03 (run_all_tests orchestrator)
+status: in-progress
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-06T02:47:12.591Z"
+last_activity: 2026-03-06 — Completed Phase 3 Plan 01 (correction + results_writer)
 progress:
   total_phases: 4
   completed_phases: 2
-  total_plans: 5
-  completed_plans: 5
+  total_plans: 7
+  completed_plans: 6
   percent: 50
 ---
 
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-04)
 
 **Core value:** Discover the phenotypic "character" of each pubertal trajectory cluster across 3,000+ ABCD variables
-**Current focus:** Phase 2 - Statistical Core
+**Current focus:** Phase 3 - Correction and Outputs
 
 ## Current Position
 
-Phase: 2 of 4 (Statistical Core)
-Plan: 3 of 3 in current phase
-Status: Phase Complete
-Last activity: 2026-03-05 — Completed Phase 2 Plan 03 (run_all_tests orchestrator)
+Phase: 3 of 4 (Correction and Outputs)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-03-06 — Completed Phase 3 Plan 01 (correction + results_writer)
 
-Progress: [#####░░░░░] 50%
+Progress: [█████████░] 86%
 
 ## Performance Metrics
 
@@ -56,6 +56,7 @@ Progress: [#####░░░░░] 50%
 | Phase 02-statistical-core P01 | 5 | 2 tasks | 3 files |
 | Phase 02-statistical-core P02 | 5 | 1 task | 2 files |
 | Phase 02-statistical-core P03 | 10 | 2 tasks | 2 files |
+| Phase 03-correction-and-outputs P01 | 7 | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -83,6 +84,8 @@ Recent decisions affecting current work:
 - [Phase 02-statistical-core]: Picklable tuple args for ProcessPoolExecutor (values.tolist() not DataFrame)
 - [Phase 02-statistical-core]: n_workers=1 serial mode for debugging; None for auto CPU count
 - [Phase 02-statistical-core]: Shape assertion with diagnostic logging of bad variable counts
+- [Phase 03-correction-and-outputs]: multipletests from statsmodels for both FDR-BH and Bonferroni (consistent API, capping at 1.0)
+- [Phase 03-correction-and-outputs]: Domain groups with < 2 valid p-values get NaN domain corrections (no meaningful correction possible)
 
 ### Pending Todos
 
@@ -97,6 +100,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-05T20:29:39.037Z
-Stopped at: Phase 3 context gathered
-Resume file: .planning/phases/03-correction-and-outputs/03-CONTEXT.md
+Last session: 2026-03-06T02:46:27Z
+Stopped at: Completed 03-01-PLAN.md
+Resume file: .planning/phases/03-correction-and-outputs/03-01-SUMMARY.md
