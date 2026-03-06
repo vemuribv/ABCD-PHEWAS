@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Data Foundation** - Clean, typed, domain-labeled DataFrame with CRLI blocklist and sentinel values handled (completed 2026-03-05)
 - [x] **Phase 2: Statistical Core** - Test engine with all variable types, one-vs-rest + global omnibus, effect sizes, raw p-values (completed 2026-03-05)
-- [ ] **Phase 3: Correction and Outputs** - Global FDR/Bonferroni correction, results CSV, publication-quality Manhattan plots
+- [x] **Phase 3: Correction and Outputs** - Global FDR/Bonferroni correction, results CSV, publication-quality Manhattan plots (completed 2026-03-06)
 - [ ] **Phase 4: Pipeline Orchestration** - Sex-stratified, multi-timepoint CLI that runs the full pipeline end-to-end
 
 ## Phase Details
@@ -60,8 +60,8 @@ Plans:
   3. Global omnibus Manhattan plot renders showing which variables differ across any cluster
 **Plans**: 2 plans
 Plans:
-- [ ] 03-01-PLAN.md — Multiple comparison correction and results CSV assembly (TDD)
-- [ ] 03-02-PLAN.md — Publication-quality Manhattan plots with domain grouping
+- [x] 03-01-PLAN.md — Multiple comparison correction and results CSV assembly (TDD)
+- [x] 03-02-PLAN.md — Publication-quality Manhattan plots with domain grouping
 
 ### Phase 4: Pipeline Orchestration
 **Goal**: A single command runs the full pipeline for a given sex stratum and timepoint, producing all outputs in an organized directory
@@ -82,5 +82,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Data Foundation | 2/2 | Complete   | 2026-03-05 |
 | 2. Statistical Core | 3/3 | Complete   | 2026-03-05 |
-| 3. Correction and Outputs | 0/2 | Not started | - |
+| 3. Correction and Outputs | 2/2 | Complete   | 2026-03-06 |
 | 4. Pipeline Orchestration | 0/TBD | Not started | - |

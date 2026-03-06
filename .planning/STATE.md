@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
+status: executing
 stopped_at: Completed 03-01-PLAN.md
-last_updated: "2026-03-06T02:47:12.591Z"
+last_updated: "2026-03-06T09:09:13.111Z"
 last_activity: 2026-03-06 — Completed Phase 3 Plan 01 (correction + results_writer)
 progress:
   total_phases: 4
-  completed_phases: 2
+  completed_phases: 3
   total_plans: 7
-  completed_plans: 6
-  percent: 50
+  completed_plans: 7
+  percent: 86
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-03-04)
 
 **Core value:** Discover the phenotypic "character" of each pubertal trajectory cluster across 3,000+ ABCD variables
-**Current focus:** Phase 3 - Correction and Outputs
+**Current focus:** Phase 3 Complete -- Ready for Phase 4
 
 ## Current Position
 
-Phase: 3 of 4 (Correction and Outputs)
-Plan: 1 of 2 in current phase
-Status: In Progress
-Last activity: 2026-03-06 — Completed Phase 3 Plan 01 (correction + results_writer)
+Phase: 3 of 4 (Correction and Outputs) -- COMPLETE
+Plan: 2 of 2 in current phase (all done)
+Status: Phase 3 Complete
+Last activity: 2026-03-06 -- Completed Phase 3 Plan 02 (Manhattan plots)
 
-Progress: [█████████░] 86%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -57,6 +57,7 @@ Progress: [█████████░] 86%
 | Phase 02-statistical-core P02 | 5 | 1 task | 2 files |
 | Phase 02-statistical-core P03 | 10 | 2 tasks | 2 files |
 | Phase 03-correction-and-outputs P01 | 7 | 2 tasks | 5 files |
+| Phase 03-correction-and-outputs P02 | 3 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,9 @@ Recent decisions affecting current work:
 - [Phase 02-statistical-core]: Shape assertion with diagnostic logging of bad variable counts
 - [Phase 03-correction-and-outputs]: multipletests from statsmodels for both FDR-BH and Bonferroni (consistent API, capping at 1.0)
 - [Phase 03-correction-and-outputs]: Domain groups with < 2 valid p-values get NaN domain corrections (no meaningful correction possible)
+- [Phase 03-correction-and-outputs]: adjustText for non-overlapping label placement with arrow connectors
+- [Phase 03-correction-and-outputs]: Bonferroni-significant labels first (up to 20), supplemented by FDR if fewer than 5 Bonferroni hits
+- [Phase 03-correction-and-outputs]: OVR threshold lines use total OVR test count across all clusters as correction family
 
 ### Pending Todos
 
@@ -100,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-06T02:46:27Z
-Stopped at: Completed 03-01-PLAN.md
-Resume file: .planning/phases/03-correction-and-outputs/03-01-SUMMARY.md
+Last session: 2026-03-06T03:09:00Z
+Stopped at: Completed 03-02-PLAN.md (Phase 3 complete)
+Resume file: .planning/phases/03-correction-and-outputs/03-02-SUMMARY.md
